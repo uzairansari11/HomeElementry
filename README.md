@@ -1,70 +1,67 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Key Points ##
+# Make sure to push your code in your respective branches and assign to leader & IA manager.
+# Change the brach  every day to synchronize your work with respective day.
 
-## Available Scripts
+# Please make sure to create your tasks &  issues for a particular day by yourself.
 
-In the project directory, you can run:
+# Branches for everyone is already created .
 
-### `npm start`
+# Make sure to not play with db.json file until all data is created .
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# step for git
 
-### `npm test`
+# git add .
+# git commite -m "commite"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# git push branch name
+##################
 
-### `npm run build`
+# All keys must be in smallcasing
+# 5 category max....
+#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Data struture 
+{
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+title:string,
+rating:number,
+warranty:number,
+price:number,
+category:string,
+discount:number(might be in decimal);
+images:[img1,img2,img3...],
+qunatity:number (initial value must be 1),
+detials:{
+brand: string,
+dimensions:{heigth:number,width:number,depth:number}
+weight:number
 
-### `npm run eject`
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+}
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Day-1 Tasks ###
+# Navigation path from chakra 
+//https://chakra-ui.com/docs/components/breadcrumb
 
-## Learn More
+# Akash Task
+* ligthing data,
+* card for product
+* https://www.pepperfry.com/category/home-decor-vases-flowers-vases.html?forder=decor_material_
+filter&decor_material_filter=Metal&order=ranking&dir=desc&p=1&type=decor_clp_trends_block_2
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Gaurav  Task
+* home deco data,
+* single product page,
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Uzair Task
+* furniture data,
+* logo,
+* naveBar,
+* footer
