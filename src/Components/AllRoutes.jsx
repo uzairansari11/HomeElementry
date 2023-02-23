@@ -12,7 +12,10 @@ import { LampsLights } from "../Pages/LampsLights";
 import { Login } from "../Pages/Login";
 import { Mattresses } from "../Pages/Mattresses";
 import { Modular } from "../Pages/Modular";
+import Productpage from "../Pages/Productpage";
 import { Wishlist } from "../Pages/Wishlist";
+
+
 
 
 
@@ -26,6 +29,7 @@ export const AllRoute = () => {
      <Route path="/furniture"element={<Furniture />} />
      <Route path="/homedeco"element={<HomeDeco />} />
      <Route path="/lampslighting"element={<LampsLights />} />
+     <Route path="/lampslighting/product"element={<Productpage />} />
      <Route path="/furnishings"element={<Furnishing />} />
      <Route path="/mattresses"element={<Mattresses />} />
      <Route path="/appliances"element={<Appliances />} />
