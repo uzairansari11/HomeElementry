@@ -1,0 +1,333 @@
+
+{
+
+  "lighting": [
+    {
+        "id":1,
+        "title":"Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+        "rating":4,
+        "warranty":"6 Months' Warranty",
+        "price":7218,
+        "category":"lamps",
+        "discount":37,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"],
+        "qunatity":1,
+       
+        "brand": "Kapoor E Illuminations",
+        "dimensions":{"heigth":17.5,"width":17.5,"depth":66},
+        "weight":1.5
+        
+    },
+    {
+        "id":2,
+        "title":"Multicolor Shade Table Lamp With Black Metal Base",
+        "rating":4,
+        "warranty":"6 Months' Warranty",
+        "price":721,
+        "category":"lamps",
+        "discount":76,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-icyvro.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-n24ni0.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-cgtazs.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":5,"width":5,"depth":10},
+        "weight":0.3
+        
+    },
+    {
+        "id":3,
+        "title":"White Fabric Shade Table Lamp With Black Base",
+        "rating":3,
+        "warranty":"6 Months' Warranty",
+        "price":797,
+        "category":"lamps",
+        "discount":52,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-fabric-designer-table-lamp-by-foziq-white-fabric-designer-table-lamp-by-foziq-n1pbwb.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-fabric-designer-table-lamp-by-foziq-white-fabric-designer-table-lamp-by-foziq-thdewb.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-fabric-designer-table-lamp-by-foziq-white-fabric-designer-table-lamp-by-foziq-lthh9p.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":10,"width":10,"depth":13.5},
+        "weight":0.7
+        
+    },
+    {
+        "id":4,
+        "title":"Beige Fabric Shade Table Lamp With Black Base",
+        "rating":4,
+        "warranty":"6 Months' Warranty",
+        "price":436,
+        "category":"lamps",
+        "discount":52,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/o/f/800x880/off-white-cotton-table-lamp-by-foziq-off-white-cotton-table-lamp-by-foziq-32obpa.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/f/800x880/off-white-cotton-table-lamp-by-foziq-off-white-cotton-table-lamp-by-foziq-hhmfus.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/f/800x880/off-white-cotton-table-lamp-by-foziq-off-white-cotton-table-lamp-by-foziq-bhestu.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":5,"width":5,"depth":10},
+        "weight":0.3
+        
+    },
+    {
+        "id":5,
+        "title":"Yellow Fabric Shade Table Lamp With Black Base",
+        "rating":5,
+        "warranty":"4 Months' Warranty",
+        "price":496,
+        "category":"lamps",
+        "discount":76,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/y/e/800x880/yellow-fabric-table-lamp-by-foziq-yellow-fabric-table-lamp-by-foziq-blio7o.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/y/e/800x880/yellow-fabric-table-lamp-by-foziq-yellow-fabric-table-lamp-by-foziq-djamxo.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/y/e/800x880/yellow-fabric-table-lamp-by-foziq-yellow-fabric-table-lamp-by-foziq-upl7v2.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":13,"width":10,"depth":10},
+        "weight":1
+        
+    },
+    {
+        "id":6,
+        "title":"Orange Fabric Shade Table Lamp With Brown Base",
+        "rating":4,
+        "warranty":"4 Months' Warranty",
+        "price":697,
+        "category":"lamps",
+        "discount":76,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-xwlw6n.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-desyxz.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-ilx3cr.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":12,"width":12,"depth":17.5},
+        "weight":1
+        
+    },
+    {
+        "id":7,
+        "title":"White Wood Wall Light",
+        "rating":4,
+        "warranty":"3 Months' Warranty",
+        "price":1101,
+        "category":"wall light",
+        "discount":55,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-wood-wall-light-by-foziq-white-wood-wall-light-by-foziq-wxhgmo.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-wood-wall-light-by-foziq-white-wood-wall-light-by-foziq-qvrmtf.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-wood-wall-light-by-foziq-white-wood-wall-light-by-foziq-hvniab.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":6,"width":4,"depth":9},
+        "weight":0.5
+        
+    },
+    {
+        "id":8,
+        "title":"Beige Fabric Wall Sconces",
+        "rating":3.5,
+        "warranty":"4 Months' Warranty",
+        "price":750,
+        "category":"wall light",
+        "discount":55,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beige-fabric-wall-light-by-foziq-beige-fabric-wall-light-by-foziq-msyxr8.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beige-fabric-wall-light-by-foziq-beige-fabric-wall-light-by-foziq-hprsts.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beige-fabric-wall-light-by-foziq-beige-fabric-wall-light-by-foziq-8xbder.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":8.5,"width":4,"depth":0},
+        "weight":0.5
+        
+    },
+    {
+        "id":9,
+        "title":"Brown Wood Wall Sconces",
+        "rating":4,
+        "warranty":"4 Months' Warranty",
+        "price":616,
+        "category":"wall light",
+        "discount":60,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-wood-wall-lamp-by-foziq-brown-wood-wall-lamp-by-foziq-haao68.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-wood-wall-lamp-by-foziq-brown-wood-wall-lamp-by-foziq-ys0z8g.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-wood-wall-lamp-by-foziq-brown-wood-wall-lamp-by-foziq-oo4zlp.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":10,"width":4,"depth":6.8},
+        "weight":0.6
+        
+    },
+    {
+        "id":10,
+        "title":"Brown Metal Wall Light",
+        "rating":4,
+        "warranty":"4 Months' Warranty",
+        "price":1413,
+        "category":"wall light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-bplykx.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-9gqt2g.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-t1y9ae.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":16.5,"width":6,"depth":7.5},
+        "weight":1.9
+        
+    },
+    {
+        "id":11,
+        "title":"Antique Brass Metal Wall Light",
+        "rating":3.5,
+        "warranty":"2 Months' Warranty",
+        "price":1213,
+        "category":"wall light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-zpsgbp.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-jrkijq.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-v1jyy0.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":16.5,"width":5,"depth":4},
+        "weight":1
+        
+    },
+    {
+        "id":12,
+        "title":"Gold Metal Wall Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":1054,
+        "category":"wall light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/g/o/800x880/gold-metal-wall-light-by-foziq-gold-metal-wall-light-by-foziq-rqyzdi.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/g/o/800x880/gold-metal-wall-light-by-foziq-gold-metal-wall-light-by-foziq-cc2alj.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/g/o/800x880/gold-metal-wall-light-by-foziq-gold-metal-wall-light-by-foziq-nnlswj.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":11,"width":3,"depth":4.5},
+        "weight":0.8
+        
+    },
+    {
+        "id":13,
+        "title":"Multicolor 1 Meter Color Modes With 17 Key Controller USB Powered LED Strip Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":599,
+        "category":"Festival light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-smart-string-lights-by-xergy-multicolor-led-smart-string-lights-by-xergy-b7cidq.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-smart-string-lights-by-xergy-multicolor-led-smart-string-lights-by-xergy-fpknbk.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-smart-string-lights-by-xergy-multicolor-led-smart-string-lights-by-xergy-ftopxt.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":3,"depth":4.5},
+        "weight":0.8
+        
+    },
+    {
+        "id":14,
+        "title":"Cool White 2 Meter Bottle with Cork and 2 Pcs LED String Light",
+        "rating":3,
+        "warranty":"2 Months' Warranty",
+        "price":303,
+        "category":"Festival light",
+        "discount":70,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---cjcmyn.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---xns6sd.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---lewhia.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.2
+        
+    },
+    {
+        "id":15,
+        "title":"Warm White 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":999,
+        "category":"Festival light",
+        "discount":50,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-window-curtain-string-light-300-led-8-lighting-modes-fairy-lights-remote-control-usb-powered-w-wxzuuf.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-window-curtain-string-light-300-led-8-lighting-modes-fairy-lights-remote-control-usb-powered-w-mqyiix.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-window-curtain-string-light-300-led-8-lighting-modes-fairy-lights-remote-control-usb-powered-w-avlztu.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.2
+        
+    },
+    {
+        "id":16,
+        "title":"Warm White 5 Meter Battery Operated Star Shaped LED Christmas String Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":455,
+        "category":"Festival light",
+        "discount":45,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-jo5hb9.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-knjxt9.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-g7woww.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.2
+        
+    },
+    {
+        "id":17,
+        "title":"Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":999,
+        "category":"Festival light",
+        "discount":45,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-emyjlo.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-brjba7.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-uw9w3s.jpg"],
+        "qunatity":1,
+
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.3
+        
+    },
+    {
+        "id":18,
+        "title":"Cool White 10 Meter Battery Operated LED Christmas String Light",
+        "rating":5,
+        "warranty":"2 Months' Warranty",
+        "price":555,
+        "category":"Festival light",
+        "discount":50,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"],
+        "qunatity":1,
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.6
+        
+    }
+  ]
+
+ 
+}
+
+
