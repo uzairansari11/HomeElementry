@@ -65,3 +65,7 @@ filter&decor_material_filter=Metal&order=ranking&dir=desc&p=1&type=decor_clp_tre
 * logo,
 * naveBar,
 * footer
+
+
+kindly use with template litreal-----  ``----
+http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}

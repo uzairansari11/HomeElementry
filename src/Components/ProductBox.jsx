@@ -4,16 +4,15 @@ import {StarIcon} from "@chakra-ui/icon"
 
 
 function ProductBox(el) {
-  const property=el
-  console.log(property);
+console.log("elll---",el.el)
 
   return (
     <>
-    {property?.map((el)=>
+
       
     
       <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-        <Image src={el.images[0]} alt={""} />
+        <Image src={el.el.images[0]} alt={""} />
 
         <Box p="6">
           <Box display="flex" alignItems="start">
@@ -69,7 +68,7 @@ function ProductBox(el) {
       </Box>
 
     
-     )}
+
     </>
   );
 }

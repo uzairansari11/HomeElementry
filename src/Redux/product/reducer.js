@@ -7,9 +7,13 @@ const initial={
 }
 
 
-export const productreducer=(state=initial,{type,payload})=>{
+export const reducer=(state=initial,{type,payload})=>{
     console.log(type);
     switch(type){
+
+        case types.LOADING_PRODUCT: return {
+          ...state,  isLoading:true
+        }
 
         case types.GET_PRODUCT: {
             return {
@@ -18,11 +22,9 @@ export const productreducer=(state=initial,{type,payload})=>{
         }
 
 
-        case types.LOADING_PRODUCT: return {
-            isLoading:true,isError:false
-        }
+      
         case types.ERROR_PRODUCT: return{
-            isLoading:false,isError:true
+           ...state, isLoading:false,isError:true
         }
 
         default : return {
