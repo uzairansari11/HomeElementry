@@ -1,888 +1,331 @@
 {
-  "furniture": [
+
+  "lighting": [
     {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/t/r/494x544/treviso-2-seater-velvet-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-velvet-sofa-in-stee-uuvayd.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--5lzkyb.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--lbyyot.jpg"
-      ],
-      "rating": 3,
-      "title": "Treviso Velvet 2 Seater Sofa In Steel Grey Colour",
-      "brand": "Woodsworth",
-      "price": 70199,
-      "discount": 27,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 45,
-      "dimensions": { "height": 86.36, "width": 101.6, "depth": 81.28 },
-      "id": 1
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/k/a/494x544/kaylee-2-seater-velvet-sofa-in-mint-green-colour-by-casacraft-kaylee-2-seater-velvet-sofa-in-mint-gr-2nqlvq.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour---casacraft-by-pepperfry-kaylee-2-seater-sofa-in-green-colour---xl8gug.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour-kaylee-2-seater-sofa-in-green-colour-5gluty.jpg"
-      ],
-      "rating": 2,
-      "title": "Kaylee Velvet 2 Seater Sofa In Mint Green Colour",
-      "brand": "CasaCraft",
-      "price": 59199,
-      "discount": 39,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 54,
-      "dimensions": { "height": 82.36, "width": 100.6, "depth": 74.28 },
-      "id": 2
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/a/e/494x544/aelber-2-seater-velvet-sofa-in-beige-colour-by-woodsworth-aelber-2-seater-velvet-sofa-in-beige-colou-fpeylv.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/a/e/568x284/aelber-2-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-2-seater-sofa-in-beige-colour--milttq.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/a/e/568x284/aelber-2-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-2-seater-sofa-in-beige-colour--yfx1u9.jpg"
-      ],
-      "rating": 5,
-      "title": "Aelber Velvet 2 Seater Sofa In Beige Colour",
-      "brand": "CasaCraft",
-      "price": 57899,
-      "discount": 30,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 34,
-      "dimensions": { "height": 90.36, "width": 101.6, "depth": 81.28 },
-      "id": 3
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/f/i/494x544/fidel-velvet-fabric-1-seater-sofa-in-beige-colour-by-casacraft-fidel-velvet-fabric-1-seater-sofa-in--rnnarz.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-beige-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-beige-colour-b-iiwcxe.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-beige-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-beige-colour-b-siibv3.jpg"
-      ],
-      "rating": 4,
-      "title": "Fidel Velvet 1 Seater Sofa In Beige Colour",
-      "brand": "CasaCraft",
-      "price": 39099,
-      "discount": 28,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 76,
-      "dimensions": { "height": 83.36, "width": 94.6, "depth": 86.28 },
-      "id": 4
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/f/i/494x544/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-sdksib.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-bckaab.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-cman5w.jpg"
-      ],
-      "rating": 4,
-      "title": "Fidel Velvet 1 Seater Sofa In Fossil Grey Colour",
-      "brand": "CasaCraft",
-      "price": 39099,
-      "discount": 28,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 76,
-      "id": 5
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/r/i/494x544/ricardo-1-seater-sofa-in-light-green-colour---casacraft-by-pepperfry-ricardo-1-seater-sofa-in-light--bcgqzw.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/i/1100x1210/ricardo-1-seater-velvet-sofa-in-light-green-colour-by-casacraft-ricardo-1-seater-velvet-sofa-in-ligh-6lixvp.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/i/800x880/ricardo-1-seater-velvet-sofa-in-light-green-colour-by-casacraft-ricardo-1-seater-velvet-sofa-in-ligh-2vqmlf.jpg"
-      ],
-      "rating": 4,
-      "title": "Ricardo Velvet 1 Seater Sofa In Light Green Colour",
-      "brand": "CasaCraft",
-      "price": 43699,
-      "discount": 29,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 54,
-      "id": 6
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/k/a/494x544/kaylee-1-seater-sofa-in-velvet-blush-colour---casacraft-by-pepperfry-kaylee-1-seater-sofa-in-velvet--ol8skb.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/k/a/800x880/kaylee-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-kaylee-1-seater-velvet-sofa-in-blush-p-mcqfen.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/k/a/800x880/kaylee-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-kaylee-1-seater-velvet-sofa-in-blush-p-zpkl39.jpg"
-      ],
-      "rating": 3.8,
-      "title": "Kaylee Velvet 1 Seater Sofa In Blush Pink Colour",
-      "brand": "CasaCraft",
-      "price": 50099,
-      "discount": 43,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 87,
-      "id": 7
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/a/r/494x544/arsin-3-seater-lhs-velvet-sectional-sofa-with-lounger-in-fossil-grey-colour-by-amberville-arsin-3-se-kdlpb3.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/r/568x284/arsin-3-seater-lhs-sectional-sofa-in-grey-colour---amberville-by-pepperfry-arsin-3-seater-lhs-sectio-gjxvzv.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/r/568x284/arsin-3-seater-lhs-sectional-sofa-in-grey-colour---amberville-by-pepperfry-arsin-3-seater-lhs-sectio-fwhkka.jpg"
-      ],
-      "rating": 2.5,
-      "title": "Alanzo Velvet LHS Sectional Sofa In Fossil Grey Colour",
-      "brand": "CasaCraft",
-      "price": 120699,
-      "discount": 30,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 43,
-      "id": 8
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/a/e/494x544/aelber-1-seater-velvet-sofa-in-beige-colour-by-woodsworth-aelber-1-seater-velvet-sofa-in-beige-colou-rrw6lo.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/e/800x880/aelber-1-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-1-seater-sofa-in-beige-colour--xhp40n.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/e/800x880/aelber-1-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-1-seater-sofa-in-beige-colour--bdlwvl.jpg"
-      ],
-      "rating": 3.5,
-      "title": "Aelber Velvet 1 Seater Sofa In Beige Colour",
-      "brand": "CasaCraft",
-      "price": 41899,
-      "discount": 28,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 65,
-      "id": 9
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/a/z/494x544/azalea-velvet-fabric-1-seater-sofa-in-blush-pink-colour-by-casacraft-azalea-velvet-fabric-1-seater-s-kspb5n.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/a/z/800x880/azalea-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-azalea-1-seater-velvet-sofa-in-blush-p-dyfgez.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/z/800x880/azalea-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-azalea-1-seater-velvet-sofa-in-blush-p-aztwz6.jpg"
-      ],
-      "rating": 3,
-      "title": "Azalea Velvet 1 Seater Sofa In Blush Pink Colour",
-      "brand": "CasaCraft",
-      "price": 42799,
-      "discount": 28,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 64,
-      "id": 10
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/clarkson-2-seater-sofa-in-coffee-brown-colour-by-durian-clarkson-2-seater-sofa-in-coffee-brown-colou-o7joll.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/clarkson-3-seater-sofa-in-camel-brown-colour-by-durian-clarkson-3-seater-sofa-in-camel-brown-colour--ek7q3r.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/clarkson-3-seater-sofa-in-coffee-brown-colour-by-durian-clarkson-3-seater-sofa-in-coffee-brown-colou-zqgjbo.jpg"
-      ],
-      "rating": 2.5,
-      "title": "Clarkson Leatherette 2 Seater Sofa in Camel Brown Colour",
-      "brand": "Durian",
-      "price": 86600,
-      "discount": 35,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 87,
-      "id": 11
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/r/o/494x544/romina-3-seater--lhs-sectional-sofa-in-navy-blue-colour---casacraft-by-pepperfry-romina-3-seater--lh-l84c6x.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romina-3-seater-sofa-in-navy-blue-colour-by-casacraft-romina-3-seater-sofa-in-navy-blue-colour-by-ca-nquko5.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romina-three-seater-sofa-with-ottoman-in-navy-blue-colour-by-casacraft-romina-three-seater-sofa-with-t59fvj.jpg"
-      ],
-      "rating": 4.5,
-      "title": "Romina Fabric LHS Sectional Sofa In Navy Blue Colour",
-      "brand": "CasaCraft",
-      "price": 50199,
-      "discount": 29,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 54,
-      "id": 12
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/e/m/494x544/emilia-2-seater-sofa-in-velvet-blue-colour-by-casacraft-emilia-2-seater-sofa-in-velvet-blue-colour-b-wrhdlf.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/e/m/568x284/emilia-3-seater-sofa-in-blue-colour---casacraft-by-pepperfry-emilia-3-seater-sofa-in-blue-colour---c-4m8q4y.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/e/m/568x284/emilia-3-seater-sofa-in-blue-colour---casacraft-by-pepperfry-emilia-3-seater-sofa-in-blue-colour---c-f6mnvi.jpg"
-      ],
-
-      "rating": 4.1,
-      "title": "Emilia Velvet 2 Seater Sofa In Velvet Blue Colour",
-      "brand": "CasaCraft",
-      "price": 44399,
-      "discount": 29,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 54,
-      "id": 13
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/a/l/494x544/alaine-fabric-1-seater-sofa-in-olive-green-colour-by-casacraft-alaine-fabric-1-seater-sofa-in-olive--5qro9i.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/a/l/800x880/alaine-1-seater-sofa-in-olive-green-colour-by-casacraft-alaine-1-seater-sofa-in-olive-green-colour-b-xgvth4.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/a/l/800x880/alaine-1-seater-sofa-in-olive-green-colour-by-casacraft-alaine-1-seater-sofa-in-olive-green-colour-b-irxyyp.jpg"
-      ],
-
-      "rating": 3.2,
-      "title": "Alaine Fabric 1 Seater Sofa In Olive Green Colour",
-      "brand": "CasaCraft",
-      "price": 38699,
-      "discount": 28,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 57,
-      "dimensions": { "height": 89, "width": 91, "depth": 86 },
-      "id": 14
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/s/i/494x544/simon-2-seater-sofa-in-red-multi-colour-by-casacraft-simon-2-seater-sofa-in-red-multi-colour-by-casa-lkduch.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/s/i/568x284/simon-2-seater-sofa-in-red-multi-colour-by-casacraft-simon-2-seater-sofa-in-red-multi-colour-by-casa-dmhbok.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/s/i/568x284/simon-2-seater-sofa-in-red-multi-colour-by-casacraft-simon-2-seater-sofa-in-red-multi-colour-by-casa-1i0pl0.jpg"
-      ],
-      "rating": 2.4,
-      "title": "Fernand Fabric 2 Seater Sofa In Red Multicolour",
-      "brand": "CasaCraft",
-      "price": 42799,
-      "discount": 28,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 56,
-      "dimensions": { "height": 86, "width": 140, "depth": 81 },
-      "id": 15
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/a/l/494x544/alaine-2-seater-sofa-in-navy-blue-colour-by-casacraft-alaine-2-seater-sofa-in-navy-blue-colour-by-ca-egffq7.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/a/l/568x284/alaine-2-seater-sofa-in-navy-blue-colour--casacraft-by-pepperfry-alaine-2-seater-sofa-in-navy-blue-c-hptmvm.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/l/568x284/alaine-2-seater-sofa-in-navy-blue-colour--casacraft-by-pepperfry-alaine-2-seater-sofa-in-navy-blue-c-s3yqzp.jpg"
-      ],
-      "rating": 4.3,
-      "title": "Alaine Fabric 2 Seater Sofa In Navy Blue Colour",
-      "brand": "CasaCraft",
-      "price": 58099,
-      "discount": 30,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 87,
-      "dimensions": { "height": 88.9, "width": 165.1, "depth": 86.36 },
-      "id": 16
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/494x544/romeo-2-seater-velvet-sofa-in-dark-olive-colour-by-woodsworth-romeo-2-seater-velvet-sofa-in-dark-oli-nrzeh6.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-mgwbmg.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-ctydrc.jpg"
-      ],
-      "rating": 2.8,
-      "title": "Romeo Velvet 2 Seater Sofa In Dark Olive Colour",
-      "brand": "Woodsworth",
-      "price": 64399,
-      "discount": 27,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 45,
-      "dimensions": { "height": 88.9, "width": 223.52, "depth": 96.52 },
-      "id": 17
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/494x544/romeo-2-seater-velvet-sofa-in-dark-olive-colour-by-woodsworth-romeo-2-seater-velvet-sofa-in-dark-oli-nrzeh6.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-mgwbmg.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-ctydrc.jpg"
-      ],
-      "rating": 3.8,
-      "title": "Romeo Velvet 2 Seater Sofa In Dark Olive Colour",
-      "brand": "Woodsworth",
-      "price": 64399,
-      "discount": 27,
-      "category": "sofas",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 50,
-
-      "dimensions": { "height": 88.9, "width": 223.52, "depth": 96.52 },
-      "id": 18
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-in-chestnut-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-chestnut-br-wbes1s.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-chestnut-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-chestnut-br-iowry8.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-chestnut-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-chestnut-br-as6tiz.jpg"
-      ],
-      "rating": 4,
-      "title": "Ines Fabric Pull Out Sofa Cum Bed In Chestnut Brown Colour With Storage",
-      "brand": "CasaCraft",
-      "price": 83799,
-      "discount": 29,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 78,
-      "dimensions": { "height": 89, "width": 94, "depth": 218 },
-      "id": 19
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-in-charcoal-grey-colour-by-casacraft-ines-sofa-cum-bed-in-charcoal-grey-colour-by--1qhdna.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour-by-casacraft-ines-sofa-cum-bed-in-charcoal-grey-colour-by--mncrwc.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour-by-casacraft-ines-sofa-cum-bed-in-charcoal-grey-colour-by--vefmna.jpg"
-      ],
-      "rating": 4.5,
-      "title": "Ines Fabric Pull Out Sofa Cum Bed In Charcoal Grey Colour",
-      "brand": "CasaCraft",
-      "price": 83799,
-      "discount": 29,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 98,
-
-      "dimensions": { "height": 93, "width": 213, "depth": 89 },
-      "id": 20
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-in-charcoal-grey-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-charcoal-gre-pcg3e3.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-charcoal-gre-pyzydk.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-charcoal-gre-veokkh.jpg"
-      ],
-      "rating": 3,
-      "title": "Ines Velvet Pull Out Sofa Cum Bed In Teal Colour With Storage",
-      "brand": "CasaCraft",
-      "price": 83799,
-      "discount": 29,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 87,
-
-      "dimensions": { "height": 89, "width": 94, "depth": 218 },
-      "id": 21
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/a/d/494x544/adonia-rhs-sectional-sofa-cum-bed-with-adjustable-headrest-in-brown-colour-by-vittoria-adonia-rhs-se-c6uo9x.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/a/d/568x284/adonia-sofa-cum-bed-in-brown-colour-by-vittoria-adonia-sofa-cum-bed-in-brown-colour-by-vittoria-ot6lmk.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/d/568x284/adonia-sofa-cum-bed-in-brown-colour-by-vittoria-adonia-sofa-cum-bed-in-brown-colour-by-vittoria-1m3dbe.jpg"
-      ],
-      "rating": 3.5,
-      "title": "Adonia RHS Velvet Pull-Out Sofa Cum Bed in Textured Brown Colour",
-      "brand": "Vittoria",
-      "price": 123749,
-      "discount": 28,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 100,
-      "dimensions": { "height": 83.82, "width": 259.08, "depth": 91.44 },
-      "id": 22
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/claven-rhs-velvet-sofa-cum-bed-with-storage-in-teal-blue-colour-by-woodsworth-claven-rhs-velvet-sofa-28hquh.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-svsnqd.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-bcs71x.jpg"
-      ],
-      "rating": 4.2,
-      "title": "Claven Velvet RHS Pull Out Sofa Cum Bed In Teal Blue Colour With Storage",
-      "brand": "Woodsworth",
-      "price": 97299,
-      "discount": 27,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 102,
-      "dimensions": { "height": 89, "width": 213.36, "depth": 88.9 },
-      "id": 23
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/l/u/494x544/luiz-sofa-cum-bed-in-black-colour---mintwud-by-pepperfry-luiz-sofa-cum-bed-in-black-colour---mintwud-indxo3.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-black-colour---mintwud-by-pepperfry-luiz-sofa-cum-bed-in-black-colour---mintwud-t07yg5.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-black-colour---mintwud-by-pepperfry-luiz-sofa-cum-bed-in-black-colour---mintwud-bicuh8.jpg"
-      ],
-      "rating": 2.5,
-      "title": "Luiz Convertible Sofa Cum Bed in Black Finish",
-      "brand": "Mintwud",
-      "price": 28999,
-      "discount": 48,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 12,
-      "weight": 28,
-      "dimensions": { "height": 73.66, "width": 180.34, "depth": 83.82 },
-      "id": 24
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/p/a/494x544/pablo-sofa-cum-bed-with-power-outlet-in-red-colour-by-casacraft-pablo-sofa-cum-bed-with-power-outlet-etcog1.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/pablo-sofa-cum-bed-with-power-outlet-in-red-colour-by-casacraft-pablo-sofa-cum-bed-with-power-outlet-vlnqiw.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/pablo-sofa-cum-bed-with-power-outlet-in-red-colour-by-casacraft-pablo-sofa-cum-bed-with-power-outlet-ni5jz4.jpg"
-      ],
-      "rating": 2.5,
-      "title": "Pablo Fabric Convertible Sofa Cum Bed In Red Colour",
-      "brand": "CasaCraft",
-      "price": 36999,
-      "discount": 51,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 28,
-      "dimensions": { "height": 81.28, "width": 182.88, "depth": 83.82 },
-      "id": 25
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/h/e/494x544/herald-sofa-cum-bed-with-storage---mattress-in-cairo-walnut---white-finish-by-crystal-furnitech-hera-ew2fqx.jpg",
-
-        "https://ii1.pepperfry.com/media/catalog/product/s/o/568x284/sofa-cum-bed-with-storage---mattress-in-cairo-walnut---white-finish-by-crystal-furnitech-sofa-cum-be-padc76.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/s/o/568x284/sofa-cum-bed-with-storage---mattress-in-cairo-walnut---white-finish-by-crystal-furnitech-sofa-cum-be-ykifky.jpg"
-      ],
-      "rating": 4.9,
-      "title": "Herald Pull-Out Sofa Cum Bed in Cairo Walnut & White Finish with Storage",
-      "brand": "Crystal Furnitech",
-      "price": 59514,
-      "discount": 29,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 130,
-      "dimensions": { "height": 78.74, "width": 200.66, "depth": 99.06 },
-      "id": 26
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/a/c/494x544/aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-tzp9qn.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/c/568x284/aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-vvhsyd.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/a/c/568x284/aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-wmvxat.jpg"
-      ],
-      "rating": 5,
-      "title": "Aciano Fabric Convertible Sofa Cum Bed In Yellow Colour",
-      "brand": "CasaCraft",
-      "price": 45999,
-      "discount": 25,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 32,
-      "dimensions": { "height": 81, "width": 208, "depth": 79 },
-      "id": 27
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/p/a/494x544/parlier-pull-out-fabric-sofa-cum-bed-in-steel-grey-azora-color---woodsworth-by-pepperfry-parlier-pul-puhhac.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/parlier-pull-out-fabric-sofa-cum-bed-in-steel-grey-azora-color---woodsworth-by-pepperfry-parlier-pul-26okvs.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/parlier-pull-out-fabric-sofa-cum-bed-in-steel-grey-azora-color---woodsworth-by-pepperfry-parlier-pul-bn7avd.jpg"
-      ],
-      "rating": 3.2,
-      "title": "Parlier Fabric Pull Out Sofa Cum Bed In Charcoal Grey Colour",
-      "brand": "Woodsworth",
-      "price": 80299,
-      "discount": 27,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 60,
-      "dimensions": { "height": 91.44, "width": 208.28, "depth": 86.36 },
-      "id": 28
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/claven-lhs-sofa-cum-bed-with-storage-in-chestnut-brown-colour-by-woodsworth-claven-lhs-sofa-cum-bed--uecq3p.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-chestnut-brown-colour---woodsworth-by-pepperfry-cla-bzmqm9.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-chestnut-brown-colour---woodsworth-by-pepperfry-cla-sgnqtx.jpg"
-      ],
-      "rating": 3.4,
-      "title": "Claven Fabric LHS Pull Out Sofa Cum Bed In Chestnut Brown Colour With Storage",
-      "brand": "Woodsworth",
-      "price": 97299,
-      "discount": 27,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 92,
-      "dimensions": { "height": 86.36, "width": 213.36, "depth": 88.9 },
-      "id": 29
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/l/u/494x544/luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-1an07l.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-uklbpg.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-tcsrcl.jpg"
-      ],
-      "rating": 3.7,
-      "title": "Luiz Convertible Sofa Cum Bed in Dark Brown Finish",
-      "brand": "Mintwud",
-      "price": 28999,
-      "discount": 48,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 28,
-      "dimensions": { "height": 73.66, "width": 180.34, "depth": 83.82 },
-      "id": 30
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-with-storage-in-sandy-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-with-qkntyq.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-75srgb.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-xgevsh.jpg"
-      ],
-      "rating": 2.9,
-      "title": "Ines Fabric Pull Out Sofa Cum Bed In Sandy Brown Colour With Storage",
-      "brand": "CasaCraft",
-      "price": 83799,
-      "discount": 29,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 70,
-      "dimensions": { "height": 94, "width": 213, "depth": 89 },
-      "id": 31
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/e/d/494x544/edo-sofa-cum-bed-in-grey-colour-by-trevi-furniture-edo-sofa-cum-bed-in-grey-colour-by-trevi-furnitur-l0mh2l.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-75srgb.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-xgevsh.jpg"
-      ],
-      "rating": 3.2,
-      "title": "Edo Fabric Convertible Sofa Cum Bed in Grey Colour",
-      "brand": "Trevi Furniture",
-      "price": 39999,
-      "discount": 30,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 70,
-      "dimensions": { "height": 94, "width": 213, "depth": 89 },
-      "id": 32
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/claven-rhs-sofa-cum-bed-with-storage-in-charcoal-grey-colour-by-woodsworth-claven-rhs-sofa-cum-bed-w-0vescu.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-charcoal-grey-colour---woodsworth-by-pepperfry-clav-sczjxl.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-charcoal-grey-colour---woodsworth-by-pepperfry-clav-ujuylo.jpg"
-      ],
-      "rating": 4.3,
-      "title": "Claven Fabric RHS Pull Out Sofa Cum Bed In Charcoal Grey Colour With Storage",
-      "brand": "Woodsworth",
-      "price": 97299,
-      "discount": 27,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 100,
-      "dimensions": { "height": 86.36, "width": 213.36, "depth": 88.9 },
-      "id": 33
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/494x544/claven-lhs-velvet-sofa-cum-bed-with-storage-in-teal-blue-colour-by-woodsworth-claven-lhs-velvet-sofa-tp9gay.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-kaffqn.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-zokujc.jpg"
-      ],
-      "rating": 4.5,
-      "title": "Claven Velvet LHS Pull Out Sofa Cum Bed In Teal Blue Colour With Storage",
-      "brand": "Woodsworth",
-      "price": 97299,
-      "discount": 27,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 100,
-      "dimensions": { "height": 86.36, "width": 213.36, "depth": 88.9 },
-      "id": 34
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/r/o/494x544/rogelio-lhs-sofa-cum-bed-with-storage-in-slate-grey-colour---casacraft-by-pepperfry-rogelio-lhs-sofa-ghznez.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/rogelio-sofa-cum-bed-in-grey-colour---casacraft-by-pepperfry-rogelio-sofa-cum-bed-in-grey-colour---c-haeeyv.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/rogelio-sofa-cum-bed-in-grey-colour---casacraft-by-pepperfry-rogelio-sofa-cum-bed-in-grey-colour---c-iz5qwu.jpg"
-      ],
-      "rating": 4.6,
-      "title": "Rogelio Fabric LHS Pull Out Sofa Cum Bed In Slate Grey Colour With Storage",
-      "brand": "CasaCraft",
-      "price": 101799,
-      "discount": 30,
-      "category": "Sofa Cum Beds",
-      "quantity": 1,
-      "warranty": 36,
-      "weight": 106,
-      "dimensions": { "height": 86, "width": 208, "depth": 160 },
-      "id": 35
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/c/l/494x544/classic-xxxl-bean-bag--with-beans-in-brown-color-by-sattva-classic-xxxl-bean-bag--with-beans-in-brow-vngv2z.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-bean-bag-with-beans-in-brown-colour-by-sattva-classic-xxxl-bean-bag-with-beans-in-brown-0sr0tu.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-bean-bag-with-beans-in-brown-colour-by-sattva-classic-xxxl-bean-bag-with-beans-in-brown-dcxm61.jpg"
-      ],
-      "rating": 4.5,
-      "title": "Classic XXXL Leatherette Bean Bag with Beans in Brown Colour",
-      "brand": "Sattva",
-      "price": 2799,
-      "discount": 36,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 3,
-      "dimensions": { "height": 112, "width": 74, "depth": 74 },
-      "id": 36
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/k/i/494x544/kitaro-xxxl-bean-bag-with-beans-in-royal-blue-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-wit-v7xnev.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-royal-blue-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-wit-qca6jb.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-royal-blue-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-wit-bvu6lz.jpg"
-      ],
-      "rating": 3.5,
-      "title": "Kitaro XXXL Leatherette Bean Bag with Beans in Royal Blue Colour",
-      "brand": "Mintwud",
-      "price": 3999,
-      "discount": 44,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 3,
-      "dimensions": { "height": 111.76, "width": 73.66, "depth": 73.66 },
-      "id": 37
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/494x544/classic-xl-bean-bag-with-beans-in-purple-colour-by-sattva-classic-xl-bean-bag-with-beans-in-purple-c-rdzels.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xl-bean-bag-with-beans-in-purple-colour-by-sattva-classic-xl-bean-bag-with-beans-in-purple-c-fhzoyy.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xl-bean-bag-with-beans-in-purple-colour-by-sattva-classic-xl-bean-bag-with-beans-in-purple-c-kesg4m.jpg"
-      ],
-      "rating": 3.9,
-      "title": "Classic XXL Leatherette Bean Bag with Beans in Black Colour",
-      "brand": "Sattva",
-      "price": 2299,
-      "discount": 35,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 3,
-      "dimensions": { "height": 107, "width": 61, "depth": 61 },
-      "id": 38
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/m/u/494x544/muddha-xxxl-bean-bag-with-beans-in-navy-blue-colour-by-sattva-muddha-xxxl-bean-bag-with-beans-in-nav-xijvww.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-with-beans-in-navy-blue-colour-by-sattva-muddha-xxxl-bean-bag-with-beans-in-nav-kcvpie.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-with-beans-in-navy-blue-colour-by-sattva-muddha-xxxl-bean-bag-with-beans-in-nav-wkbx5e.jpg"
-      ],
-      "rating": 3.8,
-      "title": "Muddha XXXL Leatherette Bean Bag with Beans in Navy Blue Colour",
-      "brand": "Sattva",
-      "price": 2899,
-      "discount": 10,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 3,
-      "dimensions": { "height": 83.8, "width": 83.8, "depth": 83.8 },
-      "id": 39
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxl-bean-bag-with-beans-in-teal---black-colour-by-orka-classic-xxl-bean-bag-with-beans-in-te-lbpwzm.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxl-bean-bag-with-beans-in-teal---black-colour-by-orka-classic-xxl-bean-bag-with-beans-in-te-zf8cp5.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxl-bean-bag-with-beans-in-teal---black-colour-by-orka-classic-xxl-bean-bag-with-beans-in-te-jdhek9.jpg"
-      ],
-      "rating": 3,
-      "title": "Classic XXL Leatherette Bean Bag with Beans in Teal & Black Colour",
-      "brand": "Sattva",
-      "price": 1599,
-      "discount": 25,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 2,
-      "dimensions": { "height": 107, "width": 61, "depth": 61 },
-      "id": 40
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/k/i/494x544/kitaro-xxxl-bean-bag-with-beans-in-maroon-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-with-be-6booij.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-maroon-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-with-be-fiatwl.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-maroon-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-with-be-sdj8qc.jpg"
-      ],
-      "rating": 4.2,
-      "title": "Kitaro XXXL Leatherette Bean Bag with Beans in Maroon Colour",
-      "brand": "Mintwud",
-      "price": 3999,
-      "discount": 44,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 3.8,
-      "dimensions": { "height": 111.76, "width": 73.66, "depth": 73.66 },
-      "id": 41
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/m/u/494x544/muddha-xxxl-bean-bag-cover-in-brown-colour-by-sattva-muddha-xxxl-bean-bag-cover-in-brown-colour-by-s-juolyr.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-cover-in-brown-colour-by-sattva-muddha-xxxl-bean-bag-cover-in-brown-colour-by-s-z7c89f.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-cover-in-brown-colour-by-sattva-muddha-xxxl-bean-bag-cover-in-brown-colour-by-s-qesrtp.jpg"
-      ],
-      "rating": 3.4,
-      "title": "Muddha XXXL Leatherette Bean Bag Cover in Brown Colour",
-      "brand": "Sattva",
-      "price": 2899,
-      "discount": 52,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 1,
-      "dimensions": { "height": 84, "width": 84, "depth": 84 },
-      "id": 42
-    },
-
-    {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/c/h/494x544/chevron-print-classic-xxxl-bean-bagwith-beans-by-sattva-chevron-print-classic-xxxl-bean-bagwith-bean-npnfqt.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/h/800x880/chevron-print-classic-xxxl-bean-bagwith-beans-by-sattva-chevron-print-classic-xxxl-bean-bagwith-bean-180mel.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/h/800x880/chevron-print-classic-xxxl-bean-bagwith-beans-by-sattva-chevron-print-classic-xxxl-bean-bagwith-bean-rduyvg.jpg"
-      ],
-      "rating": 4.4,
-      "title": "Chevron XXXL Fabric Bean Bag with Beans in Zig Zag Print Colour",
-      "brand": "Sattva",
-      "price": 6456,
-      "discount": 54,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 5,
-      "dimensions": { "height": 111.8, "width": 73.7, "depth": 73.7 },
-      "id": 43
-    },
-
-    {
-      "image": [
-        "https://ii1.pepperfry.com/media/catalog/product/e/l/494x544/elega-bean-bag-with-beans-in-black-colour-by-spacex-elega-bean-bag-with-beans-in-black-colour-by-spa-m7nnvi.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/e/l/800x880/elega-bean-bag-with-beans-in-black-colour-by-spacex-elega-bean-bag-with-beans-in-black-colour-by-spa-fhoegc.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/e/l/800x880/elega-bean-bag-with-beans-in-black-colour-by-spacex-elega-bean-bag-with-beans-in-black-colour-by-spa-ibhhdu.jpg"
-      ],
-      "rating": 3.9,
-      "title": "Elega XXXL Leatherette Bean Bag with Beans in Black Colour",
-      "brand": "Spacex",
-      "price": 3999,
-      "discount": 55,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 3,
-      "dimensions": { "height": 116.8, "width": 76.2, "depth": 76.2 },
-      "id": 44
-    },
-
-    {
-      "image": [
-        "https://ii2.pepperfry.com/media/catalog/product/c/l/494x544/classic-xxxl-filled-bean-bag-in-christmas-tree-multicolour-print-by-sattva-classic-xxxl-filled-bean--ia1iuw.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-filled-bean-bag-in-christmas-tree-print-by-sattva-classic-xxxl-filled-bean-bag-in-chris-g26wxv.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-filled-bean-bag-in-christmas-tree-print-by-sattva-classic-xxxl-filled-bean-bag-in-chris-1lk65j.jpg"
-      ],
-      "rating": 3.9,
-      "title": "Classic XXXL Fabric Bean Bag with Beans in Multi Colour",
-      "brand": "Sattva",
-      "price": 4599,
-      "discount": 35,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 3,
-      "dimensions": { "height": 111.8, "width": 73.7, "depth": 73.7 },
-      "id": 45
+        "id":1,
+        "title":"Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+        "rating":4,
+        "warranty":"6 Months' Warranty",
+        "price":7218,
+        "category":"lamps",
+        "discount":37,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"],
+        "qunatity":1,
+       
+        "brand": "Kapoor E Illuminations",
+        "dimensions":{"heigth":17.5,"width":17.5,"depth":66},
+        "weight":1.5
+        
     },
     {
-      "image": [
-        "https://ii3.pepperfry.com/media/catalog/product/c/o/494x544/college-youth-print-classic-xxxl-bean-bag-in-yellow-colour-by-sattva-college-youth-print-classic-xxx-vsb4n5.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/o/800x880/college-youth-print-classic-xxxl-bean-bag-in-yellow-colour-by-sattva-college-youth-print-classic-xxx-f0idf4.jpg",
-        "https://ii1.pepperfry.com/media/catalog/product/c/o/800x880/college-youth-print-classic-xxxl-bean-bag-in-yellow-colour-by-sattva-college-youth-print-classic-xxx-ytxmqd.jpg"
-      ],
-      "rating": 3.8,
-      "title": "College XXXL Fabric Bean Bag with Beans in Yellow Colour",
-      "brand": "Sattva",
-      "price": 6456,
-      "discount": 54,
-      "category": "Bean Bags",
-      "quantity": 1,
-      "warranty": 6,
-      "weight": 8,
-      "dimensions": { "height": 89, "width": 94, "depth": 218 },
-      "id": 46
+        "id":2,
+        "title":"Multicolor Shade Table Lamp With Black Metal Base",
+        "rating":4,
+        "warranty":"6 Months' Warranty",
+        "price":721,
+        "category":"lamps",
+        "discount":76,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-icyvro.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-n24ni0.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-cgtazs.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":5,"width":5,"depth":10},
+        "weight":0.3
+        
+    },
+    {
+        "id":3,
+        "title":"White Fabric Shade Table Lamp With Black Base",
+        "rating":3,
+        "warranty":"6 Months' Warranty",
+        "price":797,
+        "category":"lamps",
+        "discount":52,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-fabric-designer-table-lamp-by-foziq-white-fabric-designer-table-lamp-by-foziq-n1pbwb.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-fabric-designer-table-lamp-by-foziq-white-fabric-designer-table-lamp-by-foziq-thdewb.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-fabric-designer-table-lamp-by-foziq-white-fabric-designer-table-lamp-by-foziq-lthh9p.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":10,"width":10,"depth":13.5},
+        "weight":0.7
+        
+    },
+    {
+        "id":4,
+        "title":"Beige Fabric Shade Table Lamp With Black Base",
+        "rating":4,
+        "warranty":"6 Months' Warranty",
+        "price":436,
+        "category":"lamps",
+        "discount":52,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/o/f/800x880/off-white-cotton-table-lamp-by-foziq-off-white-cotton-table-lamp-by-foziq-32obpa.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/f/800x880/off-white-cotton-table-lamp-by-foziq-off-white-cotton-table-lamp-by-foziq-hhmfus.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/o/f/800x880/off-white-cotton-table-lamp-by-foziq-off-white-cotton-table-lamp-by-foziq-bhestu.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":5,"width":5,"depth":10},
+        "weight":0.3
+        
+    },
+    {
+        "id":5,
+        "title":"Yellow Fabric Shade Table Lamp With Black Base",
+        "rating":5,
+        "warranty":"4 Months' Warranty",
+        "price":496,
+        "category":"lamps",
+        "discount":76,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/y/e/800x880/yellow-fabric-table-lamp-by-foziq-yellow-fabric-table-lamp-by-foziq-blio7o.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/y/e/800x880/yellow-fabric-table-lamp-by-foziq-yellow-fabric-table-lamp-by-foziq-djamxo.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/y/e/800x880/yellow-fabric-table-lamp-by-foziq-yellow-fabric-table-lamp-by-foziq-upl7v2.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":13,"width":10,"depth":10},
+        "weight":1
+        
+    },
+    {
+        "id":6,
+        "title":"Orange Fabric Shade Table Lamp With Brown Base",
+        "rating":4,
+        "warranty":"4 Months' Warranty",
+        "price":697,
+        "category":"lamps",
+        "discount":76,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-xwlw6n.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-desyxz.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-ilx3cr.jpg"],
+        "qunatity":1,
+       
+        "brand": "Foziq",
+        "dimensions":{"heigth":12,"width":12,"depth":17.5},
+        "weight":1
+        
+    },
+    {
+        "id":7,
+        "title":"White Wood Wall Light",
+        "rating":4,
+        "warranty":"3 Months' Warranty",
+        "price":1101,
+        "category":"wall light",
+        "discount":55,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-wood-wall-light-by-foziq-white-wood-wall-light-by-foziq-wxhgmo.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-wood-wall-light-by-foziq-white-wood-wall-light-by-foziq-qvrmtf.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-wood-wall-light-by-foziq-white-wood-wall-light-by-foziq-hvniab.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":6,"width":4,"depth":9},
+        "weight":0.5
+        
+    },
+    {
+        "id":8,
+        "title":"Beige Fabric Wall Sconces",
+        "rating":3.5,
+        "warranty":"4 Months' Warranty",
+        "price":750,
+        "category":"wall light",
+        "discount":55,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beige-fabric-wall-light-by-foziq-beige-fabric-wall-light-by-foziq-msyxr8.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beige-fabric-wall-light-by-foziq-beige-fabric-wall-light-by-foziq-hprsts.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beige-fabric-wall-light-by-foziq-beige-fabric-wall-light-by-foziq-8xbder.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":8.5,"width":4,"depth":0},
+        "weight":0.5
+        
+    },
+    {
+        "id":9,
+        "title":"Brown Wood Wall Sconces",
+        "rating":4,
+        "warranty":"4 Months' Warranty",
+        "price":616,
+        "category":"wall light",
+        "discount":60,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-wood-wall-lamp-by-foziq-brown-wood-wall-lamp-by-foziq-haao68.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-wood-wall-lamp-by-foziq-brown-wood-wall-lamp-by-foziq-ys0z8g.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-wood-wall-lamp-by-foziq-brown-wood-wall-lamp-by-foziq-oo4zlp.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":10,"width":4,"depth":6.8},
+        "weight":0.6
+        
+    },
+    {
+        "id":10,
+        "title":"Brown Metal Wall Light",
+        "rating":4,
+        "warranty":"4 Months' Warranty",
+        "price":1413,
+        "category":"wall light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-bplykx.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-9gqt2g.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-t1y9ae.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":16.5,"width":6,"depth":7.5},
+        "weight":1.9
+        
+    },
+    {
+        "id":11,
+        "title":"Antique Brass Metal Wall Light",
+        "rating":3.5,
+        "warranty":"2 Months' Warranty",
+        "price":1213,
+        "category":"wall light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-zpsgbp.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-jrkijq.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-v1jyy0.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":16.5,"width":5,"depth":4},
+        "weight":1
+        
+    },
+    {
+        "id":12,
+        "title":"Gold Metal Wall Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":1054,
+        "category":"wall light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/g/o/800x880/gold-metal-wall-light-by-foziq-gold-metal-wall-light-by-foziq-rqyzdi.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/g/o/800x880/gold-metal-wall-light-by-foziq-gold-metal-wall-light-by-foziq-cc2alj.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/g/o/800x880/gold-metal-wall-light-by-foziq-gold-metal-wall-light-by-foziq-nnlswj.jpg"],
+        "qunatity":1,
+       
+        "brand": "Mansaa",
+        "dimensions":{"heigth":11,"width":3,"depth":4.5},
+        "weight":0.8
+        
+    },
+    {
+        "id":13,
+        "title":"Multicolor 1 Meter Color Modes With 17 Key Controller USB Powered LED Strip Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":599,
+        "category":"Festival light",
+        "discount":65,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-smart-string-lights-by-xergy-multicolor-led-smart-string-lights-by-xergy-b7cidq.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-smart-string-lights-by-xergy-multicolor-led-smart-string-lights-by-xergy-fpknbk.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-smart-string-lights-by-xergy-multicolor-led-smart-string-lights-by-xergy-ftopxt.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":3,"depth":4.5},
+        "weight":0.8
+        
+    },
+    {
+        "id":14,
+        "title":"Cool White 2 Meter Bottle with Cork and 2 Pcs LED String Light",
+        "rating":3,
+        "warranty":"2 Months' Warranty",
+        "price":303,
+        "category":"Festival light",
+        "discount":70,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---cjcmyn.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---xns6sd.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---lewhia.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.2
+        
+    },
+    {
+        "id":15,
+        "title":"Warm White 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":999,
+        "category":"Festival light",
+        "discount":50,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-window-curtain-string-light-300-led-8-lighting-modes-fairy-lights-remote-control-usb-powered-w-wxzuuf.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-window-curtain-string-light-300-led-8-lighting-modes-fairy-lights-remote-control-usb-powered-w-mqyiix.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-window-curtain-string-light-300-led-8-lighting-modes-fairy-lights-remote-control-usb-powered-w-avlztu.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.2
+        
+    },
+    {
+        "id":16,
+        "title":"Warm White 5 Meter Battery Operated Star Shaped LED Christmas String Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":455,
+        "category":"Festival light",
+        "discount":45,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-jo5hb9.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-knjxt9.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-g7woww.jpg"],
+        "qunatity":1,
+       
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.2
+        
+    },
+    {
+        "id":17,
+        "title":"Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+        "rating":4,
+        "warranty":"2 Months' Warranty",
+        "price":999,
+        "category":"Festival light",
+        "discount":45,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-emyjlo.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-brjba7.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-uw9w3s.jpg"],
+        "qunatity":1,
+
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.3
+        
+    },
+    {
+        "id":18,
+        "title":"Cool White 10 Meter Battery Operated LED Christmas String Light",
+        "rating":5,
+        "warranty":"2 Months' Warranty",
+        "price":555,
+        "category":"Festival light",
+        "discount":50,
+        "images":["https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+        "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"],
+        "qunatity":1,
+        "brand": "Xergy",
+        "dimensions":{"heigth":11,"width":0,"depth":0},
+        "weight":0.6
+        
     }
   ]
+
+ 
 }
+
