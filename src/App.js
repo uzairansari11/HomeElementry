@@ -11,6 +11,8 @@ import  Navbar  from "./Components/Navbar";
 function App() {
   return (
 
+
+
     <Box className="App"     marginTop= "120px" z-zIndex={'-5'}>
 
      <Navbar />
@@ -19,6 +21,7 @@ function App() {
      <Footer />
 
     </Box>
+
 
   );
 }
