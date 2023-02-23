@@ -1,14 +1,25 @@
-import {Heading } from "@chakra-ui/react"
+
+import { Box } from '@chakra-ui/react';
 import './App.css';
-import Productpages from "./Component/Productpage"
+
+import { AllRoute } from './Components/AllRoutes';
+import Footer from './Components/Footer';
+import  Navbar  from "./Components/Navbar";
+
 
 
 function App() {
   return (
-    <div className="App">
-     <Heading>Hello Rct-201   Project</Heading>
-     <Productpages/>
-    </div>
+
+    <Box className="App"     marginTop= "120px" z-zIndex={'-5'}>
+
+     <Navbar />
+     <AllRoute />
+      <Box h={"100vh"}></Box>
+     <Footer />
+
+    </Box>
+
   );
 }
 
