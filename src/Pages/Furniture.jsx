@@ -10,6 +10,7 @@ export const Furniture = () => {
       <Box  margin={"auto"}>
         <Flex>
 
+
         <Box  border={"1px solid blue"} w={"25%"} p={"1"} textAlign={"left"} >
         <Text as="b" fontSize={{base:"xs",md:"md",lg:"xl"}}>
               Furniture
