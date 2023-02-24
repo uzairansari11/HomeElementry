@@ -1,5 +1,6 @@
 import * as types from "./action.type";
 import axios from "axios";
+import { get_product_data_api, pagination_api, sort_product_by_value } from "./api";
 
 export const get_product = (payload) => {
   return {
@@ -20,12 +21,41 @@ export const error = () => {
   };
 };
 
-export const get_product_api = () => async (dispatch) => {
+
+
+export const get_product_api = (value) => (dispatch) => {
   dispatch(loading());
   try {
-    let response = await axios.get("http://localhost:8080/lighting");
-    dispatch(get_product(response.data));
-  } catch {
+      get_product_data_api(value).then((res)=>{
+        dispatch(get_product(res))
+      })
+    }
+   catch {
     dispatch(error());
   }
 };
+
+export const query_product_api=(value)=>(dispatch)=>{
+  dispatch(loading())
+  try{
+    sort_product_by_value(value).then((res)=>{
+      dispatch(get_product(res))
+    })
+  }
+  catch{
+    dispatch(error())
+  }
+}
+
+export const pagination_api_call=(value)=>async(dispatch)=>{
+  dispatch(loading())
+  try{
+    pagination_api(value).then((res)=>{
+      console.log(res);
+      dispatch(get_product(res))
+    })
+  }
+  catch{
+    dispatch(error())
+  }
+}

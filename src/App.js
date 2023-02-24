@@ -13,11 +13,11 @@ function App() {
 
 
 
-    <Box className="App"     marginTop= "120px" z-zIndex={'-5'}>
+    <Box className="App"     marginTop= "120px" >
 
      <Navbar />
      <AllRoute />
-      <Box h={"100vh"}></Box>
+      
      <Footer />
 
     </Box>
