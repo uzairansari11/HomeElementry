@@ -26,7 +26,7 @@ const Navbar = () => {
       position={"fixed"}
       w="100%"
       top="0"
-      z-index={"5"}
+      zIndex={'5'} 
       left={"0"}
       p={'2'}
       boxShadow={'2xl'}
@@ -58,7 +58,7 @@ const Navbar = () => {
    
            
             />
-            <InputRightElement width="4.5rem">
+            <InputRightElement width="4.5rem"     >
               <Button h={{base:"1rem",lg:"1.7rem"}}    
           color='#ea7c12'
           bg={"white"}  _hover={{
@@ -81,11 +81,7 @@ const Navbar = () => {
           style={{ margin: "9px", cursor: "pointer",color:'#ea7c12' }}
         />
         </ReactLink>
- <ReactLink   to="/login">
-        <PersonOutlineOutlinedIcon
-          style={{ margin: "9px", cursor: "pointer" ,color:'#ea7c12'}}
-        />
-   </ReactLink>
+
    <ReactLink to="/cart">
         <Button
           ml={"2px"}
@@ -102,6 +98,11 @@ const Navbar = () => {
           <ShoppingCartOutlinedIcon />0
         </Button>
 </ReactLink>
+ <ReactLink   to="/login">
+        <PersonOutlineOutlinedIcon
+          style={{ margin: "9px", cursor: "pointer" ,color:'#ea7c12'}}
+        />
+   </ReactLink>
       </Flex>
  
      
