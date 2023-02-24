@@ -13,11 +13,13 @@ function App() {
 
 
 
+
     <Box className="App"     marginTop= "120px" >
 
      <Navbar />
      <AllRoute />
       
+
      <Footer />
 
     </Box>

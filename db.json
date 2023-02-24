@@ -2185,7 +2185,24 @@
     }
   ],
 
-  "cart": [],
 
-  "wishlist": []
+
+
+
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "userEmail":"uzairans532@gmail.com",
+      "password": "admin",
+      "cartItems":[
+      
+      ],
+      "wishlist": [
+        
+      ]
+    }
+  ]
 }
+
+

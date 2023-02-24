@@ -13,6 +13,7 @@ import { Login } from "../Pages/Login";
 import { Mattresses } from "../Pages/Mattresses";
 import { Modular } from "../Pages/Modular";
 import Productpage from "../Pages/Productpage";
+import { Register } from "../Pages/Register";
 import { Wishlist } from "../Pages/Wishlist";
 
 
@@ -39,6 +40,7 @@ export const AllRoute = () => {
      <Route path="/login"element={<Login />} />
      <Route path="/wishlist"element={<Wishlist />} />
      <Route path="/help"element={<Help />} />
+     <Route path="/register"element={<Register />} />
 
 
      </Routes>
