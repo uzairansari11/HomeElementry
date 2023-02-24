@@ -1,34 +1,38 @@
 import React from "react";
-import { Box,Image,Badge, } from "@chakra-ui/react";
+import { Box,Image,Badge, Button, } from "@chakra-ui/react";
 import {StarIcon} from "@chakra-ui/icon"
+import { useState } from "react";
 
 
-function ProductBox(el) {
-console.log("elll---",el.el)
+function ProductBox({el}) {
 
+  const [mouse,setmouse]= useState(false);
+
+  const handlemouseenter=()=>{
+    setmouse(true)
+  }
+
+  const handlemouseout=()=>{
+    setmouse(false)
+  }
+
+  const handleCart=()=>{
+    console.log("helo");
+  }
+  
   return (
     <>
 
-      
-    
-      <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-        <Image src={el.el.images[0]} alt={""} />
+      <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden"  w={"70%"} onMouseEnter={handlemouseenter}>
+        <Image src={el.images[0]} alt={"dummy"} w={"100%"} cursor={"pointer"}   />
+       {mouse?<Button position={"relative"} top={"-70px"}  colorScheme="orange" onMouseOut={handlemouseout} onClick={handleCart}>Add to Cart</Button>:""}
 
-        <Box p="6">
+        <Box p="1">
           <Box display="flex" alignItems="start">
             <Badge borderRadius="full" px="2" colorScheme="teal">
               New
             </Badge>
-            {/* <Box
-              color="gray.500"
-              fontWeight="semibold"
-              letterSpacing="wide"
-              fontSize="xs"
-              textTransform="uppercase"
-              ml="2"
-            >
-              {property.beds} beds &bull; {property.baths} baths
-            </Box> */}
+           
           </Box>
 
           <Box
