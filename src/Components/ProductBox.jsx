@@ -25,6 +25,7 @@ function ProductBox({ el }) {
   return (
     <>
       <Box
+        // textAlign={"start"}
         maxW="sm"
         borderWidth="1px"
         borderRadius="lg"
@@ -32,6 +33,7 @@ function ProductBox({ el }) {
         w={"90%"}
         mt={"8"}
         onMouseEnter={handlemouseenter}
+        onMouseOut={handlemouseout}
         _hover={{
           border: "3px solid orange",
           padding: "2",
@@ -42,7 +44,7 @@ function ProductBox({ el }) {
         <Link to={`${el.id}`}>
           <Image src={el.images[0]} alt={"dummy"} w={"100%"} cursor={"pointer"}   />
         </Link>
-        {/* {mouse?<Button position={"relative"} top={"-70px"}  colorScheme="orange" onMouseOut={handlemouseout} onClick={handleCart}>Add to Cart</Button>:""} */}
+        {mouse?<Button position={"relative"} top={"-60px"}   colorScheme="orange"   onMouseEnter={handlemouseenter}   onClick={handleCart}>Add to Cart</Button>:""}
 
         <Box p="1">
           <Box display="flex" alignItems="start">
@@ -54,14 +56,15 @@ function ProductBox({ el }) {
           <Box
             textAlign={"start"}
             fontWeight="semibold"
+            fontSize={"xl"}
             as="h4"
-            lineHeight="tight"
+            lineHeight="25px"
             noOfLines={1}
           >
             {el.title}
           </Box>
 
-          <Box >{el.brand}</Box>
+          <Box textAlign={"start"} as="h4" fontWeight={"semibold"}>{el.brand}</Box>
 
           <Box
             color="orange.300"
