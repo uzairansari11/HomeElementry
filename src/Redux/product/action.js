@@ -52,7 +52,7 @@ export const pagination_api_call=(value)=>async(dispatch)=>{
   dispatch(loading())
   try{
     pagination_api(value).then((res)=>{
-      console.log(res);
+     
       dispatch(get_product(res))
     })
   }

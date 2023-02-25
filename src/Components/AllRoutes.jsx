@@ -14,6 +14,7 @@ import { Mattresses } from "../Pages/Mattresses";
 import { Modular } from "../Pages/Modular";
 import Productpage from "../Pages/Productpage";
 import { Register } from "../Pages/Register";
+import { Search } from "../Pages/Search";
 import { Wishlist } from "../Pages/Wishlist";
 import SingleProduct from "./SingleProduct";
 
@@ -43,6 +44,8 @@ export const AllRoute = () => {
      <Route path="/wishlist"element={<Wishlist />} />
      <Route path="/help"element={<Help />} />
      <Route path="/register"element={<Register />} />
+     <Route path="/search"element={<Search />} />
+     
 
 
      </Routes>
