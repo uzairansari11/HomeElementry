@@ -15,7 +15,6 @@ function Pagination({product}) {
     const [searchParams,setsearchParams]=useState()
     const [currentpage, setcurrentpage] = useState(1);
 
-  
 
     
 
@@ -25,7 +24,6 @@ function Pagination({product}) {
         dispatch(pagination_api_call(params._page))
         setsearchParams(params)
     }
-
 
   return (
     <>

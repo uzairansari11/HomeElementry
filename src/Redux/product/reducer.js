@@ -8,9 +8,8 @@ const initial={
 
 
 export const reducer=(state=initial,{type,payload})=>{
-    console.log(type);
-    switch(type){
 
+    switch(type){
         case types.LOADING_PRODUCT: return {
           ...state,  isLoading:true
         }
