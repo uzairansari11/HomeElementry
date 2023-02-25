@@ -5,6 +5,10 @@ import { bestSeller, bigDeals, chooseYou, discoverNewLaunch, topBrands, whatsTre
 
 
 export const Furniture = () => {
+
+
+
+  
   return (
     <Box p={8}>
       <Box  margin={"auto"}>
@@ -64,21 +68,29 @@ export const Furniture = () => {
           </Box>
         </Flex>
       </Box>
-
+<Box>
+<Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}  >
+Meet The Bestsellers
+        </Heading>
       <CustomGrid base={2} md={3} lg={6} gapS={2} gapM={3} gapL={4}>
         {bestSeller.map((ele, index) => (
           <CustomGridBox key={index} image={ele} width={"100%"} />
         ))}
       </CustomGrid>
+</Box>
 
+<Box>
+<Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
+It's A Big Deal
+        </Heading>
       <CustomGrid base={1} md={2} lg={4} gapS={2} gapM={3} gapL={4}>
         {bigDeals.map((ele, index) => (
           <CustomGridBox key={index} image={ele} width={"100%"} />
         ))}
       </CustomGrid>
-
+</Box>
       <Box>
-        <Heading as="h1" textAlign={"left"}>
+      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
           What's #Trending?{" "}
         </Heading>
 
@@ -90,7 +102,7 @@ export const Furniture = () => {
       </Box>
 
       <Box>
-        <Heading as="h1" textAlign={"left"}>
+      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
           Discover New Launches
         </Heading>
         <CustomGrid base={1} md={2} lg={4} gapS={2} gapM={3} gapL={4}>
@@ -101,7 +113,7 @@ export const Furniture = () => {
       </Box>
 
       <Box>
-        <Heading as="h1" textAlign={"left"}>
+      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
           Your Style Chooses You
         </Heading>
 
@@ -113,7 +125,7 @@ export const Furniture = () => {
       </Box>
 
       <Box>
-        <Heading as="h1" textAlign={"left"}>
+      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
           Top Brands To Choose From
         </Heading>
         <CustomGrid base={2} md={3} lg={6} gapS={2} gapM={3} gapL={4}>

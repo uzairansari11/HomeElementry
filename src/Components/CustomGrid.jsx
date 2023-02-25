@@ -1,4 +1,5 @@
 import { Box, Grid, Image } from "@chakra-ui/react";
+
 import React from "react";
 
 export const CustomGrid = ({ children ,md,base,lg,gapS,gapM,gapL}) => {
@@ -11,7 +12,7 @@ export const CustomGrid = ({ children ,md,base,lg,gapS,gapM,gapL}) => {
         md: `repeat(${md},1fr)`,
         lg: `repeat(${lg},1fr)`,
       }}
-      gap={{ sm: `${gapS}`, md:`${gapM}`, lg: `${gapL}` }}
+      gap={{ base: `${gapS}`, md:`${gapM}`, lg: `${gapL}` }}
     >
       {" "}
       {children}
@@ -21,8 +22,20 @@ export const CustomGrid = ({ children ,md,base,lg,gapS,gapM,gapL}) => {
 
 export const CustomGridBox = ({ image ,width}) => {
   return (
-    <Box margin={"auto"}>
-      <Image src={image} w={`${width}`} />
+    <Box margin={"auto"}   boxShadow={'xl'}
+    
+   _hover={
+   {border:"3px solid orange",
+   padding:"2",
+   borderRadius:"5",
+   cursor:"pointer"
+   }
+   }
+     >
+      <Image src={image} w={`${width}`}
+      
+      borderRadius={5}
+       />
     </Box>
   );
 };

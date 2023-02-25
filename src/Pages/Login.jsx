@@ -14,44 +14,74 @@ import {
   InputLeftAddon,
   InputRightElement,
   useToast,
-  
 } from "@chakra-ui/react";
-import { Link as ReactLink } from "react-router-dom";
-import { useState } from "react";
+import { Link as ReactLink, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import logo from "../logo.png";
+import { authSuccess,  error, gettingUsersData, loading } from "../Redux/auth/action";
+import { useDispatch, useSelector } from "react-redux";
+import { getUserDataFromApi } from "../Redux/auth/api";
 export function Login() {
+const [userData,setUserData]=useState([])
+const navigate=useNavigate()
+
+ 
+  
+
   const toast = useToast();
   const [showPassword, setShowPassword] = useState(false);
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const dispatch = useDispatch();
+  useEffect(() => {
+ getUserDataFromApi().then((res)=>
+
+setUserData(res)
+)
+  }, []);
 
   const handleLogin = () => {
-    console.log(email,password);
-    toast({
-      title: "Login Successful",
-      description: "Welcom to Home Elementry",
-      status: "success",
-      duration: 500,
-      isClosable: true,
-      position: "top",
+
+
+    const autherized = userData.filter((user) => {
+      return   (user.userEmail === email && user.password === password )
     });
 
 
-
-
-
-
-
+    if (autherized.length === 1) {
+      dispatch(loading())
+      toast({
+        title: "Login Successful",
+        description: "Welcom to Home Elementry",
+        status: "success",
+        duration: 500,
+        isClosable: true,
+        position: "top",
+      });
+      localStorage.setItem("isAuth", true);
+      localStorage.setItem("id",autherized[0]["id"])
+      dispatch(authSuccess())
+      navigate("/"  , {replace:true})
+    } else {
     
+      toast({
+        title: "Login Unsuccessful",
+        description: "Invalid Credentials",
+        status: "error",
+        duration: 500,
+        isClosable: true,
+        position: "top",
+      });
+    }
   };
 
   return (
     <Flex align={"center"} justify={"center"}>
       <Stack spacing={4} mx={"auto"} maxW={"lg"} py={3} px={6}>
         <Stack align={"center"}>
-          <Heading fontSize={"2xl"}>Sign In To  <Image src={logo} alt="logo" mx={"30px"} w={"190px"} /> </Heading>
-     
+          <Heading fontSize={"2xl"}>
+            Sign In To <Image src={logo} alt="logo" mx={"30px"} w={"190px"} />{" "}
+          </Heading>
         </Stack>
         <Box
           rounded={"lg"}
@@ -64,14 +94,23 @@ export function Login() {
               <FormLabel color={"#ea7c12"}>Email address</FormLabel>
               <InputGroup>
                 <InputLeftAddon children=<EmailIcon color={"#ea7c12"} /> />
-                <Input type="text" placeholder="Please enter your email.."  value={email} onChange={(e)=>setEmail(e.target.value)}  />
+                <Input
+                  type="text"
+                  placeholder="Please enter your email.."
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
               </InputGroup>
             </FormControl>
             <FormControl id="password">
               <FormLabel color={"#ea7c12"}>Password</FormLabel>
 
               <InputGroup>
-                <Input type={showPassword ? "text" : "password"}    value={password} onChange={(e)=>setPassword(e.target.value)}  />
+                <Input
+                  type={showPassword ? "text" : "password"}
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
                 <InputRightElement h={"full"}>
                   <Button
                     variant={"ghost"}

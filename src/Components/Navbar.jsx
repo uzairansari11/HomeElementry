@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Input,
   InputRightElement,
@@ -9,6 +9,7 @@ import {
   VStack,
   Image,
   Center,
+  useToast,
 
 } from "@chakra-ui/react";
 import { SearchIcon } from "@chakra-ui/icons";
@@ -16,17 +17,57 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
-import { NavLink as ReactLink } from "react-router-dom";
+import LogoutIcon from '@mui/icons-material/Logout';
+import { NavLink as ReactLink, useNavigate } from "react-router-dom";
 import logo from "../logo.png";
 import Subnavbar from "./Subnavbar";
+import { useDispatch, useSelector } from "react-redux";
+import { logoutSuccess } from "../Redux/auth/action";
+import { Badge } from '@chakra-ui/react';
+
 
 const Navbar = () => {
+  const toast = useToast();
+  const [seacrhText,setSeacrhText] =useState("")
+const navigate=useNavigate()
+
+const isAuth=useSelector((store)=>store.authReducer.isAuth)||localStorage.getItem("isAuth")
+const dispatch=useDispatch()
+  const handleSearch=()=>{
+
+if(seacrhText && seacrhText.length > 2){
+
+localStorage.setItem("serachquery",seacrhText)
+  navigate("/search");
+
+   setSeacrhText("")
+}
+ 
+  }
+  console.log(isAuth)
+
+
+
+  const handleLogout=()=>{
+    console.log("111")
+dispatch(logoutSuccess())
+localStorage.removeItem("isAuth")
+localStorage.removeItem("id")
+
+toast({
+  title: "Logout Successful",
+  status: "success",
+  duration: 500,
+  isClosable: true,
+  position: "top",
+});
+  }
   return (
     <Box
       position={"fixed"}
       w="100%"
       top="0"
-      zIndex={'5'} 
+      zIndex={'100'} 
       left={"0"}
       p={'2'}
       boxShadow={'2xl'}
@@ -55,7 +96,8 @@ const Navbar = () => {
               variant="outline"
               focusBorderColor="#ea7c12"
               placeholder="Your door to happiness opens with a search ...."
-   
+   value={seacrhText}
+   onChange={(e)=>setSeacrhText(e.target.value)}
            
             />
             <InputRightElement width="4.5rem"     >
@@ -64,7 +106,9 @@ const Navbar = () => {
           bg={"white"}  _hover={{
             bg: "#ffffff",
           
-          }} >
+          }}  
+          onClick={handleSearch}
+           >
                 <SearchIcon />
               </Button>
             </InputRightElement>
@@ -92,17 +136,25 @@ const Navbar = () => {
           bg={"white"}
           _hover={{
             bg: "#ea7c12",
-            color:"black",
+            color:"white",
           }}
         >
-          <ShoppingCartOutlinedIcon />0
+          <ShoppingCartOutlinedIcon /> <Badge colorScheme={'facebook'}
+          borderRadius={"25px"}
+          
+          >0</Badge>
         </Button>
 </ReactLink>
- <ReactLink   to="/login">
+ {isAuth?<LogoutIcon  
+   style={{ margin: "9px", cursor: "pointer" ,color:'red'}}
+
+onClick={handleLogout}
+
+ />:<ReactLink   to="/login">
         <PersonOutlineOutlinedIcon
           style={{ margin: "9px", cursor: "pointer" ,color:'#ea7c12'}}
         />
-   </ReactLink>
+   </ReactLink >  }
       </Flex>
  
      
