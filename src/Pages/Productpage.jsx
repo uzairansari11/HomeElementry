@@ -13,19 +13,20 @@ import { useLocation } from "react-router-dom";
 function Productpage() {
   const dispatch = useDispatch();
   const product = useSelector((state) => state.productreducer.product);
+  // console.log(product);
   const location=useLocation()
   // console.log(location);
 
 
   useEffect(() => {
-    dispatch(get_product_api());
+    dispatch(get_product_api())
   }, []);
 
   return (
 
     <>
     <Stack direction={["row"]}>
-      <Box>
+      <Box w={"40%"} >
         <Sorting  />
       </Box>
       <Box>
@@ -37,14 +38,14 @@ function Productpage() {
             lg: "repeat(3,1fr)",
           }}
         >
-          {product?.map((el) => (
-            <ProductBox key={el.id} el={el} />
+          {product?.filter((element)=> (element.category==="lamps") || (element.category==="wall light") || (element.category==="Festival light")).map((el) => (
+            <ProductBox key={el.id} el={el}  />
           ))}
         </Grid>
       </Box>
       
     </Stack>
-    <Stack direction={["row"]} justifyContent={"center"}>
+    <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
       <Pagination product={product}/>
     </Stack>
   

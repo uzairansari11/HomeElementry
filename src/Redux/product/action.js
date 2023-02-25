@@ -24,6 +24,7 @@ export const error = () => {
 
 
 export const get_product_api = (value) => (dispatch) => {
+  console.log(value)
   dispatch(loading());
   try {
       get_product_data_api(value).then((res)=>{
@@ -51,7 +52,7 @@ export const pagination_api_call=(value)=>async(dispatch)=>{
   dispatch(loading())
   try{
     pagination_api(value).then((res)=>{
-      console.log(res);
+     
       dispatch(get_product(res))
     })
   }
@@ -59,3 +60,18 @@ export const pagination_api_call=(value)=>async(dispatch)=>{
     dispatch(error())
   }
 }
+
+
+// export const getProducts = (filterValue) => async (dispatch) => {
+
+//   dispatch(productRequest())
+//   try {
+//       const data = await getProductApi(filterValue)
+//       if (data) {
+//           dispatch(getProductSuccess(data))
+//       }
+//   } catch (error) {
+//       dispatch(productError())
+
+//   }
+// }

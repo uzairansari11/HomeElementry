@@ -14,18 +14,16 @@ function Pagination({product}) {
     const location=useLocation()
     const [searchParams,setsearchParams]=useState()
     const [currentpage, setcurrentpage] = useState(1);
-    console.log(location.search)
-    // console.log(searchParams);
+
 
     
 
     const handlepage=(e)=>{
         const params={_page:e.target.value}
-        // console.log(params)
+   
         dispatch(pagination_api_call(params._page))
         setsearchParams(params)
     }
-    console.log(searchParams)
 
   return (
     <>

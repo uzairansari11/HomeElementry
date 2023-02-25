@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
-* {
- font-family: "Manrope", sans-serif;
-}
+
 .top {
  border: 0px solid red;
  display: flex;

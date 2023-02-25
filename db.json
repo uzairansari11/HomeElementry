@@ -1,5 +1,5 @@
 {
-  "lighting": [
+  "products": [
     {
       "id": 1,
       "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
@@ -14,9 +14,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Foziq",
-      "dimensions": { "heigth": 17.5, "width": 17.5, "depth": 66 },
+      "dimensions": {
+        "heigth": 17.5,
+        "width": 17.5,
+        "depth": 66
+      },
       "weight": 1.5
     },
     {
@@ -33,9 +36,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-cgtazs.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Foziq",
-      "dimensions": { "heigth": 5, "width": 5, "depth": 10 },
+      "dimensions": {
+        "heigth": 5,
+        "width": 5,
+        "depth": 10
+      },
       "weight": 0.3
     },
     {
@@ -52,9 +58,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-fabric-designer-table-lamp-by-foziq-white-fabric-designer-table-lamp-by-foziq-lthh9p.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Foziq",
-      "dimensions": { "heigth": 10, "width": 10, "depth": 13.5 },
+      "dimensions": {
+        "heigth": 10,
+        "width": 10,
+        "depth": 13.5
+      },
       "weight": 0.7
     },
     {
@@ -71,9 +80,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/o/f/800x880/off-white-cotton-table-lamp-by-foziq-off-white-cotton-table-lamp-by-foziq-bhestu.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Foziq",
-      "dimensions": { "heigth": 5, "width": 5, "depth": 10 },
+      "dimensions": {
+        "heigth": 5,
+        "width": 5,
+        "depth": 10
+      },
       "weight": 0.3
     },
     {
@@ -90,9 +102,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/y/e/800x880/yellow-fabric-table-lamp-by-foziq-yellow-fabric-table-lamp-by-foziq-upl7v2.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Foziq",
-      "dimensions": { "heigth": 13, "width": 10, "depth": 10 },
+      "dimensions": {
+        "heigth": 13,
+        "width": 10,
+        "depth": 10
+      },
       "weight": 1
     },
     {
@@ -109,9 +124,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-ilx3cr.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Foziq",
-      "dimensions": { "heigth": 12, "width": 12, "depth": 17.5 },
+      "dimensions": {
+        "heigth": 12,
+        "width": 12,
+        "depth": 17.5
+      },
       "weight": 1
     },
     {
@@ -128,9 +146,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-wood-wall-light-by-foziq-white-wood-wall-light-by-foziq-hvniab.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Mansaa",
-      "dimensions": { "heigth": 6, "width": 4, "depth": 9 },
+      "dimensions": {
+        "heigth": 6,
+        "width": 4,
+        "depth": 9
+      },
       "weight": 0.5
     },
     {
@@ -147,9 +168,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/b/e/800x880/beige-fabric-wall-light-by-foziq-beige-fabric-wall-light-by-foziq-8xbder.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Mansaa",
-      "dimensions": { "heigth": 8.5, "width": 4, "depth": 0 },
+      "dimensions": {
+        "heigth": 8.5,
+        "width": 4,
+        "depth": 0
+      },
       "weight": 0.5
     },
     {
@@ -166,9 +190,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-wood-wall-lamp-by-foziq-brown-wood-wall-lamp-by-foziq-oo4zlp.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Mansaa",
-      "dimensions": { "heigth": 10, "width": 4, "depth": 6.8 },
+      "dimensions": {
+        "heigth": 10,
+        "width": 4,
+        "depth": 6.8
+      },
       "weight": 0.6
     },
     {
@@ -185,9 +212,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-t1y9ae.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Mansaa",
-      "dimensions": { "heigth": 16.5, "width": 6, "depth": 7.5 },
+      "dimensions": {
+        "heigth": 16.5,
+        "width": 6,
+        "depth": 7.5
+      },
       "weight": 1.9
     },
     {
@@ -204,9 +234,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-v1jyy0.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Mansaa",
-      "dimensions": { "heigth": 16.5, "width": 5, "depth": 4 },
+      "dimensions": {
+        "heigth": 16.5,
+        "width": 5,
+        "depth": 4
+      },
       "weight": 1
     },
     {
@@ -223,9 +256,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/g/o/800x880/gold-metal-wall-light-by-foziq-gold-metal-wall-light-by-foziq-nnlswj.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Mansaa",
-      "dimensions": { "heigth": 11, "width": 3, "depth": 4.5 },
+      "dimensions": {
+        "heigth": 11,
+        "width": 3,
+        "depth": 4.5
+      },
       "weight": 0.8
     },
     {
@@ -242,9 +278,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-smart-string-lights-by-xergy-multicolor-led-smart-string-lights-by-xergy-ftopxt.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Xergy",
-      "dimensions": { "heigth": 11, "width": 3, "depth": 4.5 },
+      "dimensions": {
+        "heigth": 11,
+        "width": 3,
+        "depth": 4.5
+      },
       "weight": 0.8
     },
     {
@@ -261,9 +300,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---lewhia.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Xergy",
-      "dimensions": { "heigth": 11, "width": 0, "depth": 0 },
+      "dimensions": {
+        "heigth": 11,
+        "width": 0,
+        "depth": 0
+      },
       "weight": 0.2
     },
     {
@@ -280,9 +322,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-window-curtain-string-light-300-led-8-lighting-modes-fairy-lights-remote-control-usb-powered-w-avlztu.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Xergy",
-      "dimensions": { "heigth": 11, "width": 0, "depth": 0 },
+      "dimensions": {
+        "heigth": 11,
+        "width": 0,
+        "depth": 0
+      },
       "weight": 0.2
     },
     {
@@ -299,9 +344,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-g7woww.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Xergy",
-      "dimensions": { "heigth": 11, "width": 0, "depth": 0 },
+      "dimensions": {
+        "heigth": 11,
+        "width": 0,
+        "depth": 0
+      },
       "weight": 0.2
     },
     {
@@ -318,9 +366,12 @@
         "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-uw9w3s.jpg"
       ],
       "qunatity": 1,
-
       "brand": "Xergy",
-      "dimensions": { "heigth": 11, "width": 0, "depth": 0 },
+      "dimensions": {
+        "heigth": 11,
+        "width": 0,
+        "depth": 0
+      },
       "weight": 0.3
     },
     {
@@ -338,14 +389,15 @@
       ],
       "qunatity": 1,
       "brand": "Xergy",
-      "dimensions": { "heigth": 11, "width": 0, "depth": 0 },
+      "dimensions": {
+        "heigth": 11,
+        "width": 0,
+        "depth": 0
+      },
       "weight": 0.6
-    }
-  ],
-
-  "furniture": [
+    },
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/t/r/494x544/treviso-2-seater-velvet-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-velvet-sofa-in-stee-uuvayd.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--5lzkyb.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--lbyyot.jpg"
@@ -359,15 +411,17 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 45,
-      "dimensions": { "height": 86.36, "width": 101.6, "depth": 81.28 },
-      "id": 1
+      "dimensions": {
+        "height": 86.36,
+        "width": 101.6,
+        "depth": 81.28
+      },
+      "id": 19
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/k/a/494x544/kaylee-2-seater-velvet-sofa-in-mint-green-colour-by-casacraft-kaylee-2-seater-velvet-sofa-in-mint-gr-2nqlvq.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour---casacraft-by-pepperfry-kaylee-2-seater-sofa-in-green-colour---xl8gug.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour-kaylee-2-seater-sofa-in-green-colour-5gluty.jpg"
       ],
       "rating": 2,
@@ -379,16 +433,17 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 54,
-      "dimensions": { "height": 82.36, "width": 100.6, "depth": 74.28 },
-      "id": 2
+      "dimensions": {
+        "height": 82.36,
+        "width": 100.6,
+        "depth": 74.28
+      },
+      "id": 20
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/a/e/494x544/aelber-2-seater-velvet-sofa-in-beige-colour-by-woodsworth-aelber-2-seater-velvet-sofa-in-beige-colou-fpeylv.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/a/e/568x284/aelber-2-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-2-seater-sofa-in-beige-colour--milttq.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/a/e/568x284/aelber-2-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-2-seater-sofa-in-beige-colour--yfx1u9.jpg"
       ],
       "rating": 5,
@@ -400,12 +455,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 34,
-      "dimensions": { "height": 90.36, "width": 101.6, "depth": 81.28 },
-      "id": 3
+      "dimensions": {
+        "height": 90.36,
+        "width": 101.6,
+        "depth": 81.28
+      },
+      "id": 21
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/f/i/494x544/fidel-velvet-fabric-1-seater-sofa-in-beige-colour-by-casacraft-fidel-velvet-fabric-1-seater-sofa-in--rnnarz.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-beige-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-beige-colour-b-iiwcxe.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-beige-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-beige-colour-b-siibv3.jpg"
@@ -419,12 +477,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 76,
-      "dimensions": { "height": 83.36, "width": 94.6, "depth": 86.28 },
-      "id": 4
+      "dimensions": {
+        "height": 83.36,
+        "width": 94.6,
+        "depth": 86.28
+      },
+      "id": 22
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/f/i/494x544/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-sdksib.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-bckaab.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-cman5w.jpg"
@@ -438,11 +499,10 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 76,
-      "id": 5
+      "id": 23
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/r/i/494x544/ricardo-1-seater-sofa-in-light-green-colour---casacraft-by-pepperfry-ricardo-1-seater-sofa-in-light--bcgqzw.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/i/1100x1210/ricardo-1-seater-velvet-sofa-in-light-green-colour-by-casacraft-ricardo-1-seater-velvet-sofa-in-ligh-6lixvp.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/i/800x880/ricardo-1-seater-velvet-sofa-in-light-green-colour-by-casacraft-ricardo-1-seater-velvet-sofa-in-ligh-2vqmlf.jpg"
@@ -456,11 +516,10 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 54,
-      "id": 6
+      "id": 24
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/k/a/494x544/kaylee-1-seater-sofa-in-velvet-blush-colour---casacraft-by-pepperfry-kaylee-1-seater-sofa-in-velvet--ol8skb.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/k/a/800x880/kaylee-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-kaylee-1-seater-velvet-sofa-in-blush-p-mcqfen.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/k/a/800x880/kaylee-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-kaylee-1-seater-velvet-sofa-in-blush-p-zpkl39.jpg"
@@ -474,11 +533,10 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 87,
-      "id": 7
+      "id": 25
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/a/r/494x544/arsin-3-seater-lhs-velvet-sectional-sofa-with-lounger-in-fossil-grey-colour-by-amberville-arsin-3-se-kdlpb3.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/r/568x284/arsin-3-seater-lhs-sectional-sofa-in-grey-colour---amberville-by-pepperfry-arsin-3-seater-lhs-sectio-gjxvzv.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/r/568x284/arsin-3-seater-lhs-sectional-sofa-in-grey-colour---amberville-by-pepperfry-arsin-3-seater-lhs-sectio-fwhkka.jpg"
@@ -492,11 +550,10 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 43,
-      "id": 8
+      "id": 26
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/a/e/494x544/aelber-1-seater-velvet-sofa-in-beige-colour-by-woodsworth-aelber-1-seater-velvet-sofa-in-beige-colou-rrw6lo.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/e/800x880/aelber-1-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-1-seater-sofa-in-beige-colour--xhp40n.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/e/800x880/aelber-1-seater-sofa-in-beige-colour---woodsworth-by-pepperfry-aelber-1-seater-sofa-in-beige-colour--bdlwvl.jpg"
@@ -510,13 +567,11 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 65,
-      "id": 9
+      "id": 27
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/a/z/494x544/azalea-velvet-fabric-1-seater-sofa-in-blush-pink-colour-by-casacraft-azalea-velvet-fabric-1-seater-s-kspb5n.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/a/z/800x880/azalea-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-azalea-1-seater-velvet-sofa-in-blush-p-dyfgez.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/z/800x880/azalea-1-seater-velvet-sofa-in-blush-pink-colour-by-casacraft-azalea-1-seater-velvet-sofa-in-blush-p-aztwz6.jpg"
       ],
@@ -529,13 +584,11 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 64,
-      "id": 10
+      "id": 28
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/clarkson-2-seater-sofa-in-coffee-brown-colour-by-durian-clarkson-2-seater-sofa-in-coffee-brown-colou-o7joll.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/clarkson-3-seater-sofa-in-camel-brown-colour-by-durian-clarkson-3-seater-sofa-in-camel-brown-colour--ek7q3r.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/clarkson-3-seater-sofa-in-coffee-brown-colour-by-durian-clarkson-3-seater-sofa-in-coffee-brown-colou-zqgjbo.jpg"
       ],
@@ -548,13 +601,11 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 87,
-      "id": 11
+      "id": 29
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/r/o/494x544/romina-3-seater--lhs-sectional-sofa-in-navy-blue-colour---casacraft-by-pepperfry-romina-3-seater--lh-l84c6x.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romina-3-seater-sofa-in-navy-blue-colour-by-casacraft-romina-3-seater-sofa-in-navy-blue-colour-by-ca-nquko5.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romina-three-seater-sofa-with-ottoman-in-navy-blue-colour-by-casacraft-romina-three-seater-sofa-with-t59fvj.jpg"
       ],
@@ -567,18 +618,14 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 54,
-      "id": 12
+      "id": 30
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/e/m/494x544/emilia-2-seater-sofa-in-velvet-blue-colour-by-casacraft-emilia-2-seater-sofa-in-velvet-blue-colour-b-wrhdlf.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/e/m/568x284/emilia-3-seater-sofa-in-blue-colour---casacraft-by-pepperfry-emilia-3-seater-sofa-in-blue-colour---c-4m8q4y.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/e/m/568x284/emilia-3-seater-sofa-in-blue-colour---casacraft-by-pepperfry-emilia-3-seater-sofa-in-blue-colour---c-f6mnvi.jpg"
       ],
-
       "rating": 4.1,
       "title": "Emilia Velvet 2 Seater Sofa In Velvet Blue Colour",
       "brand": "CasaCraft",
@@ -588,18 +635,14 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 54,
-      "id": 13
+      "id": 31
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/a/l/494x544/alaine-fabric-1-seater-sofa-in-olive-green-colour-by-casacraft-alaine-fabric-1-seater-sofa-in-olive--5qro9i.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/a/l/800x880/alaine-1-seater-sofa-in-olive-green-colour-by-casacraft-alaine-1-seater-sofa-in-olive-green-colour-b-xgvth4.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/a/l/800x880/alaine-1-seater-sofa-in-olive-green-colour-by-casacraft-alaine-1-seater-sofa-in-olive-green-colour-b-irxyyp.jpg"
       ],
-
       "rating": 3.2,
       "title": "Alaine Fabric 1 Seater Sofa In Olive Green Colour",
       "brand": "CasaCraft",
@@ -609,14 +652,16 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 57,
-      "dimensions": { "height": 89, "width": 91, "depth": 86 },
-      "id": 14
+      "dimensions": {
+        "height": 89,
+        "width": 91,
+        "depth": 86
+      },
+      "id": 32
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/s/i/494x544/simon-2-seater-sofa-in-red-multi-colour-by-casacraft-simon-2-seater-sofa-in-red-multi-colour-by-casa-lkduch.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/s/i/568x284/simon-2-seater-sofa-in-red-multi-colour-by-casacraft-simon-2-seater-sofa-in-red-multi-colour-by-casa-dmhbok.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/s/i/568x284/simon-2-seater-sofa-in-red-multi-colour-by-casacraft-simon-2-seater-sofa-in-red-multi-colour-by-casa-1i0pl0.jpg"
       ],
@@ -629,14 +674,16 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 56,
-      "dimensions": { "height": 86, "width": 140, "depth": 81 },
-      "id": 15
+      "dimensions": {
+        "height": 86,
+        "width": 140,
+        "depth": 81
+      },
+      "id": 33
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/a/l/494x544/alaine-2-seater-sofa-in-navy-blue-colour-by-casacraft-alaine-2-seater-sofa-in-navy-blue-colour-by-ca-egffq7.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/a/l/568x284/alaine-2-seater-sofa-in-navy-blue-colour--casacraft-by-pepperfry-alaine-2-seater-sofa-in-navy-blue-c-hptmvm.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/l/568x284/alaine-2-seater-sofa-in-navy-blue-colour--casacraft-by-pepperfry-alaine-2-seater-sofa-in-navy-blue-c-s3yqzp.jpg"
       ],
@@ -649,12 +696,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 87,
-      "dimensions": { "height": 88.9, "width": 165.1, "depth": 86.36 },
-      "id": 16
+      "dimensions": {
+        "height": 88.9,
+        "width": 165.1,
+        "depth": 86.36
+      },
+      "id": 34
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/r/o/494x544/romeo-2-seater-velvet-sofa-in-dark-olive-colour-by-woodsworth-romeo-2-seater-velvet-sofa-in-dark-oli-nrzeh6.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-mgwbmg.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-ctydrc.jpg"
@@ -668,12 +718,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 45,
-      "dimensions": { "height": 88.9, "width": 223.52, "depth": 96.52 },
-      "id": 17
+      "dimensions": {
+        "height": 88.9,
+        "width": 223.52,
+        "depth": 96.52
+      },
+      "id": 35
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/r/o/494x544/romeo-2-seater-velvet-sofa-in-dark-olive-colour-by-woodsworth-romeo-2-seater-velvet-sofa-in-dark-oli-nrzeh6.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-mgwbmg.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/romeo-3-seater-sofa-in-dark-olive-colour--by-woodsworth-romeo-3-seater-sofa-in-dark-olive-colour--by-ctydrc.jpg"
@@ -687,13 +740,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 50,
-
-      "dimensions": { "height": 88.9, "width": 223.52, "depth": 96.52 },
-      "id": 18
+      "dimensions": {
+        "height": 88.9,
+        "width": 223.52,
+        "depth": 96.52
+      },
+      "id": 36
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-in-chestnut-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-chestnut-br-wbes1s.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-chestnut-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-chestnut-br-iowry8.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-chestnut-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-chestnut-br-as6tiz.jpg"
@@ -707,14 +762,16 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 78,
-      "dimensions": { "height": 89, "width": 94, "depth": 218 },
-      "id": 19
+      "dimensions": {
+        "height": 89,
+        "width": 94,
+        "depth": 218
+      },
+      "id": 37
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-in-charcoal-grey-colour-by-casacraft-ines-sofa-cum-bed-in-charcoal-grey-colour-by--1qhdna.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour-by-casacraft-ines-sofa-cum-bed-in-charcoal-grey-colour-by--mncrwc.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour-by-casacraft-ines-sofa-cum-bed-in-charcoal-grey-colour-by--vefmna.jpg"
       ],
@@ -727,13 +784,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 98,
-
-      "dimensions": { "height": 93, "width": 213, "depth": 89 },
-      "id": 20
+      "dimensions": {
+        "height": 93,
+        "width": 213,
+        "depth": 89
+      },
+      "id": 38
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-in-charcoal-grey-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-charcoal-gre-pcg3e3.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-charcoal-gre-pyzydk.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-charcoal-grey-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-in-charcoal-gre-veokkh.jpg"
@@ -747,15 +806,16 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 87,
-
-      "dimensions": { "height": 89, "width": 94, "depth": 218 },
-      "id": 21
+      "dimensions": {
+        "height": 89,
+        "width": 94,
+        "depth": 218
+      },
+      "id": 39
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/a/d/494x544/adonia-rhs-sectional-sofa-cum-bed-with-adjustable-headrest-in-brown-colour-by-vittoria-adonia-rhs-se-c6uo9x.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/a/d/568x284/adonia-sofa-cum-bed-in-brown-colour-by-vittoria-adonia-sofa-cum-bed-in-brown-colour-by-vittoria-ot6lmk.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/d/568x284/adonia-sofa-cum-bed-in-brown-colour-by-vittoria-adonia-sofa-cum-bed-in-brown-colour-by-vittoria-1m3dbe.jpg"
       ],
@@ -768,12 +828,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 100,
-      "dimensions": { "height": 83.82, "width": 259.08, "depth": 91.44 },
-      "id": 22
+      "dimensions": {
+        "height": 83.82,
+        "width": 259.08,
+        "depth": 91.44
+      },
+      "id": 40
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/claven-rhs-velvet-sofa-cum-bed-with-storage-in-teal-blue-colour-by-woodsworth-claven-rhs-velvet-sofa-28hquh.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-svsnqd.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-bcs71x.jpg"
@@ -787,12 +850,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 102,
-      "dimensions": { "height": 89, "width": 213.36, "depth": 88.9 },
-      "id": 23
+      "dimensions": {
+        "height": 89,
+        "width": 213.36,
+        "depth": 88.9
+      },
+      "id": 41
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/l/u/494x544/luiz-sofa-cum-bed-in-black-colour---mintwud-by-pepperfry-luiz-sofa-cum-bed-in-black-colour---mintwud-indxo3.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-black-colour---mintwud-by-pepperfry-luiz-sofa-cum-bed-in-black-colour---mintwud-t07yg5.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-black-colour---mintwud-by-pepperfry-luiz-sofa-cum-bed-in-black-colour---mintwud-bicuh8.jpg"
@@ -806,14 +872,16 @@
       "quantity": 1,
       "warranty": 12,
       "weight": 28,
-      "dimensions": { "height": 73.66, "width": 180.34, "depth": 83.82 },
-      "id": 24
+      "dimensions": {
+        "height": 73.66,
+        "width": 180.34,
+        "depth": 83.82
+      },
+      "id": 42
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/p/a/494x544/pablo-sofa-cum-bed-with-power-outlet-in-red-colour-by-casacraft-pablo-sofa-cum-bed-with-power-outlet-etcog1.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/pablo-sofa-cum-bed-with-power-outlet-in-red-colour-by-casacraft-pablo-sofa-cum-bed-with-power-outlet-vlnqiw.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/pablo-sofa-cum-bed-with-power-outlet-in-red-colour-by-casacraft-pablo-sofa-cum-bed-with-power-outlet-ni5jz4.jpg"
       ],
@@ -826,14 +894,16 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 28,
-      "dimensions": { "height": 81.28, "width": 182.88, "depth": 83.82 },
-      "id": 25
+      "dimensions": {
+        "height": 81.28,
+        "width": 182.88,
+        "depth": 83.82
+      },
+      "id": 43
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/h/e/494x544/herald-sofa-cum-bed-with-storage---mattress-in-cairo-walnut---white-finish-by-crystal-furnitech-hera-ew2fqx.jpg",
-
         "https://ii1.pepperfry.com/media/catalog/product/s/o/568x284/sofa-cum-bed-with-storage---mattress-in-cairo-walnut---white-finish-by-crystal-furnitech-sofa-cum-be-padc76.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/s/o/568x284/sofa-cum-bed-with-storage---mattress-in-cairo-walnut---white-finish-by-crystal-furnitech-sofa-cum-be-ykifky.jpg"
       ],
@@ -846,12 +916,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 130,
-      "dimensions": { "height": 78.74, "width": 200.66, "depth": 99.06 },
-      "id": 26
+      "dimensions": {
+        "height": 78.74,
+        "width": 200.66,
+        "depth": 99.06
+      },
+      "id": 44
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/a/c/494x544/aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-tzp9qn.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/c/568x284/aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-vvhsyd.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/a/c/568x284/aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-aciano-sofa-cum-bed-in-yellow-colour-by-casacraft-wmvxat.jpg"
@@ -865,12 +938,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 32,
-      "dimensions": { "height": 81, "width": 208, "depth": 79 },
-      "id": 27
+      "dimensions": {
+        "height": 81,
+        "width": 208,
+        "depth": 79
+      },
+      "id": 45
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/p/a/494x544/parlier-pull-out-fabric-sofa-cum-bed-in-steel-grey-azora-color---woodsworth-by-pepperfry-parlier-pul-puhhac.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/parlier-pull-out-fabric-sofa-cum-bed-in-steel-grey-azora-color---woodsworth-by-pepperfry-parlier-pul-26okvs.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/p/a/568x284/parlier-pull-out-fabric-sofa-cum-bed-in-steel-grey-azora-color---woodsworth-by-pepperfry-parlier-pul-bn7avd.jpg"
@@ -884,12 +960,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 60,
-      "dimensions": { "height": 91.44, "width": 208.28, "depth": 86.36 },
-      "id": 28
+      "dimensions": {
+        "height": 91.44,
+        "width": 208.28,
+        "depth": 86.36
+      },
+      "id": 46
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/claven-lhs-sofa-cum-bed-with-storage-in-chestnut-brown-colour-by-woodsworth-claven-lhs-sofa-cum-bed--uecq3p.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-chestnut-brown-colour---woodsworth-by-pepperfry-cla-bzmqm9.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-chestnut-brown-colour---woodsworth-by-pepperfry-cla-sgnqtx.jpg"
@@ -903,12 +982,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 92,
-      "dimensions": { "height": 86.36, "width": 213.36, "depth": 88.9 },
-      "id": 29
+      "dimensions": {
+        "height": 86.36,
+        "width": 213.36,
+        "depth": 88.9
+      },
+      "id": 47
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/l/u/494x544/luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-1an07l.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-uklbpg.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/l/u/568x284/luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-luiz-sofa-cum-bed-in-dark-brown-colour-by-mintwud-tcsrcl.jpg"
@@ -922,12 +1004,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 28,
-      "dimensions": { "height": 73.66, "width": 180.34, "depth": 83.82 },
-      "id": 30
+      "dimensions": {
+        "height": 73.66,
+        "width": 180.34,
+        "depth": 83.82
+      },
+      "id": 48
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/i/n/494x544/ines-sofa-cum-bed-with-storage-in-sandy-brown-colour---casacraft-by-pepperfry-ines-sofa-cum-bed-with-qkntyq.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-75srgb.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-xgevsh.jpg"
@@ -941,12 +1026,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 70,
-      "dimensions": { "height": 94, "width": 213, "depth": 89 },
-      "id": 31
+      "dimensions": {
+        "height": 94,
+        "width": 213,
+        "depth": 89
+      },
+      "id": 49
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/e/d/494x544/edo-sofa-cum-bed-in-grey-colour-by-trevi-furniture-edo-sofa-cum-bed-in-grey-colour-by-trevi-furnitur-l0mh2l.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-75srgb.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/i/n/568x284/ines-sofa-cum-bed-in-sandy-brown-colour-by-casacraft-ines-sofa-cum-bed-in-sandy-brown-colour-by-casa-xgevsh.jpg"
@@ -960,12 +1048,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 70,
-      "dimensions": { "height": 94, "width": 213, "depth": 89 },
-      "id": 32
+      "dimensions": {
+        "height": 94,
+        "width": 213,
+        "depth": 89
+      },
+      "id": 50
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/c/l/494x544/claven-rhs-sofa-cum-bed-with-storage-in-charcoal-grey-colour-by-woodsworth-claven-rhs-sofa-cum-bed-w-0vescu.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-charcoal-grey-colour---woodsworth-by-pepperfry-clav-sczjxl.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-rhs-sofa-cum-bed-with-storage-in-charcoal-grey-colour---woodsworth-by-pepperfry-clav-ujuylo.jpg"
@@ -979,12 +1070,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 100,
-      "dimensions": { "height": 86.36, "width": 213.36, "depth": 88.9 },
-      "id": 33
+      "dimensions": {
+        "height": 86.36,
+        "width": 213.36,
+        "depth": 88.9
+      },
+      "id": 51
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/c/l/494x544/claven-lhs-velvet-sofa-cum-bed-with-storage-in-teal-blue-colour-by-woodsworth-claven-lhs-velvet-sofa-tp9gay.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-kaffqn.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/568x284/claven-pull-out-lhs-sofa-cum-bed-with-storage-in-teal-colour---woodsworth-by-pepperfry-claven-pull-o-zokujc.jpg"
@@ -998,12 +1092,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 100,
-      "dimensions": { "height": 86.36, "width": 213.36, "depth": 88.9 },
-      "id": 34
+      "dimensions": {
+        "height": 86.36,
+        "width": 213.36,
+        "depth": 88.9
+      },
+      "id": 52
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/r/o/494x544/rogelio-lhs-sofa-cum-bed-with-storage-in-slate-grey-colour---casacraft-by-pepperfry-rogelio-lhs-sofa-ghznez.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/rogelio-sofa-cum-bed-in-grey-colour---casacraft-by-pepperfry-rogelio-sofa-cum-bed-in-grey-colour---c-haeeyv.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/r/o/568x284/rogelio-sofa-cum-bed-in-grey-colour---casacraft-by-pepperfry-rogelio-sofa-cum-bed-in-grey-colour---c-iz5qwu.jpg"
@@ -1017,12 +1114,15 @@
       "quantity": 1,
       "warranty": 36,
       "weight": 106,
-      "dimensions": { "height": 86, "width": 208, "depth": 160 },
-      "id": 35
+      "dimensions": {
+        "height": 86,
+        "width": 208,
+        "depth": 160
+      },
+      "id": 53
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/c/l/494x544/classic-xxxl-bean-bag--with-beans-in-brown-color-by-sattva-classic-xxxl-bean-bag--with-beans-in-brow-vngv2z.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-bean-bag-with-beans-in-brown-colour-by-sattva-classic-xxxl-bean-bag-with-beans-in-brown-0sr0tu.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-bean-bag-with-beans-in-brown-colour-by-sattva-classic-xxxl-bean-bag-with-beans-in-brown-dcxm61.jpg"
@@ -1036,12 +1136,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 3,
-      "dimensions": { "height": 112, "width": 74, "depth": 74 },
-      "id": 36
+      "dimensions": {
+        "height": 112,
+        "width": 74,
+        "depth": 74
+      },
+      "id": 54
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/k/i/494x544/kitaro-xxxl-bean-bag-with-beans-in-royal-blue-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-wit-v7xnev.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-royal-blue-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-wit-qca6jb.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-royal-blue-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-wit-bvu6lz.jpg"
@@ -1055,12 +1158,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 3,
-      "dimensions": { "height": 111.76, "width": 73.66, "depth": 73.66 },
-      "id": 37
+      "dimensions": {
+        "height": 111.76,
+        "width": 73.66,
+        "depth": 73.66
+      },
+      "id": 55
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/c/l/494x544/classic-xl-bean-bag-with-beans-in-purple-colour-by-sattva-classic-xl-bean-bag-with-beans-in-purple-c-rdzels.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xl-bean-bag-with-beans-in-purple-colour-by-sattva-classic-xl-bean-bag-with-beans-in-purple-c-fhzoyy.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xl-bean-bag-with-beans-in-purple-colour-by-sattva-classic-xl-bean-bag-with-beans-in-purple-c-kesg4m.jpg"
@@ -1074,12 +1180,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 3,
-      "dimensions": { "height": 107, "width": 61, "depth": 61 },
-      "id": 38
+      "dimensions": {
+        "height": 107,
+        "width": 61,
+        "depth": 61
+      },
+      "id": 56
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/m/u/494x544/muddha-xxxl-bean-bag-with-beans-in-navy-blue-colour-by-sattva-muddha-xxxl-bean-bag-with-beans-in-nav-xijvww.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-with-beans-in-navy-blue-colour-by-sattva-muddha-xxxl-bean-bag-with-beans-in-nav-kcvpie.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-with-beans-in-navy-blue-colour-by-sattva-muddha-xxxl-bean-bag-with-beans-in-nav-wkbx5e.jpg"
@@ -1093,12 +1202,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 3,
-      "dimensions": { "height": 83.8, "width": 83.8, "depth": 83.8 },
-      "id": 39
+      "dimensions": {
+        "height": 83.8,
+        "width": 83.8,
+        "depth": 83.8
+      },
+      "id": 57
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxl-bean-bag-with-beans-in-teal---black-colour-by-orka-classic-xxl-bean-bag-with-beans-in-te-lbpwzm.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxl-bean-bag-with-beans-in-teal---black-colour-by-orka-classic-xxl-bean-bag-with-beans-in-te-zf8cp5.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxl-bean-bag-with-beans-in-teal---black-colour-by-orka-classic-xxl-bean-bag-with-beans-in-te-jdhek9.jpg"
@@ -1112,12 +1224,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 2,
-      "dimensions": { "height": 107, "width": 61, "depth": 61 },
-      "id": 40
+      "dimensions": {
+        "height": 107,
+        "width": 61,
+        "depth": 61
+      },
+      "id": 58
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/k/i/494x544/kitaro-xxxl-bean-bag-with-beans-in-maroon-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-with-be-6booij.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-maroon-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-with-be-fiatwl.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/k/i/800x880/kitaro-xxxl-bean-bag-with-beans-in-maroon-colour---mintwud-by-pepperfry-kitaro-xxxl-bean-bag-with-be-sdj8qc.jpg"
@@ -1131,12 +1246,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 3.8,
-      "dimensions": { "height": 111.76, "width": 73.66, "depth": 73.66 },
-      "id": 41
+      "dimensions": {
+        "height": 111.76,
+        "width": 73.66,
+        "depth": 73.66
+      },
+      "id": 59
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/m/u/494x544/muddha-xxxl-bean-bag-cover-in-brown-colour-by-sattva-muddha-xxxl-bean-bag-cover-in-brown-colour-by-s-juolyr.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-cover-in-brown-colour-by-sattva-muddha-xxxl-bean-bag-cover-in-brown-colour-by-s-z7c89f.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/muddha-xxxl-bean-bag-cover-in-brown-colour-by-sattva-muddha-xxxl-bean-bag-cover-in-brown-colour-by-s-qesrtp.jpg"
@@ -1150,12 +1268,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 1,
-      "dimensions": { "height": 84, "width": 84, "depth": 84 },
-      "id": 42
+      "dimensions": {
+        "height": 84,
+        "width": 84,
+        "depth": 84
+      },
+      "id": 60
     },
-
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/c/h/494x544/chevron-print-classic-xxxl-bean-bagwith-beans-by-sattva-chevron-print-classic-xxxl-bean-bagwith-bean-npnfqt.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/h/800x880/chevron-print-classic-xxxl-bean-bagwith-beans-by-sattva-chevron-print-classic-xxxl-bean-bagwith-bean-180mel.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/h/800x880/chevron-print-classic-xxxl-bean-bagwith-beans-by-sattva-chevron-print-classic-xxxl-bean-bagwith-bean-rduyvg.jpg"
@@ -1169,12 +1290,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 5,
-      "dimensions": { "height": 111.8, "width": 73.7, "depth": 73.7 },
-      "id": 43
+      "dimensions": {
+        "height": 111.8,
+        "width": 73.7,
+        "depth": 73.7
+      },
+      "id": 61
     },
-
     {
-      "image": [
+      "images": [
         "https://ii1.pepperfry.com/media/catalog/product/e/l/494x544/elega-bean-bag-with-beans-in-black-colour-by-spacex-elega-bean-bag-with-beans-in-black-colour-by-spa-m7nnvi.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/e/l/800x880/elega-bean-bag-with-beans-in-black-colour-by-spacex-elega-bean-bag-with-beans-in-black-colour-by-spa-fhoegc.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/e/l/800x880/elega-bean-bag-with-beans-in-black-colour-by-spacex-elega-bean-bag-with-beans-in-black-colour-by-spa-ibhhdu.jpg"
@@ -1188,12 +1312,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 3,
-      "dimensions": { "height": 116.8, "width": 76.2, "depth": 76.2 },
-      "id": 44
+      "dimensions": {
+        "height": 116.8,
+        "width": 76.2,
+        "depth": 76.2
+      },
+      "id": 62
     },
-
     {
-      "image": [
+      "images": [
         "https://ii2.pepperfry.com/media/catalog/product/c/l/494x544/classic-xxxl-filled-bean-bag-in-christmas-tree-multicolour-print-by-sattva-classic-xxxl-filled-bean--ia1iuw.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-filled-bean-bag-in-christmas-tree-print-by-sattva-classic-xxxl-filled-bean-bag-in-chris-g26wxv.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/l/800x880/classic-xxxl-filled-bean-bag-in-christmas-tree-print-by-sattva-classic-xxxl-filled-bean-bag-in-chris-1lk65j.jpg"
@@ -1207,11 +1334,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 3,
-      "dimensions": { "height": 111.8, "width": 73.7, "depth": 73.7 },
-      "id": 45
+      "dimensions": {
+        "height": 111.8,
+        "width": 73.7,
+        "depth": 73.7
+      },
+      "id": 63
     },
     {
-      "image": [
+      "images": [
         "https://ii3.pepperfry.com/media/catalog/product/c/o/494x544/college-youth-print-classic-xxxl-bean-bag-in-yellow-colour-by-sattva-college-youth-print-classic-xxx-vsb4n5.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/o/800x880/college-youth-print-classic-xxxl-bean-bag-in-yellow-colour-by-sattva-college-youth-print-classic-xxx-f0idf4.jpg",
         "https://ii1.pepperfry.com/media/catalog/product/c/o/800x880/college-youth-print-classic-xxxl-bean-bag-in-yellow-colour-by-sattva-college-youth-print-classic-xxx-ytxmqd.jpg"
@@ -1225,14 +1356,15 @@
       "quantity": 1,
       "warranty": 6,
       "weight": 8,
-      "dimensions": { "height": 89, "width": 94, "depth": 218 },
-      "id": 46
-    }
-  ],
-
-  "homedecor": [
+      "dimensions": {
+        "height": 89,
+        "width": 94,
+        "depth": 218
+      },
+      "id": 64
+    },
     {
-      "id": 1,
+      "id": 65,
       "title": "White Acrylic Sweetheart Table Vase",
       "rating": 4,
       "price": 349,
@@ -1244,14 +1376,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/w/h/70x77/white-acrylic-sweetheart-table-vase-by-oasis-floral-products-white-acrylic-sweetheart-table-vase-by--xvnu.jpg"
       ],
       "quantity": 1,
-
       "brand": "Oasis Floral Products",
-      "dimensions": { "height": 17.8, "width": 10.2, "length": 10.2 },
+      "dimensions": {
+        "height": 17.8,
+        "width": 10.2,
+        "length": 10.2
+      },
       "weight": "1",
       "material": "plastic"
     },
     {
-      "id": 2,
+      "id": 66,
       "title": "Set of 2 Blue Cylindrical Glass Vase",
       "rating": 3.5,
       "price": 5083,
@@ -1263,14 +1398,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-fg7cd7.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 22.9, "width": 16.8, "length": 17.3 },
+      "dimensions": {
+        "height": 22.9,
+        "width": 16.8,
+        "length": 17.3
+      },
       "weight": "1",
       "material": "Glass"
     },
     {
-      "id": 3,
+      "id": 67,
       "title": "Vintage Glass Vase Set of Two",
       "rating": 4,
       "price": 14000,
@@ -1282,14 +1420,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/v/i/70x77/vintage-glass-vase-set-of-two-by-tayhaa-vintage-glass-vase-set-of-two-by-tayhaa-tqoj3l.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 7.9, "width": 5, "length": 6 },
+      "dimensions": {
+        "height": 7.9,
+        "width": 5,
+        "length": 6
+      },
       "weight": "2.5",
       "material": "Glass"
     },
     {
-      "id": 4,
+      "id": 68,
       "title": "Thick Black Glass Flower Vase",
       "rating": 4,
       "price": 8100,
@@ -1301,14 +1442,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/t/h/70x77/thick-black-glass-flower-vase-by-tayhaa-thick-black-glass-flower-vase-by-tayhaa-my8vix.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 10.9, "width": 4.3, "length": 4.3 },
+      "dimensions": {
+        "height": 10.9,
+        "width": 4.3,
+        "length": 4.3
+      },
       "weight": "0.8",
       "material": "Glass"
     },
     {
-      "id": 5,
+      "id": 69,
       "title": "Biege Ceramic Table Vases",
       "rating": 4,
       "price": 2499,
@@ -1320,14 +1464,17 @@
         "https://ii2.pepperfry.com/media/catalog/product/b/i/70x77/biege-ceramic-table-vases-by-purezento-biege-ceramic-table-vases-by-purezento-u3iuvq.jpg"
       ],
       "quantity": 1,
-
       "brand": "Purezento",
-      "dimensions": { "height": 7, "width": 4, "length": 4 },
+      "dimensions": {
+        "height": 7,
+        "width": 4,
+        "length": 4
+      },
       "weight": "1",
       "material": "Ceramic"
     },
     {
-      "id": 6,
+      "id": 70,
       "title": "Madhubani Earthen (Set of 2) Multicolour Terracotta Table Vase",
       "rating": 4,
       "price": 2999,
@@ -1339,14 +1486,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/a/70x77/madhubani-earthen--set-of-2--multicolour-terracotta-table-vase-madhubani-earthen--set-of-2--multicol-i5zal2.jpg"
       ],
       "quantity": 1,
-
       "brand": "Aakriti art creations",
-      "dimensions": { "height": 4, "width": 4, "length": 6 },
+      "dimensions": {
+        "height": 4,
+        "width": 4,
+        "length": 6
+      },
       "weight": "0.8",
       "material": "Terracotta"
     },
     {
-      "id": 7,
+      "id": 71,
       "title": "Black Glass Bud-Stem Vase",
       "rating": 4,
       "price": 11000,
@@ -1358,14 +1508,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/l/70x77/black-glass-bud-stem-vase-by-tayhaa-black-glass-bud-stem-vase-by-tayhaa-s2zusy.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 12.9, "width": 7.2, "length": 7.2 },
+      "dimensions": {
+        "height": 12.9,
+        "width": 7.2,
+        "length": 7.2
+      },
       "weight": "2",
       "material": "Glass"
     },
     {
-      "id": 8,
+      "id": 72,
       "title": "Designer White Flower Vase",
       "rating": 4,
       "price": 9000,
@@ -1377,14 +1530,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/d/e/70x77/designer-white-flower-vase-by-tayhaa-designer-white-flower-vase-by-tayhaa-xugcir.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 9.6, "width": 3.9, "length": 5.9 },
+      "dimensions": {
+        "height": 9.6,
+        "width": 3.9,
+        "length": 5.9
+      },
       "weight": "1",
       "material": "Ceramic"
     },
     {
-      "id": 9,
+      "id": 73,
       "title": "Chirping Birds (Set of 3) Red Terracotta Table Vase",
       "rating": 4,
       "price": 2659,
@@ -1396,14 +1552,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/c/h/70x77/chirping-birds--set-of-3--red-terracotta-table-vase-chirping-birds--set-of-3--red-terracotta-table-v-n4naag.jpg"
       ],
       "quantity": 1,
-
       "brand": "Aakriti art creations",
-      "dimensions": { "height": 7, "width": 6, "length": 6 },
+      "dimensions": {
+        "height": 7,
+        "width": 6,
+        "length": 6
+      },
       "weight": "1.5",
       "material": "Terracotta"
     },
     {
-      "id": 10,
+      "id": 74,
       "title": "Rustic Vase with Traditional Khaat",
       "rating": 4,
       "price": 2854,
@@ -1415,15 +1574,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/r/u/70x77/rustic-vase-with-traditional-khaat-by-aapno-rajasthan-rustic-vase-with-traditional-khaat-by-aapno-ra-5kmihl.jpg"
       ],
       "quantity": 1,
-
       "brand": "Aapno Rajasthan",
-      "dimensions": { "height": 17.8, "width": 10.2, "length": 10.2 },
+      "dimensions": {
+        "height": 17.8,
+        "width": 10.2,
+        "length": 10.2
+      },
       "weight": "1",
       "material": "Terracotta"
     },
-
     {
-      "id": 11,
+      "id": 75,
       "title": "Merry Owls On Tree Statue",
       "rating": 4,
       "price": 9000,
@@ -1435,14 +1596,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/e/70x77/merry-owls-on-tree-statue-by-tayhaa-merry-owls-on-tree-statue-by-tayhaa-htflgd.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 10.1, "width": 2.9, "length": 5.9 },
+      "dimensions": {
+        "height": 10.1,
+        "width": 2.9,
+        "length": 5.9
+      },
       "weight": "0.5",
       "material": "Resin"
     },
     {
-      "id": 12,
+      "id": 76,
       "title": "Healthy Yoga Pose Figurine in Raisin",
       "rating": 3.5,
       "price": 6400,
@@ -1454,14 +1618,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/h/e/70x77/healthy-yoga-pose-figurine-in-raisin-by-tayhaa-healthy-yoga-pose-figurine-in-raisin-by-tayhaa-uqgyiw.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 9.6, "width": 3.9, "length": 5.5 },
+      "dimensions": {
+        "height": 9.6,
+        "width": 3.9,
+        "length": 5.5
+      },
       "weight": "0.5",
       "material": "Polyresin"
     },
     {
-      "id": 13,
+      "id": 77,
       "title": "Welcome Namaste Lady White Polyresin Figurine",
       "rating": 4,
       "price": 1724,
@@ -1473,14 +1640,17 @@
         "https://ii1.pepperfry.com/media/catalog/product/w/e/70x77/welcome-namaste-lady-white-polyresin-figurine-by-tied-ribbons-welcome-namaste-lady-white-polyresin-f-ukr6ll.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tied Ribbons",
-      "dimensions": { "height": 14.4, "width": 14.4, "length": 3.9 },
+      "dimensions": {
+        "height": 14.4,
+        "width": 14.4,
+        "length": 3.9
+      },
       "weight": "0.3",
       "material": "Resin"
     },
     {
-      "id": 14,
+      "id": 78,
       "title": "Multicolour Polyresin Owl Playing Musical Instrument Figurine",
       "rating": 4,
       "price": 1999,
@@ -1492,14 +1662,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/u/70x77/multicolour-polyresin-owl-playing-musical-instrument-figurine-by-golden-peacock-multicolour-polyresi-917qyp.jpg"
       ],
       "quantity": 1,
-
       "brand": "Golden Peacock",
-      "dimensions": { "height": 3.3, "width": 1.6, "length": 2 },
+      "dimensions": {
+        "height": 3.3,
+        "width": 1.6,
+        "length": 2
+      },
       "weight": "0.4",
       "material": "Polyresin"
     },
     {
-      "id": 15,
+      "id": 79,
       "title": "Multicolour Polyresin 2 Inches Monk Idol Set Of 4",
       "rating": 4,
       "price": 574,
@@ -1511,14 +1684,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/u/70x77/multicolour-polyresin-2-inches-monk-buddha-idol-set-of-4-by-tied-ribbons-multicolour-polyresin-2-inc-ssopq3.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tied Ribbons",
-      "dimensions": { "height": 2, "width": 1.4, "length": 1.4 },
+      "dimensions": {
+        "height": 2,
+        "width": 1.4,
+        "length": 1.4
+      },
       "weight": "2.5",
       "material": "Polyresin"
     },
     {
-      "id": 16,
+      "id": 80,
       "title": "Always Together, Forever Statue",
       "rating": 4,
       "price": 10000,
@@ -1530,14 +1706,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/a/l/70x77/always-together--forever-statue--by-tayhaa-always-together--forever-statue--by-tayhaa-qucw6x.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 11.7, "width": 2.7, "length": 4.3 },
+      "dimensions": {
+        "height": 11.7,
+        "width": 2.7,
+        "length": 4.3
+      },
       "weight": "0.6 ",
       "material": "Resin"
     },
     {
-      "id": 17,
+      "id": 81,
       "title": "Colorful and Splendid Giraffe Statue",
       "rating": 4,
       "price": 10500,
@@ -1549,14 +1728,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/c/o/70x77/colorful-and-splendid-giraffe-statue-by-tayhaa-colorful-and-splendid-giraffe-statue-by-tayhaa-hyb9bh.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 16.8, "width": 2.7, "length": 5.7 },
+      "dimensions": {
+        "height": 16.8,
+        "width": 2.7,
+        "length": 5.7
+      },
       "weight": "1.1",
       "material": "Resin"
     },
     {
-      "id": 18,
+      "id": 82,
       "title": "Metal Multicolour Figurine",
       "rating": 1230,
       "price": 9000,
@@ -1568,14 +1750,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/e/70x77/metal-multicolour-wall-art-by-malik-design-metal-multicolour-wall-art-by-malik-design-njhslo.jpg"
       ],
       "quantity": 1,
-
       "brand": "Malik Design",
-      "dimensions": { "height": 9.6, "width": 3.9, "length": 5.9 },
+      "dimensions": {
+        "height": 9.6,
+        "width": 3.9,
+        "length": 5.9
+      },
       "weight": "0.5",
       "material": "Metal"
     },
     {
-      "id": 19,
+      "id": 83,
       "title": "Maracas Doll Metal Table Accent",
       "rating": 4,
       "price": 2799,
@@ -1587,14 +1772,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/a/70x77/maracas-doll-metal-table-accent-by-golden-peacock-maracas-doll-metal-table-accent-by-golden-peacock-w8sx5b.jpg"
       ],
       "quantity": 1,
-
       "brand": "Golden Peacock",
-      "dimensions": { "height": 27, "width": 13, "length": 5.5 },
+      "dimensions": {
+        "height": 27,
+        "width": 13,
+        "length": 5.5
+      },
       "weight": "2",
       "material": "Metal"
     },
     {
-      "id": 20,
+      "id": 84,
       "title": "Shell on Tortoise Stand Golden Brass Table Accent",
       "rating": 4,
       "price": 7899,
@@ -1606,14 +1794,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/s/h/70x77/shell-on-tortoise-stand-golden-brass-table-accent-by-imli-street-shell-on-tortoise-stand-golden-bras-unqyej.jpg"
       ],
       "quantity": 1,
-
       "brand": "Imli street",
-      "dimensions": { "height": 4.2, "width": 4.6, "length": 7.5 },
+      "dimensions": {
+        "height": 4.2,
+        "width": 4.6,
+        "length": 7.5
+      },
       "weight": "1.4",
       "material": "Brass"
     },
     {
-      "id": 21,
+      "id": 85,
       "title": "Bronze Iron Dubai Famous Burj Khalifa Replica Showpiece",
       "rating": 4,
       "price": 556,
@@ -1625,14 +1816,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/r/70x77/bronze-iron-dubai-famous-burj-khalifa-replica-showpiece-by-zahab-bronze-iron-dubai-famous-burj-khali-lgdfc1.jpg"
       ],
       "quantity": 1,
-
       "brand": "Delightful Decor",
-      "dimensions": { "height": 10, "width": 3, "length": 3 },
+      "dimensions": {
+        "height": 10,
+        "width": 3,
+        "length": 3
+      },
       "weight": "0.5",
       "material": "Metal"
     },
     {
-      "id": 22,
+      "id": 86,
       "title": "Brown Brass & Wood Maharaja with Drawer Retro Telephone",
       "rating": 3.5,
       "price": 4693,
@@ -1644,14 +1838,17 @@
         "https://ii1.pepperfry.com/media/catalog/product/z/a/800x880/zahab-brown-brass---wood-maharaja-with-drawer-retro-telephone-zahab-brown-brass---wood-maharaja-with-yp1ung.jpg"
       ],
       "quantity": 1,
-
       "brand": "Delightful Decor",
-      "dimensions": { "height": 12, "width": 10, "length": 8 },
+      "dimensions": {
+        "height": 12,
+        "width": 10,
+        "length": 8
+      },
       "weight": "700",
       "material": "Metal"
     },
     {
-      "id": 23,
+      "id": 87,
       "title": "Gold Brass Woooden Flower Carving Vintage Gramophone",
       "rating": 4,
       "price": 9456,
@@ -1663,14 +1860,17 @@
         "https://ii1.pepperfry.com/media/catalog/product/g/o/70x77/gold-brass-woooden-flower-carving-vintage-gramophone-by-exim-decor-gold-brass-woooden-flower-carving-uqdctc.jpg"
       ],
       "quantity": 1,
-
       "brand": "Exim Decor",
-      "dimensions": { "height": 26, "width": 16, "length": 16 },
+      "dimensions": {
+        "height": 26,
+        "width": 16,
+        "length": 16
+      },
       "weight": "4",
       "material": "Brass"
     },
     {
-      "id": 24,
+      "id": 88,
       "title": "White Plastic Geographical Map Table Globe",
       "rating": 4,
       "price": 1599,
@@ -1682,14 +1882,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/w/h/70x77/white-plastic-geographical-map-table-globe-by-imli-street-white-plastic-geographical-map-table-globe-riza2o.jpg"
       ],
       "quantity": 1,
-
       "brand": "Imli street",
-      "dimensions": { "height": 12, "width": 8, "length": 8 },
+      "dimensions": {
+        "height": 12,
+        "width": 8,
+        "length": 8
+      },
       "weight": "0.6",
       "material": "Plastic"
     },
     {
-      "id": 25,
+      "id": 89,
       "title": "Brown Wood Vintage Camera Pop Culture Curio",
       "rating": 4,
       "price": 9477,
@@ -1701,14 +1904,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/r/70x77/brown-wood-vintage--camera-pop-culture-curio-by-tucasa-brown-wood-vintage--camera-pop-culture-curio--fasfe8.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tu Casa",
-      "dimensions": { "height": 20, "width": 11, "length": 11 },
+      "dimensions": {
+        "height": 20,
+        "width": 11,
+        "length": 11
+      },
       "weight": "2.5",
       "material": "MDF"
     },
     {
-      "id": 26,
+      "id": 90,
       "title": "Gold Brass Table Fan",
       "rating": 4,
       "price": 755,
@@ -1720,14 +1926,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/g/o/70x77/gold-brass-brass-table-fan-with-charger-by-exim-decor-gold-brass-brass-table-fan-with-charger-by-exi-vvxwng.jpg"
       ],
       "quantity": 1,
-
       "brand": "Exim Decor",
-      "dimensions": { "height": 7, "width": 3.8, "length": 3.8 },
+      "dimensions": {
+        "height": 7,
+        "width": 3.8,
+        "length": 3.8
+      },
       "weight": "0.2 ",
       "material": "Metal"
     },
     {
-      "id": 27,
+      "id": 91,
       "title": "Gold Brass Paper Weight Magnifying Glass",
       "rating": 4,
       "price": 1369,
@@ -1739,14 +1948,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/g/o/70x77/gold-brass-paper-weight-magnifying-glass-by-exim-decor-gold-brass-paper-weight-magnifying-glass-by-e-bovnza.jpg"
       ],
       "quantity": 1,
-
       "brand": "Exim Decor",
-      "dimensions": { "height": 2.8, "width": 4, "length": 4 },
+      "dimensions": {
+        "height": 2.8,
+        "width": 4,
+        "length": 4
+      },
       "weight": "0.5",
       "material": "Metal"
     },
     {
-      "id": 28,
+      "id": 92,
       "title": "RajRang Truck Recycled Wood Showpiece",
       "rating": 3.5,
       "price": 2599,
@@ -1758,14 +1970,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/r/a/70x77/rajrang-truck-recycled-wood-showpiece-by-vareesha-rajrang-truck-recycled-wood-showpiece-by-vareesha-90on9h.jpg"
       ],
       "quantity": 1,
-
       "brand": "Vareesha",
-      "dimensions": { "height": 4, "width": 3, "length": 6 },
+      "dimensions": {
+        "height": 4,
+        "width": 3,
+        "length": 6
+      },
       "weight": "0.3",
       "material": "Recycled Wood"
     },
     {
-      "id": 29,
+      "id": 93,
       "title": "Brown MDF & Mango Wood Aeroplane Miniature",
       "rating": 4,
       "price": 2312,
@@ -1777,14 +1992,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/a/70x77/maracas-doll-metal-table-accent-by-golden-peacock-maracas-doll-metal-table-accent-by-golden-peacock-w8sx5b.jpg"
       ],
       "quantity": 1,
-
       "brand": "Golden Peacock",
-      "dimensions": { "height": 5, "width": 8, "length": 12 },
+      "dimensions": {
+        "height": 5,
+        "width": 8,
+        "length": 12
+      },
       "weight": "0.2",
       "material": "Solid Wood"
     },
     {
-      "id": 30,
+      "id": 94,
       "title": "Wooden Sand Timer",
       "rating": 4,
       "price": 1224,
@@ -1796,15 +2014,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/6/-/70x77/6-5--wooden-sand-timer-by-exim-d-cor-6-5--wooden-sand-timer-by-exim-d-cor-z0bzgg.jpg"
       ],
       "quantity": 1,
-
       "brand": "Exim Decor",
-      "dimensions": { "height": 6.5, "width": 4, "length": 4 },
+      "dimensions": {
+        "height": 6.5,
+        "width": 4,
+        "length": 4
+      },
       "weight": "0.3",
       "material": "MDF"
     },
-
     {
-      "id": 31,
+      "id": 95,
       "title": "White Wooden Wall Hanging Photo Frame",
       "rating": 4,
       "price": 1424,
@@ -1816,14 +2036,17 @@
         "https://ii1.pepperfry.com/media/catalog/product/w/h/70x77/white-wooden-wall-hanging-photo-frame-white-wooden-wall-hanging-photo-frame-kuzijx.jpg"
       ],
       "quantity": 1,
-
       "brand": "Random",
-      "dimensions": { "height": 11.5, "width": 11.5, "length": 11.5 },
+      "dimensions": {
+        "height": 11.5,
+        "width": 11.5,
+        "length": 11.5
+      },
       "weight": "500",
       "material": "Engineered Wood"
     },
     {
-      "id": 32,
+      "id": 96,
       "title": "Single Pc Black Jute Clip Photo Frame",
       "rating": 3.5,
       "price": 809,
@@ -1835,14 +2058,17 @@
         "https://ii1.pepperfry.com/media/catalog/product/z/a/800x880/zahab-brown-brass---wood-maharaja-with-drawer-retro-telephone-zahab-brown-brass---wood-maharaja-with-yp1ung.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 32, "width": 20, "length": 32 },
+      "dimensions": {
+        "height": 32,
+        "width": 20,
+        "length": 32
+      },
       "weight": "0.4",
       "material": "Jute"
     },
     {
-      "id": 33,
+      "id": 97,
       "title": "Black Wood Collage Photoframes",
       "rating": 4,
       "price": 1409,
@@ -1854,14 +2080,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/l/70x77/black-solid-wood-8x10-inches-photo-frames-by-art-street-black-solid-wood-8x10-inches-photo-frames-by-lexhyh.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 27, "width": 40, "length": 0 },
+      "dimensions": {
+        "height": 27,
+        "width": 40,
+        "length": 0
+      },
       "weight": "2",
       "material": "Wood"
     },
     {
-      "id": 34,
+      "id": 98,
       "title": "Black Synthetic Wood wall photo frame set of 7",
       "rating": 4,
       "price": 1409,
@@ -1873,14 +2102,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/l/70x77/black-synthetic-wood-family-tree-set-of-7-individual-wall-photo-frame-by-art-street-black-synthetic--a4bhyy.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 10, "width": 26, "length": 37 },
+      "dimensions": {
+        "height": 10,
+        "width": 26,
+        "length": 37
+      },
       "weight": "2",
       "material": "Solid Wood"
     },
     {
-      "id": 35,
+      "id": 99,
       "title": "Black Collage Photo Frames Set (Set Of 8)",
       "rating": 4,
       "price": 1439,
@@ -1892,14 +2124,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/l/70x77/black-solid-wood-8x10-inches-photo-frames-by-art-street-black-solid-wood-8x10-inches-photo-frames-by-uz02va.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 0, "width": 25.6, "length": 21.4 },
+      "dimensions": {
+        "height": 0,
+        "width": 25.6,
+        "length": 21.4
+      },
       "weight": "0.7",
       "material": "Wood"
     },
     {
-      "id": 36,
+      "id": 100,
       "title": "Set of 3 Gold Wood Collage Photo Frames",
       "rating": 4,
       "price": 909,
@@ -1911,14 +2146,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/s/e/70x77/set-of-3-gold-wood-collage-photo-frames-by-art-street-set-of-3-gold-wood-collage-photo-frames-by-art-obwdef.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 7, "width": 3.8, "length": 3.8 },
+      "dimensions": {
+        "height": 7,
+        "width": 3.8,
+        "length": 3.8
+      },
       "weight": "0.7 ",
       "material": "Wood"
     },
     {
-      "id": 37,
+      "id": 101,
       "title": "Black Solid Wood 8x10 Inches Photo Frames",
       "rating": 4,
       "price": 1559,
@@ -1930,14 +2168,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/l/70x77/black-solid-wood-8x10-inches-photo-frames-by-art-street-black-solid-wood-8x10-inches-photo-frames-by-fis2dn.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 2.8, "width": 4, "length": 4 },
+      "dimensions": {
+        "height": 2.8,
+        "width": 4,
+        "length": 4
+      },
       "weight": "2",
       "material": "Glass"
     },
     {
-      "id": 38,
+      "id": 102,
       "title": "Black Synthetic Wood wall photo frame set of 6",
       "rating": 3.5,
       "price": 709,
@@ -1949,14 +2190,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/a/r/70x77/art-street-classy-memory-wall-timeline-art-street-classy-memory-wall-timeline-tu1w7u.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 16, "width": 26, "length": 0 },
+      "dimensions": {
+        "height": 16,
+        "width": 26,
+        "length": 0
+      },
       "weight": "600",
       "material": "Solid Wood"
     },
     {
-      "id": 39,
+      "id": 103,
       "title": "Single Pc Black Jute Clip Photo Frame",
       "rating": 4,
       "price": 809,
@@ -1968,14 +2212,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/s/i/70x77/single-pc--black-jute-clip-photo-frame-by-art-street-single-pc--black-jute-clip-photo-frame-by-art-s-ljksao.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 5, "width": 8, "length": 12 },
+      "dimensions": {
+        "height": 5,
+        "width": 8,
+        "length": 12
+      },
       "weight": "0.4",
       "material": "Jute"
     },
     {
-      "id": 40,
+      "id": 104,
       "title": "Black Wood Collage Photoframes",
       "rating": 4,
       "price": 1359,
@@ -1987,14 +2234,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/b/l/70x77/black-solid-wood-8x10-inches-photo-frames-by-art-street-black-solid-wood-8x10-inches-photo-frames-by-h9fnpl.jpg"
       ],
       "quantity": 1,
-
       "brand": "Art Street",
-      "dimensions": { "height": 25.4, "width": 43, "length": 0 },
+      "dimensions": {
+        "height": 25.4,
+        "width": 43,
+        "length": 0
+      },
       "weight": "2",
       "material": "Wood"
     },
     {
-      "id": 41,
+      "id": 105,
       "title": "Multicolor Fabric Lakshmi Ganesh Toran",
       "rating": 4,
       "price": 569,
@@ -2006,14 +2256,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/u/70x77/multicolor-fabric-lakshmi-ganesh-toran-by-craftvatika-multicolor-fabric-lakshmi-ganesh-toran-by-craf-ewpjqh.jpg"
       ],
       "quantity": 1,
-
       "brand": "CraftVatika",
-      "dimensions": { "height": 11.5, "width": 11.5, "length": 11.5 },
+      "dimensions": {
+        "height": 11.5,
+        "width": 11.5,
+        "length": 11.5
+      },
       "weight": "100",
       "material": "Fabric"
     },
     {
-      "id": 42,
+      "id": 106,
       "title": "Maroon Artificial Mini Christmas Tree Showpiece",
       "rating": 3.5,
       "price": 1400,
@@ -2025,14 +2278,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/m/a/70x77/maroon-christmas-tree-showpiece-by-tayhaa-maroon-christmas-tree-showpiece-by-tayhaa-ma13ng.jpg"
       ],
       "quantity": 1,
-
       "brand": "Tayhaa",
-      "dimensions": { "height": 5.1, "width": 4.7, "length": 10.9 },
+      "dimensions": {
+        "height": 5.1,
+        "width": 4.7,
+        "length": 10.9
+      },
       "weight": "0.1",
       "material": "Plastic"
     },
     {
-      "id": 43,
+      "id": 107,
       "title": "Golden Bead Tassel Bandhanwar",
       "rating": 4,
       "price": 3221,
@@ -2044,14 +2300,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/g/o/70x77/golden-bead-tassel-bandhanwar-by-swastik-pooja-golden-bead-tassel-bandhanwar-by-swastik-pooja-33rfje.jpg"
       ],
       "quantity": 1,
-
       "brand": "Swastik Pooja",
-      "dimensions": { "height": 27, "width": 40, "length": 0 },
+      "dimensions": {
+        "height": 27,
+        "width": 40,
+        "length": 0
+      },
       "weight": "0.2",
       "material": "Metal"
     },
     {
-      "id": 44,
+      "id": 108,
       "title": "Golden Ethnic Look Bandhanwar",
       "rating": 4,
       "price": 2193,
@@ -2063,14 +2322,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/g/o/70x77/golden-ethnic-look-bandhanwar-by-swastik-pooja-golden-ethnic-look-bandhanwar-by-swastik-pooja-b7hapo.jpg"
       ],
       "quantity": 1,
-
       "brand": "Swastik Pooja",
-      "dimensions": { "height": 10, "width": 0, "length": 37 },
+      "dimensions": {
+        "height": 10,
+        "width": 0,
+        "length": 37
+      },
       "weight": "0.2",
       "material": "Metal"
     },
     {
-      "id": 45,
+      "id": 109,
       "title": "Beautiful Golden And White Traditional Toran",
       "rating": 4,
       "price": 4041,
@@ -2082,14 +2344,17 @@
         "https://ii1.pepperfry.com/media/catalog/product/b/e/70x77/beautiful-golden-and-white-traditional-toran-by-swastik-pooja-beautiful-golden-and-white-traditional-dcguj3.jpg"
       ],
       "quantity": 1,
-
       "brand": "Swastik Pooja",
-      "dimensions": { "height": 0, "width": 25.6, "length": 21.4 },
+      "dimensions": {
+        "height": 0,
+        "width": 25.6,
+        "length": 21.4
+      },
       "weight": "0.2",
       "material": "Metal"
     },
     {
-      "id": 46,
+      "id": 110,
       "title": "Gotta Work Goldentoran",
       "rating": 4,
       "price": 3879,
@@ -2101,14 +2366,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/g/o/70x77/gotta-work-goldentoran-by-swastik-pooja-gotta-work-goldentoran-by-swastik-pooja-tsd5xd.jpg"
       ],
       "quantity": 1,
-
       "brand": "Swastik Pooja",
-      "dimensions": { "height": 0, "width": 3.8, "length": 3.8 },
+      "dimensions": {
+        "height": 0,
+        "width": 3.8,
+        "length": 3.8
+      },
       "weight": "0.2 ",
       "material": "Metal"
     },
     {
-      "id": 47,
+      "id": 111,
       "title": "Orange Decorative Floor Rangoli Dancing Peacocks",
       "rating": 4,
       "price": 1299,
@@ -2120,14 +2388,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/o/r/70x77/orange-decorative-floor-rangoli-dancing-peacocks-by-ecraftindia-orange-decorative-floor-rangoli-danc-0jehja.jpg"
       ],
       "quantity": 1,
-
       "brand": "eCraftIndia",
-      "dimensions": { "height": 0, "width": 8, "length": 44 },
+      "dimensions": {
+        "height": 0,
+        "width": 8,
+        "length": 44
+      },
       "weight": "0.195",
       "material": "Paper Mache"
     },
     {
-      "id": 48,
+      "id": 112,
       "title": "Christmas Wreath For Front Door Christmas Decorations & Artificial Pine Santa Claus Wreaths",
       "rating": 3.5,
       "price": 1017,
@@ -2139,14 +2410,17 @@
         "https://ii1.pepperfry.com/media/catalog/product/c/h/70x77/christmas-wreath-for-front-door-christmas-decorations---artificial-pine-santa-claus-wreaths-by-craft-ngfooz.jpg"
       ],
       "quantity": 1,
-
       "brand": "CraftVatika",
-      "dimensions": { "height": 16, "width": 26, "length": 0 },
+      "dimensions": {
+        "height": 16,
+        "width": 26,
+        "length": 0
+      },
       "weight": "0.1",
       "material": "Plastic"
     },
     {
-      "id": 49,
+      "id": 113,
       "title": "Multicolour Wood Readymade Floor Rangoli",
       "rating": 4,
       "price": 1003,
@@ -2158,14 +2432,17 @@
         "https://ii3.pepperfry.com/media/catalog/product/i/t/70x77/itiha-multicolour-wood-readymade-floor-rangoli-itiha-multicolour-wood-readymade-floor-rangoli-l35jkk.jpg"
       ],
       "quantity": 1,
-
       "brand": "Itiha",
-      "dimensions": { "height": 5, "width": 8, "length": 12 },
+      "dimensions": {
+        "height": 5,
+        "width": 8,
+        "length": 12
+      },
       "weight": "0.4",
       "material": "Wood"
     },
     {
-      "id": 50,
+      "id": 114,
       "title": "Vanilla Aroma Set of 60 Scented Candles",
       "rating": 4,
       "price": 809,
@@ -2177,32 +2454,43 @@
         "https://ii1.pepperfry.com/media/catalog/product/p/u/70x77/purple-wax-vanilla-scented-candles---set-of-30-by-hosley-purple-wax-vanilla-scented-candles---set-of-qcmmh6.jpg"
       ],
       "quantity": 1,
-
       "brand": "Hosley",
-      "dimensions": { "height": 3, "width": 4, "length": 3 },
+      "dimensions": {
+        "height": 3,
+        "width": 4,
+        "length": 3
+      },
       "weight": "0.5",
       "material": "candle"
     }
   ],
-
-
-
-
-
   "users": [
     {
-      "id": 1,
-      "username": "admin",
-      "userEmail":"uzairans532@gmail.com",
-      "password": "admin",
-      "cartItems":[
-      
-      ],
-      "wishlist": [
-        
-      ]
+      "username": "Uzair",
+      "userEmail": "uzairans532@gmail.com",
+      "password": "11234",
+      "cartItems": [],
+      "wishlist": [],
+      "order": [],
+      "id": 1
+    },
+    {
+      "username": "Uzair",
+      "userEmail": "khansohail015@gmail.com",
+      "password": "123",
+      "cartItems": [],
+      "wishlist": [],
+      "order": [],
+      "id": 2
+    },
+    {
+      "username": "Uzair",
+      "userEmail": "eve.holt@reqres.in",
+      "password": "cityslicka",
+      "cartItems": [],
+      "wishlist": [],
+      "order": [],
+      "id": 3
     }
   ]
 }
-
-
