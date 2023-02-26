@@ -26,6 +26,7 @@ import Furnishing from "../Pages/Furnishing";
 export const AllRoute = () => {
   return (
     <Routes>
+        
       <Route path="/" element={<Home />} />
       <Route path="/furniture" element={<Furniture />} />
       <Route path="/furniture/:id" element={<SingleProduct />} />
