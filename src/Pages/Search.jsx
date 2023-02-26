@@ -79,7 +79,7 @@ const newProductAddedtoCart={...el,quantity:1}
 <Box m="auto"  >
       <Grid
     
-border={'1px solid red'}
+
         templateColumns={{base:"repeat(1,1fr)",sm:"repeat(2,1fr)",md:"repeat(4,1fr)"}}
  
         justifyContent={'space-around'}
@@ -87,7 +87,7 @@ border={'1px solid red'}
       >
         {allData?.map((el) => (
           <Box
-          border={'1px solid blue'}
+      
             maxW="sm"
             borderWidth="1px"
             borderRadius="lg"

@@ -63,18 +63,6 @@ const newProductAddedtoCart={...el,quantity:1}
   }, []);
 
 
-  useEffect(()=>{
-if(id){
-  dispatch(getCartRequest(id))
-}
-
-     
-    
-    
-    
-      },[])
-
- 
 
   return (
     <>

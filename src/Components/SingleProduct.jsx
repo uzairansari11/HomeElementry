@@ -17,6 +17,7 @@ import {
   VisuallyHidden,
   List,
   ListItem,
+  useToast,
 } from '@chakra-ui/react';
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { MdLocalShipping } from 'react-icons/md';
@@ -25,13 +26,75 @@ import { useLocation } from 'react-router-dom';
 import { useEffect,useState } from 'react';
 import { getSingleProduct} from '../Redux/product/api';
 import Bottomimage from '../Pages/Bottomimage';
+import { useDispatch, useSelector } from 'react-redux';
+import { addCartRequest, getCartRequest } from '../Redux/cart/api';
 
 export default function SingleProduct() {
   const {id}=useParams()
   const location=useLocation()
   console.log(location.pathname)
 
+  const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
+
   const [iddata, setiddata] = useState();
+
+  const toast = useToast();
+  const dispatch = useDispatch();
+
+  const userId = localStorage.getItem("id");
+
+
+  const handleCart = (el) => {
+
+    if(userId){
+    const newProductAddedtoCart={...el,quantity:1}
+      const patchCartData=[...allCartItems,newProductAddedtoCart]
+      dispatch(addCartRequest(userId,patchCartData ));
+      toast({
+        title: "Product Added In Cart",
+        description: "Product deleted from cart",
+        variant: "subtle",
+        status: "success",
+        position: "top-right",
+        duration: 1000,
+        isClosable: true,
+      });
+      console.log(id)
+    }else{
+      toast({
+        title: "Please Login First",
+        status: "error",
+        duration: 500,
+        isClosable: true,
+        position: "top",
+      });
+    }
+    
+    
+      };
+    
+      useEffect(() => {
+        if (id) {
+          dispatch(getCartRequest(id));
+        }
+      }, []);
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
   useEffect(()=>{
 
@@ -151,7 +214,11 @@ export default function SingleProduct() {
             _hover={{
               transform: 'translateY(2px)',
               boxShadow: 'lg',
-            }}>
+            }}
+            
+            onClick={()=>handleCart(iddata)}
+            
+            >
             Add to cart
           </Button>
             <Box w={"100%"}>
