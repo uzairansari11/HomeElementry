@@ -2469,28 +2469,297 @@
       "username": "Uzair",
       "userEmail": "uzairans532@gmail.com",
       "password": "11234",
-      "cartItems": [],
+      "cartItems": [
+        {
+          "id": 11,
+          "title": "Antique Brass Metal Wall Light",
+          "rating": 3.5,
+          "warranty": "2 Months' Warranty",
+          "price": 1213,
+          "category": "wall light",
+          "discount": 65,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-zpsgbp.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-jrkijq.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-v1jyy0.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Mansaa",
+          "dimensions": {
+            "heigth": 16.5,
+            "width": 5,
+            "depth": 4
+          },
+          "weight": 1
+        },
+        {
+          "id": 14,
+          "title": "Cool White 2 Meter Bottle with Cork and 2 Pcs LED String Light",
+          "rating": 3,
+          "warranty": "2 Months' Warranty",
+          "price": 303,
+          "category": "Festival light",
+          "discount": 70,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---cjcmyn.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---xns6sd.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---lewhia.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.2
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        },
+        {
+          "id": 17,
+          "title": "Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+          "rating": 4,
+          "warranty": "2 Months' Warranty",
+          "price": 999,
+          "category": "Festival light",
+          "discount": 45,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-emyjlo.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-brjba7.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-uw9w3s.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.3
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 16,
+          "title": "Warm White 5 Meter Battery Operated Star Shaped LED Christmas String Light",
+          "rating": 4,
+          "warranty": "2 Months' Warranty",
+          "price": 455,
+          "category": "Festival light",
+          "discount": 45,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-jo5hb9.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-knjxt9.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-g7woww.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.2
+        },
+        {
+          "id": 17,
+          "title": "Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+          "rating": 4,
+          "warranty": "2 Months' Warranty",
+          "price": 999,
+          "category": "Festival light",
+          "discount": 45,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-emyjlo.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-brjba7.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-uw9w3s.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.3
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        }
+      ],
       "wishlist": [],
       "order": [],
       "id": 1
-    },
-    {
-      "username": "Uzair",
-      "userEmail": "khansohail015@gmail.com",
-      "password": "123",
-      "cartItems": [],
-      "wishlist": [],
-      "order": [],
-      "id": 2
-    },
-    {
-      "username": "Uzair",
-      "userEmail": "eve.holt@reqres.in",
-      "password": "cityslicka",
-      "cartItems": [],
-      "wishlist": [],
-      "order": [],
-      "id": 3
     }
   ]
 }
