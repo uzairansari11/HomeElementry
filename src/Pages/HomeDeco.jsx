@@ -91,10 +91,16 @@ import { Image } from "@chakra-ui/react";
 import { getCartRequest } from "../Redux/cart/api";
 
 
-import { Pagination } from "../Components/Pagination";
+import  Pagination  from "../Components/Pagination";
 import HomeDecoSorting from "../Components/HomeDecoSorting";
+import Loading from "../Components/Loading";
+
+
+
+
 function HomeDeco() {
   const product = useSelector((store) => store.productreducer.products);
+  const loading= useSelector((store)=>store.productreducer.isLoading)
  const dispatch = useDispatch();
  const location = useLocation();
 
@@ -123,9 +129,9 @@ function HomeDeco() {
   return (
 
     <>
-     
+     {loading? <Loading/>:""}
     <Flex justifyContent={'space-between'} >
-    <Box p={'2'} w={'13%'}   position={'fixed'}>
+    <Box p={'2'} w={[ "60%",  "50%","25%","15%"]}   >
         <HomeDecoSorting/>
 
         </Box>
@@ -155,7 +161,7 @@ function HomeDeco() {
       
     </Flex>
     <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
-      {/* <Pagination product={product}/> */}
+      <Pagination product={product}/>
     </Stack>
    
   

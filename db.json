@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
       "rating": 4,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 7218,
       "category": "lamps",
       "discount": 37,
@@ -26,7 +26,7 @@
       "id": 2,
       "title": "Multicolor Shade Table Lamp With Black Metal Base",
       "rating": 4,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 721,
       "category": "lamps",
       "discount": 76,
@@ -48,7 +48,7 @@
       "id": 3,
       "title": "White Fabric Shade Table Lamp With Black Base",
       "rating": 3,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 797,
       "category": "lamps",
       "discount": 52,
@@ -70,7 +70,7 @@
       "id": 4,
       "title": "Beige Fabric Shade Table Lamp With Black Base",
       "rating": 4,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 436,
       "category": "lamps",
       "discount": 52,
@@ -92,7 +92,7 @@
       "id": 5,
       "title": "Yellow Fabric Shade Table Lamp With Black Base",
       "rating": 5,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 496,
       "category": "lamps",
       "discount": 76,
@@ -114,7 +114,7 @@
       "id": 6,
       "title": "Orange Fabric Shade Table Lamp With Brown Base",
       "rating": 4,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 697,
       "category": "lamps",
       "discount": 76,
@@ -136,7 +136,7 @@
       "id": 7,
       "title": "White Wood Wall Light",
       "rating": 4,
-      "warranty": "3 Months' Warranty",
+      "warranty": 3,
       "price": 1101,
       "category": "wall light",
       "discount": 55,
@@ -158,7 +158,7 @@
       "id": 8,
       "title": "Beige Fabric Wall Sconces",
       "rating": 3.5,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 750,
       "category": "wall light",
       "discount": 55,
@@ -180,7 +180,7 @@
       "id": 9,
       "title": "Brown Wood Wall Sconces",
       "rating": 4,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 616,
       "category": "wall light",
       "discount": 60,
@@ -202,7 +202,7 @@
       "id": 10,
       "title": "Brown Metal Wall Light",
       "rating": 4,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 1413,
       "category": "wall light",
       "discount": 65,
@@ -224,7 +224,7 @@
       "id": 11,
       "title": "Antique Brass Metal Wall Light",
       "rating": 3.5,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 1213,
       "category": "wall light",
       "discount": 65,
@@ -246,7 +246,7 @@
       "id": 12,
       "title": "Gold Metal Wall Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 1054,
       "category": "wall light",
       "discount": 65,
@@ -268,7 +268,7 @@
       "id": 13,
       "title": "Multicolor 1 Meter Color Modes With 17 Key Controller USB Powered LED Strip Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 599,
       "category": "Festival light",
       "discount": 65,
@@ -290,7 +290,7 @@
       "id": 14,
       "title": "Cool White 2 Meter Bottle with Cork and 2 Pcs LED String Light",
       "rating": 3,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 303,
       "category": "Festival light",
       "discount": 70,
@@ -312,7 +312,7 @@
       "id": 15,
       "title": "Warm White 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 999,
       "category": "Festival light",
       "discount": 50,
@@ -334,7 +334,7 @@
       "id": 16,
       "title": "Warm White 5 Meter Battery Operated Star Shaped LED Christmas String Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 455,
       "category": "Festival light",
       "discount": 45,
@@ -356,7 +356,7 @@
       "id": 17,
       "title": "Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 999,
       "category": "Festival light",
       "discount": 45,
@@ -378,7 +378,7 @@
       "id": 18,
       "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
       "rating": 5,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 555,
       "category": "Festival light",
       "discount": 50,
@@ -2050,36 +2050,409 @@
     {
       "username": "Uzair",
       "userEmail": "uzairans532@gmail.com",
-      "password": "1234",
+      "password": "11234",
       "cartItems": [
         {
-          "id": 10,
-          "title": "Brown Metal Wall Light",
-          "rating": 4,
-          "warranty": "4 Months' Warranty",
-          "price": 1413,
+          "id": 11,
+          "title": "Antique Brass Metal Wall Light",
+          "rating": 3.5,
+          "warranty": "2 Months' Warranty",
+          "price": 1213,
           "category": "wall light",
           "discount": 65,
           "images": [
-            "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-bplykx.jpg",
-            "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-9gqt2g.jpg",
-            "https://ii1.pepperfry.com/media/catalog/product/b/r/800x880/brown-metal-wall-light-by-foziq-brown-metal-wall-light-by-foziq-t1y9ae.jpg"
+            "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-zpsgbp.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-jrkijq.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/a/n/800x880/antique-brass-metal-wall-light-by-foziq-antique-brass-metal-wall-light-by-foziq-v1jyy0.jpg"
           ],
           "qunatity": 1,
           "brand": "Mansaa",
           "dimensions": {
             "heigth": 16.5,
-            "width": 6,
-            "depth": 7.5
+            "width": 5,
+            "depth": 4
           },
-          "weight": 1.9,
-          "quantity": 3
+          "weight": 1
+        },
+        {
+          "id": 14,
+          "title": "Cool White 2 Meter Bottle with Cork and 2 Pcs LED String Light",
+          "rating": 3,
+          "warranty": "2 Months' Warranty",
+          "price": 303,
+          "category": "Festival light",
+          "discount": 70,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---cjcmyn.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---xns6sd.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-cork-shaped-bottle-fairy-string-lights-battery-powered-for-diwali-home-decoration--pack-of-2---lewhia.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.2
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        },
+        {
+          "id": 17,
+          "title": "Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+          "rating": 4,
+          "warranty": "2 Months' Warranty",
+          "price": 999,
+          "category": "Festival light",
+          "discount": 45,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-emyjlo.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-brjba7.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-uw9w3s.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.3
+        },
+        {
+          "id": 1,
+          "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
+          "rating": 4,
+          "warranty": "6 Months' Warranty",
+          "price": 7218,
+          "category": "lamps",
+          "discount": 37,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-2cuo62.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-zewcub.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/i/800x880/mizuko-matte-black-cotton-shade-floor-lamp-with-black---copper-base-by-kapoor-e-illuminations-mizuko-loq8nt.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 17.5,
+            "width": 17.5,
+            "depth": 66
+          },
+          "weight": 1.5
+        },
+        {
+          "id": 16,
+          "title": "Warm White 5 Meter Battery Operated Star Shaped LED Christmas String Light",
+          "rating": 4,
+          "warranty": "2 Months' Warranty",
+          "price": 455,
+          "category": "Festival light",
+          "discount": 45,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-jo5hb9.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-knjxt9.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/w/a/800x880/warm-white-led-string-lights-by-xergy-warm-white-led-string-lights-by-xergy-g7woww.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.2
+        },
+        {
+          "id": 17,
+          "title": "Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
+          "rating": 4,
+          "warranty": "2 Months' Warranty",
+          "price": 999,
+          "category": "Festival light",
+          "discount": 45,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-emyjlo.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-brjba7.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicolor-led-string-lights-by-xergy-multicolor-led-string-lights-by-xergy-uw9w3s.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.3
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        },
+        {
+          "id": 18,
+          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
+          "rating": 5,
+          "warranty": "2 Months' Warranty",
+          "price": 555,
+          "category": "Festival light",
+          "discount": 50,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Xergy",
+          "dimensions": {
+            "heigth": 11,
+            "width": 0,
+            "depth": 0
+          },
+          "weight": 0.6
+        },
+        {
+          "images": [
+            "https://ii3.pepperfry.com/media/catalog/product/k/a/494x544/kaylee-2-seater-velvet-sofa-in-mint-green-colour-by-casacraft-kaylee-2-seater-velvet-sofa-in-mint-gr-2nqlvq.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour---casacraft-by-pepperfry-kaylee-2-seater-sofa-in-green-colour---xl8gug.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour-kaylee-2-seater-sofa-in-green-colour-5gluty.jpg"
+          ],
+          "rating": 2,
+          "title": "Kaylee Velvet 2 Seater Sofa In Mint Green Colour",
+          "brand": "CasaCraft",
+          "price": 59199,
+          "discount": 39,
+          "category": "sofas",
+          "quantity": 1,
+          "warranty": 36,
+          "weight": 54,
+          "dimensions": {
+            "height": 82.36,
+            "width": 100.6,
+            "depth": 74.28
+          },
+          "id": 20
+        },
+        {
+          "images": [
+            "https://ii2.pepperfry.com/media/catalog/product/t/r/494x544/treviso-2-seater-velvet-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-velvet-sofa-in-stee-uuvayd.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--5lzkyb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--lbyyot.jpg"
+          ],
+          "rating": 3,
+          "title": "Treviso Velvet 2 Seater Sofa In Steel Grey Colour",
+          "brand": "Woodsworth",
+          "price": 70199,
+          "discount": 27,
+          "category": "sofas",
+          "quantity": 1,
+          "warranty": 36,
+          "weight": 45,
+          "dimensions": {
+            "height": 86.36,
+            "width": 101.6,
+            "depth": 81.28
+          },
+          "id": 19
+        },
+        {
+          "images": [
+            "https://ii3.pepperfry.com/media/catalog/product/k/a/494x544/kaylee-2-seater-velvet-sofa-in-mint-green-colour-by-casacraft-kaylee-2-seater-velvet-sofa-in-mint-gr-2nqlvq.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour---casacraft-by-pepperfry-kaylee-2-seater-sofa-in-green-colour---xl8gug.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/k/a/568x284/kaylee-2-seater-sofa-in-green-colour-kaylee-2-seater-sofa-in-green-colour-5gluty.jpg"
+          ],
+          "rating": 2,
+          "title": "Kaylee Velvet 2 Seater Sofa In Mint Green Colour",
+          "brand": "CasaCraft",
+          "price": 59199,
+          "discount": 39,
+          "category": "sofas",
+          "quantity": 1,
+          "warranty": 36,
+          "weight": 54,
+          "dimensions": {
+            "height": 82.36,
+            "width": 100.6,
+            "depth": 74.28
+          },
+          "id": 20
+        },
+        {
+          "images": [
+            "https://ii2.pepperfry.com/media/catalog/product/t/r/494x544/treviso-2-seater-velvet-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-velvet-sofa-in-stee-uuvayd.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--5lzkyb.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/t/r/568x284/treviso-2-seater-sofa-in-steel-grey-colour-by-woodsworth-treviso-2-seater-sofa-in-steel-grey-colour--lbyyot.jpg"
+          ],
+          "rating": 3,
+          "title": "Treviso Velvet 2 Seater Sofa In Steel Grey Colour",
+          "brand": "Woodsworth",
+          "price": 70199,
+          "discount": 27,
+          "category": "sofas",
+          "quantity": 1,
+          "warranty": 36,
+          "weight": 45,
+          "dimensions": {
+            "height": 86.36,
+            "width": 101.6,
+            "depth": 81.28
+          },
+          "id": 19
+        },
+        {
+          "id": 6,
+          "title": "Orange Fabric Shade Table Lamp With Brown Base",
+          "rating": 4,
+          "warranty": "4 Months' Warranty",
+          "price": 697,
+          "category": "lamps",
+          "discount": 76,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-xwlw6n.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-desyxz.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-ilx3cr.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 12,
+            "width": 12,
+            "depth": 17.5
+          },
+          "weight": 1
         },
         {
           "id": 2,
           "title": "Multicolor Shade Table Lamp With Black Metal Base",
           "rating": 4,
-          "warranty": "6 Months' Warranty",
+          "warranty": 6,
           "price": 721,
           "category": "lamps",
           "discount": 76,
@@ -2095,13 +2468,166 @@
             "width": 5,
             "depth": 10
           },
-          "weight": 0.3,
-          "quantity": 1
+          "weight": 0.3
         }
       ],
       "wishlist": [],
       "order": [],
       "id": 1
+    },
+    {
+      "username": "Uzair",
+      "userEmail": "eve.holt@reqres.in",
+      "password": "cityslicka",
+      "cartItems": [
+        {
+          "id": 65,
+          "title": "White Acrylic Sweetheart Table Vase",
+          "rating": 4,
+          "price": 349,
+          "category": "vases",
+          "discount": 25,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/w/h/800x880/white-acrylic-sweetheart-table-vase-by-oasis-floral-products-white-acrylic-sweetheart-table-vase-by--8xyoxd.jpg",
+            "https://ii2.pepperfry.com/media/catalog/product/w/h/70x77/white-acrylic-sweetheart-table-vase-by-oasis-floral-products-white-acrylic-sweetheart-table-vase-by--pu5yup.jpg",
+            "https://ii3.pepperfry.com/media/catalog/product/w/h/70x77/white-acrylic-sweetheart-table-vase-by-oasis-floral-products-white-acrylic-sweetheart-table-vase-by--xvnu.jpg"
+          ],
+          "quantity": 1,
+          "brand": "Oasis Floral Products",
+          "dimensions": {
+            "height": 17.8,
+            "width": 10.2,
+            "length": 10.2
+          },
+          "weight": "1",
+          "material": "plastic"
+        },
+        {
+          "id": 66,
+          "title": "Set of 2 Blue Cylindrical Glass Vase",
+          "rating": 3.5,
+          "price": 5083,
+          "category": "vases",
+          "discount": 64,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-wwpcq2.jpg",
+            "https://ii2.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-qtd92u.jpg",
+            "https://ii3.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-fg7cd7.jpg"
+          ],
+          "quantity": 1,
+          "brand": "Tayhaa",
+          "dimensions": {
+            "height": 22.9,
+            "width": 16.8,
+            "length": 17.3
+          },
+          "weight": "1",
+          "material": "Glass"
+        },
+        {
+          "images": [
+            "https://ii2.pepperfry.com/media/catalog/product/f/i/494x544/fidel-velvet-fabric-1-seater-sofa-in-beige-colour-by-casacraft-fidel-velvet-fabric-1-seater-sofa-in--rnnarz.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-beige-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-beige-colour-b-iiwcxe.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-beige-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-beige-colour-b-siibv3.jpg"
+          ],
+          "rating": 4,
+          "title": "Fidel Velvet 1 Seater Sofa In Beige Colour",
+          "brand": "CasaCraft",
+          "price": 39099,
+          "discount": 28,
+          "category": "sofas",
+          "quantity": 1,
+          "warranty": 36,
+          "weight": 76,
+          "dimensions": {
+            "height": 83.36,
+            "width": 94.6,
+            "depth": 86.28
+          },
+          "id": 22
+        },
+        {
+          "images": [
+            "https://ii3.pepperfry.com/media/catalog/product/f/i/494x544/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-sdksib.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-bckaab.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/f/i/800x880/fidel-1-seater-velvet-sofa-in-fossil-grey-colour-by-casacraft-fidel-1-seater-velvet-sofa-in-fossil-g-cman5w.jpg"
+          ],
+          "rating": 4,
+          "title": "Fidel Velvet 1 Seater Sofa In Fossil Grey Colour",
+          "brand": "CasaCraft",
+          "price": 39099,
+          "discount": 28,
+          "category": "sofas",
+          "quantity": 1,
+          "warranty": 36,
+          "weight": 76,
+          "id": 23
+        },
+        {
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/r/i/494x544/ricardo-1-seater-sofa-in-light-green-colour---casacraft-by-pepperfry-ricardo-1-seater-sofa-in-light--bcgqzw.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/r/i/1100x1210/ricardo-1-seater-velvet-sofa-in-light-green-colour-by-casacraft-ricardo-1-seater-velvet-sofa-in-ligh-6lixvp.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/r/i/800x880/ricardo-1-seater-velvet-sofa-in-light-green-colour-by-casacraft-ricardo-1-seater-velvet-sofa-in-ligh-2vqmlf.jpg"
+          ],
+          "rating": 4,
+          "title": "Ricardo Velvet 1 Seater Sofa In Light Green Colour",
+          "brand": "CasaCraft",
+          "price": 43699,
+          "discount": 29,
+          "category": "sofas",
+          "quantity": 1,
+          "warranty": 36,
+          "weight": 54,
+          "id": 24
+        },
+        {
+          "id": 67,
+          "title": "Vintage Glass Vase Set of Two",
+          "rating": 4,
+          "price": 14000,
+          "category": "vases",
+          "discount": 64,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/v/i/70x77/vintage-glass-vase-set-of-two-by-tayhaa-vintage-glass-vase-set-of-two-by-tayhaa-ofuz2z.jpg",
+            "https://ii2.pepperfry.com/media/catalog/product/v/i/70x77/vintage-glass-vase-set-of-two-by-tayhaa-vintage-glass-vase-set-of-two-by-tayhaa-sbpilf.jpg",
+            "https://ii3.pepperfry.com/media/catalog/product/v/i/70x77/vintage-glass-vase-set-of-two-by-tayhaa-vintage-glass-vase-set-of-two-by-tayhaa-tqoj3l.jpg"
+          ],
+          "quantity": 1,
+          "brand": "Tayhaa",
+          "dimensions": {
+            "height": 7.9,
+            "width": 5,
+            "length": 6
+          },
+          "weight": "2.5",
+          "material": "Glass"
+        },
+        {
+          "id": 66,
+          "title": "Set of 2 Blue Cylindrical Glass Vase",
+          "rating": 3.5,
+          "price": 5083,
+          "category": "vases",
+          "discount": 64,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-wwpcq2.jpg",
+            "https://ii2.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-qtd92u.jpg",
+            "https://ii3.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-fg7cd7.jpg"
+          ],
+          "quantity": 1,
+          "brand": "Tayhaa",
+          "dimensions": {
+            "height": 22.9,
+            "width": 16.8,
+            "length": 17.3
+          },
+          "weight": "1",
+          "material": "Glass"
+        }
+      ],
+      "wishlist": [],
+      "order": [],
+      "id": 2
     }
   ]
 }

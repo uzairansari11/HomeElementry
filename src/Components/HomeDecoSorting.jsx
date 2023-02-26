@@ -301,7 +301,7 @@ function HomeDecoSorting() {
           
           <VStack spacing={[1, 2]} direction={["row", "row"]} alignItems={"start"}>
               <Checkbox value="Imli street" >Imli street</Checkbox>
-              <Checkbox value="Golden Peacock">Golden PeacockCasaCraft</Checkbox>
+              <Checkbox value="Golden Peacock">Golden</Checkbox>
               <Checkbox value="Exim Decor">Exim Decor</Checkbox>
               <Checkbox value="Art Street">Art Street</Checkbox>
               <Checkbox value="CraftVatika">CraftVatika</Checkbox>

@@ -4,18 +4,16 @@ import { Box, Image, Badge, Button, useToast } from "@chakra-ui/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import {addCartRequest, getCartRequest} from "../Redux/cart/api"
+import { addCartRequest, getCartRequest } from "../Redux/cart/api";
 import axios from "axios";
 
 function ProductBox({ el }) {
   const toast = useToast();
 
-
-// const cardDatafromstore=useSelector((store)=>store.cartReducer.cartItem)
 const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
 
 
-const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const [mouse, setmouse] = useState(false);
   const id = localStorage.getItem("id");
@@ -30,6 +28,7 @@ const dispatch = useDispatch();
   };
 
   const handleCart = () => {
+
 if(id){
 const newProductAddedtoCart={...el,quantity:1}
   const patchCartData=[...allCartItems,newProductAddedtoCart]
@@ -54,7 +53,14 @@ const newProductAddedtoCart={...el,quantity:1}
   });
 }
 
+
   };
+
+  useEffect(() => {
+    if (id) {
+      dispatch(getCartRequest(id));
+    }
+  }, []);
 
 
   useEffect(()=>{
@@ -78,7 +84,7 @@ if(id){
         borderWidth="1px"
         borderRadius="lg"
         overflow="hidden"
-        w={"90%"}
+        w={"70%"}
         mt={"8"}
         onMouseEnter={handlemouseenter}
         onMouseOut={handlemouseout}
@@ -161,7 +167,7 @@ if(id){
                 />
               ))} */}
             <Box as="span" color="gray.600" fontSize="md" textAlign={"start"}>
-              {el.warranty}
+              {el.warranty} Months' Warranty
             </Box>
           </Box>
         </Box>
