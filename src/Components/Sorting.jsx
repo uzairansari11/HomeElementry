@@ -113,7 +113,7 @@ function Sorting() {
 
 
   return (
-    <Stack direction={["column"]}  >
+    <Stack direction={["column"]} >
       <Box w={"100%"}  >
         <Heading
           color={"orange"}

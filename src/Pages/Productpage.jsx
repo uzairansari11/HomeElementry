@@ -5,18 +5,22 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts, get_product_api } from "../Redux/product/action";
 import { Box, Flex, Grid, Stack, VStack } from "@chakra-ui/react";
 import Sorting from "../Components/Sorting";
-import { sort_product_by_value } from "../Redux/product/api";
+
 
 import { useLocation, useSearchParams } from "react-router-dom";
 import { Image } from "@chakra-ui/react";
-import { getCartRequest } from "../Redux/cart/api";
+
+import { Spinner } from '@chakra-ui/react'
+import  Pagination  from "../Components/Pagination";
+import Loading from "../Components/Loading";
 
 
-import { Pagination } from "../Components/Pagination";
 function Productpage() {
 
 
   const product = useSelector((store) => store.productreducer.products);
+  const loading=useSelector((store)=> store.productreducer.isLoading)
+  // console.log(loading)
  const dispatch = useDispatch();
  const location = useLocation();
 
@@ -43,34 +47,40 @@ function Productpage() {
  }, [location.search]);
 
 
+ if(loading){
+  
+ }
+
+
   return (
 
     <>
-     
+     {loading? <Loading/>:""}
     <Flex justifyContent={'space-between'} >
-    <Box p={'2'} w={'13%'}   position={'fixed'}>
+    <Box p={'2'} w={[ "60%",  "50%","25%","15%"]}  >
         <Sorting  />
 
         </Box>
       <Box  w={'85%'}  ml={'15%'} >
         <Grid
-        gap={"10px"}
-          templateColumns={{
+            gap={"1px"}
+            templateColumns={{
             base: "repeat(1,1fr)",
             md: "repeat(2,1fr)",
             lg: "repeat(3,1fr)",
           }}
         >
           {product?.filter((element)=> (element.category==="lamps") || (element.category==="wall light") || (element.category==="Festival light")).map((el) => (
-            <ProductBox key={el.id} el={el}  />
+            <ProductBox key={el.id} el={el}   />
           ))}
         </Grid>
       </Box>
       
     </Flex>
     <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
-      {/* <Pagination  activePage={1} limit={10} productLength={114} /> */}
+      <Pagination  product={product} />
     </Stack>
+    
    
   
     </>

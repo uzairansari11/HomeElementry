@@ -32,42 +32,19 @@ export const Search = () => {
     setSearchResults(searchQuery);
   }, [searchQuery]);
   
-  // useEffect(()=>{
-
-  // },[])
-
-  // const handlemouseenter = () => {
-  //   setmouse(true);
-  // };
-
-  // const handlemouseout = () => {
-  //   setmouse(false);
-  // };
-
-  // const handleCart = () => {
-  //   console.log("helo");
-  // };
-
-  // console.log(allData);
+ 
   return (
     <>
-        <Grid templateColumns="repeat(3,1fr)" gap={6}>
+        <Grid templateColumns="repeat(3,1fr)" gap={1} m={10} justifyContent={"center"} >
       {allData?.map((el) => (
           <Box
             maxW="sm"
             borderWidth="1px"
             borderRadius="lg"
             overflow="hidden"
-            w={"90%"}
+            w={"60%"}
             mt={"8"}
-            // onMouseEnter={handlemouseenter}
-            // onMouseOut={handlemouseout}
-            // _hover={{
-            //   border: "3px solid orange",
-            //   padding: "2",
-            //   borderRadius: "5",
-            //   cursor: "pointer",
-            // }}
+           
           >
             <Link to={`${el.id}`}>
               <Image
@@ -77,7 +54,7 @@ export const Search = () => {
                 cursor={"pointer"}
               />
             </Link>
-            {/* {mouse?<Button position={"relative"} top={"-60px"}   colorScheme="orange"   onMouseEnter={handlemouseenter}   onClick={handleCart} >Add to Cart</Button>:""} */}
+            
 
             <Box p="1">
               <Box display="flex" alignItems="start">
@@ -120,21 +97,14 @@ export const Search = () => {
               </Box>
 
               <Box display="flex" mt="2" alignItems="center">
-                {/* {Array(5)
-            .fill("")
-            .map((_, i) => (
-              <StarIcon
-                key={i}
-                color={i < property.rating ? "teal.500" : "gray.300"}
-              />
-            ))} */}
+                
                 <Box
                   as="span"
                   color="gray.600"
                   fontSize="md"
                   textAlign={"start"}
                 >
-                  {el.warranty}
+                  {el.warranty} Month's Warranty
                 </Box>
               </Box>
             </Box>
