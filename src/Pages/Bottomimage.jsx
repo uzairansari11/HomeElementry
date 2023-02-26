@@ -3,16 +3,9 @@ import { Box, Image } from "@chakra-ui/react";
 import { useState } from "react";
 
 function Sideimage({iddata}) {
-//   const [hover, sethover] = useState(false);
-const [imageID, setImageId] = useState(0);
-// const handleSideClick = (i) => {
-//     setImageId(i);
-//   };
-// console.log(iddata)
 
-// iddata?.images?.map((el)=>{
-//     console.log("el",el);
-// })
+const [imageID, setImageId] = useState(0);
+
 
   return (
     <>
