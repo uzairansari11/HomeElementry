@@ -62,6 +62,7 @@ setUserData(res)
       localStorage.setItem("id",autherized[0]["id"])
       dispatch(authSuccess())
       navigate("/"  , {replace:true})
+      window.location.reload(false);
     } else {
     
       toast({

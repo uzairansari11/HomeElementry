@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Input,
   InputRightElement,
@@ -24,13 +24,15 @@ import Subnavbar from "./Subnavbar";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutSuccess } from "../Redux/auth/action";
 import { Badge } from '@chakra-ui/react';
+import {getCartRequest} from "../Redux/cart/api"
 
 
 const Navbar = () => {
   const toast = useToast();
   const [seacrhText,setSeacrhText] =useState("")
 const navigate=useNavigate()
-
+const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
+const id=localStorage.getItem("id")
 const isAuth=useSelector((store)=>store.authReducer.isAuth)||localStorage.getItem("isAuth")
 const dispatch=useDispatch()
   const handleSearch=()=>{
@@ -61,7 +63,14 @@ toast({
   isClosable: true,
   position: "top",
 });
+navigate("/");
+window.location.reload(false);
   }
+
+  useEffect(()=>{
+    dispatch(getCartRequest(id))
+    },[])
+    
   return (
     <Box
       position={"fixed"}
@@ -142,7 +151,7 @@ toast({
           <ShoppingCartOutlinedIcon /> <Badge colorScheme={'facebook'}
           borderRadius={"25px"}
           
-          >0</Badge>
+          >{allCartItems?allCartItems.length:0}</Badge>
         </Button>
 </ReactLink>
  {isAuth?<LogoutIcon  
