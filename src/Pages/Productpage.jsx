@@ -66,7 +66,7 @@ function Productpage() {
       
     </Flex>
     <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
-      <Pagination  activePage={1} limit={10} productLength={114} />
+      {/* <Pagination  activePage={1} limit={10} productLength={114} /> */}
     </Stack>
    
   
