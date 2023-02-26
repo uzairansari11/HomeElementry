@@ -13,9 +13,6 @@ export const getCartRequest = (id)=>(dispatch) =>{
    
 };
 
-const getAllUserCartData=(id)=>{
-axios.get(``)
-}
 
 
 export const addCartRequest =(id,product)=> async(dispatch) => {

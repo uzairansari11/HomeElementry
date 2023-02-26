@@ -70,3 +70,15 @@
 // }
 
 // export default Furnishing;
+
+
+
+import React from 'react'
+
+function Furnishing() {
+  return (
+    <div>Furnishing</div>
+  )
+}
+
+export default Furnishing
