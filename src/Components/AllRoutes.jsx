@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Appliances } from "../Pages/Appliances";
-
+import CheckoutPage from "../Pages/CheckoutPage"
 import Cart from "../Pages/Cart"
 import Payment from "../Pages/Payment";
-
+import Furniture   from "../Pages/Furniture"
 import { Furnishing } from "../Pages/Furnishing";
-import { Furniture } from "../Pages/Furniture";
+// import { Furniture } from "../Pages/Furniture";
 
 
 
@@ -26,9 +26,9 @@ import { Register } from "../Pages/Register";
 import { Search } from "../Pages/Search";
 import { Wishlist } from "../Pages/Wishlist";
 import SingleProduct from "./SingleProduct";
-import Furnishing from "../Pages/Furnishing";
+// import Furnishing from "../Pages/Furnishing";
 import HomeDeco from "../Pages/HomeDeco";
-import Furniture from "../Pages/Furniture"
+// import Furniture from "../Pages/Furniture"
 
 
 
@@ -63,6 +63,7 @@ export   const AllRoute = () => {
      <Route path="/register"element={<Register />} />
 
      <Route path="/payment" element={<Payment />}></Route>
+     <Route path="/checkout" element={<CheckoutPage />}></Route>
      <Route path="/search"element={<Search />} />
      
 
