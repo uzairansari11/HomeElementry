@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Box, Image, Badge, Button } from "@chakra-ui/react";
-import { StarIcon } from "@chakra-ui/icon";
+// import { StarIcon } from "@chakra-ui/icon";
 import { useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import {addCartRequest, getCartRequest} from "../Redux/cart/api"
+import axios from "axios";
 
 function ProductBox({ el }) {
   // console.log(el);
-  const [searchparams, setsearchparams] = useSearchParams();
+  // const [searchparams, setsearchparams] = useSearchParams();
+const [userCart,setUserCart]=useState()
+// const cardDatafromstore=useSelector((store)=>store.cartReducer.cartItem)
+ 
+
+const dispatch = useDispatch();
 
   const [mouse, setmouse] = useState(false);
+  const id = localStorage.getItem("id");
 
   const handlemouseenter = () => {
     setmouse(true);
@@ -19,9 +28,25 @@ function ProductBox({ el }) {
   };
 
   const handleCart = () => {
-    console.log("helo");
+    const patchCartData=[...userCart,el]
+    dispatch(addCartRequest(id,patchCartData ));
+    console.log(id)
   };
 
+
+
+  useEffect(()=>{
+
+axios.get(`http://localhost:8080/users/${id}`)
+ .then((res)=>
+ setUserCart(res.data.cartItems)
+ 
+
+ 
+ )
+
+  },[])
+console.log(userCart)
   return (
     <>
       <Box
@@ -32,19 +57,36 @@ function ProductBox({ el }) {
         overflow="hidden"
         w={"90%"}
         mt={"8"}
-        onMouseEnter={handlemouseenter}
-        onMouseOut={handlemouseout}
-        _hover={{
-          border: "3px solid orange",
-          padding: "2",
-          borderRadius: "5",
-          cursor: "pointer",
-        }}
+        // onMouseEnter={handlemouseenter}
+        // onMouseOut={handlemouseout}
+        // _hover={{
+        //   border: "3px solid orange",
+        //   padding: "2",
+        //   borderRadius: "5",
+        //   cursor: "pointer",
+        // }}
       >
         <Link to={`${el.id}`}>
-          <Image src={el.images[0]} alt={"dummy"} w={"100%"} cursor={"pointer"}   />
+          <Image
+            src={el.images[0]}
+            alt={"dummy"}
+            w={"100%"}
+            cursor={"pointer"}
+          />
         </Link>
-        {mouse?<Button position={"relative"} top={"-60px"}   colorScheme="orange"   onMouseEnter={handlemouseenter}   onClick={handleCart}>Add to Cart</Button>:""}
+        {/* {mouse ? ( */}
+          <Button
+            // position={"relative"}
+            // top={"-60px"}
+            // colorScheme="orange"
+            // onMouseEnter={handlemouseenter}
+            onClick={handleCart}
+          >
+            Add to Cart
+          </Button>
+        {/* ) : (
+          ""
+        )} */}
 
         <Box p="1">
           <Box display="flex" alignItems="start">
@@ -64,7 +106,9 @@ function ProductBox({ el }) {
             {el.title}
           </Box>
 
-          <Box textAlign={"start"} as="h4" fontWeight={"semibold"}>{el.brand}</Box>
+          <Box textAlign={"start"} as="h4" fontWeight={"semibold"}>
+            {el.brand}
+          </Box>
 
           <Box
             color="orange.300"

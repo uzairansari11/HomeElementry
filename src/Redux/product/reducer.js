@@ -1,35 +1,41 @@
+
+
 import * as types from "./action.type"
 
-const initial={
-    isLoading:false,
-    isError:false,
-    product:[]
+
+
+
+const initialState = {
+    isLoading: false,
+    isError: false,
+    products: []
 }
 
+export const reducer = (oldState = initialState, action) => {
 
-export const reducer=(state=initial,{type,payload})=>{
+    switch (action.type) {
 
-    switch(type){
-        case types.LOADING_PRODUCT: return {
-          ...state,  isLoading:true
-        }
-
-        case types.GET_PRODUCT: {
+        case types.Product_Request:
             return {
-                ...state.product,product:payload
+                ...oldState, isLoading: true
             }
-        }
+
+        case types.Get_Product_Success:
+            return {
+                ...oldState, isLoading: false, products: action.payload
+            }
+        case types.Product_Error:
+            return {
+                ...oldState, isLoading: false, isError: true
+            }
 
 
-      
-        case types.ERROR_PRODUCT: return{
-           ...state, isLoading:false,isError:true
-        }
+        default:
+            return oldState
 
-        default : return {
-            state
-        }
     }
+
+
+
+
 }
-
-

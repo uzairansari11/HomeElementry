@@ -1,24 +1,23 @@
 import * as types from "./action.type";
 
 const initialState = {
-data:[],
+  cartItem: [],
+  order: [],
+  wishList: [],
+};
 
-}
+const reducer = (state = initialState, action) => {
+  const { type, payload } = action;
+  switch (type) {
+    case types.ADD_CART_DATA:
+      return { ...state, cartItem: payload };
 
-const reducer = (state=initialState, action) => {
-    const{ type, payload } = action;
-  switch(type) {
-    case types.ADD_CART_DATA:{
-        return {...state, data:[...state.data, payload]}
-    }
-    case types.GET_CART_DATA: {
-        return {...state, data: payload}
-    }
+    case types.GET_CART_DATA:
+      return { ...state, cartItem: payload };
+
     default:
-        return {state}
+      return state;
   }
-}
+};
 
-export {
-    reducer
-}
+export { reducer };

@@ -18,65 +18,99 @@ import { useLocation } from "react-router-dom";
 
 function Sorting() {
   
-  const dispatch = useDispatch();
-  const product = useSelector((state) => state.productreducer.product);
+  // const dispatch = useDispatch();
+  // const product = useSelector((state) => state.productreducer.product);
 
-  const [searchParams, setSearchParams] = useSearchParams();
+  // const [searchParams, setSearchParams] = useSearchParams();
 
 
-  const location = useLocation();
-  const query = location.search;
+  // const location = useLocation();
+  // const query = location.search;
 
   
-  const order=searchParams.getAll("_order").toString()
-  const initialFilterValues = searchParams.getAll("brand");
+  // const order=searchParams.getAll("_order").toString()
+  // const initialFilterValues = searchParams.getAll("brand");
 
-  const [orderBy, setOrderBy] = useState(order || "");
-  const [filterValues, setFilterValues] = useState(initialFilterValues || []);
+  // const [orderBy, setOrderBy] = useState(order || "");
+  // const [filterValues, setFilterValues] = useState(initialFilterValues || []);
 
 
-  const handleradios = (e) => {
-  setOrderBy(e)
+  // const handleradios = (e) => {
+  // setOrderBy(e)
     
-  };
+  // };
 
-  const handleFilterChange = (value) => {
-    setFilterValues(value);
-  };
+  // const handleFilterChange = (value) => {
+  //   setFilterValues(value);
+  // };
 
 
 
-  useEffect(() => {
-    const param = {};
-    if (filterValues.length >= 0 || orderBy) {
-     param.brand = filterValues;
+  // useEffect(() => {
+  //   const param = {};
+  //   if (filterValues.length >= 0 || orderBy) {
+  //    param.brand = filterValues;
   
-     if (orderBy) {
-      param._sort = "price";
+  //    if (orderBy) {
+  //     param._sort = "price";
   
-      param._order = orderBy;
-     }
+  //     param._order = orderBy;
+  //    }
 
-     setSearchParams(param)
+  //    setSearchParams(param)
    
-    }
-   }, [filterValues, setSearchParams, orderBy,]);
+  //   }
+  //  }, [filterValues, setSearchParams, orderBy,]);
 
   
 
-  useEffect(() => {
-      if (product?.length === 0 || location) {
-       const filterParama = {
-        params: {
-         brand: searchParams.getAll("brand"),
-         _sort: searchParams.getAll("_sort").toString(),
-         _order: searchParams.getAll("_order").toString(),
-        },
-       };
-       dispatch(get_product_api(filterParama))
+  // useEffect(() => {
+  //     if (product?.length === 0 || location) {
+  //      const filterParama = {
+  //       params: {
+  //        brand: searchParams.getAll("brand"),
+  //        _sort: searchParams.getAll("_sort").toString(),
+  //        _order: searchParams.getAll("_order").toString(),
+  //       },
+  //      };
+  //      dispatch(get_product_api(filterParama))
 
-      }
-     }, [query]);
+  //     }
+  //    }, [query]);
+
+
+  const [searchParam, setSearcParam] = useSearchParams();
+  const initialSearchParam = searchParam.getAll("filter");
+ 
+  const order = searchParam.getAll("_order").toString();
+  const [orderBy, setOrderBy] = useState(order || "");
+  // _sort = views & _order=asc  //
+  const handleSort = (value) => {
+   setOrderBy(value);
+  };
+ 
+  const [filterValue, setFilterValue] = useState(initialSearchParam || []);
+ 
+  const handleFilter = (value) => {
+   setFilterValue(value);
+  };
+ 
+  useEffect(() => {
+   const param = {};
+   if (filterValue.length >= 0 || orderBy) {
+    param.filter = filterValue;
+ 
+    if (orderBy) {
+     param._sort = "price";
+ 
+     param._order = orderBy;
+    }
+ 
+    setSearcParam(param);
+   }
+  }, [filterValue, setSearcParam, orderBy]);
+
+
 
   return (
     <Stack direction={["column"]}  >
@@ -89,7 +123,7 @@ function Sorting() {
         >
           Sort Price
         </Heading>
-        <RadioGroup defaultValue="2" onChange={handleradios}>
+        <RadioGroup defaultValue="2" onChange={handleSort}>
           <Stack direction={["column"]}>
             <Radio colorScheme="orange" value="desc" >
               High to low
@@ -115,8 +149,8 @@ function Sorting() {
           
           colorScheme="orange"
 
-          value={filterValues}
-          onChange={handleFilterChange}
+          value={filterValue}
+          onChange={handleFilter}
           
 
         >
