@@ -1,23 +1,35 @@
 import axios from "axios";
+import { addCartData ,getCartData} from "./action";
 
-const getCartRequest = async() =>{
-    let res = await axios.get(`http://localhost:8080/cart`);
-    let data = await res.data;
-    return data;
+export const getCartRequest = (id)=>(dispatch) =>{
+  const data=axios.get(`http://localhost:8080/users/${id}`)
+  .then((res)=>{
+  dispatch(getCartData(res.data.cartItems))
+  console.log(res.data.cartItems)}
+  )
+
+
+ 
+   
 };
 
-const addCartRequest = async(id) => {
-    let res = await axios.post(`http://localhost:8080/cart${id}`);
-    
+const getAllUserCartData=(id)=>{
+axios.get(``)
+}
+
+
+export const addCartRequest =(id,product)=> async(dispatch) => {
+const res= await axios.patch(`http://localhost:8080/users/${id}`,
+ {
+        cartItems:product
+    } );
+
+
+    dispatch(addCartData(res.data.cartItems))
 };
 
-const deleteCartRequest = async(id) => {
+export const deleteCartRequest = async(id) => {
     let res = await axios.delete(`http://localhost:8080/cart${id}`)
 };
 
 
-export {
-    getCartRequest,
-    addCartRequest,
-    deleteCartRequest
-}

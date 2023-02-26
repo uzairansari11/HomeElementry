@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Appliances } from "../Pages/Appliances";
-import Cart from "../Pages/Cart"
+import Cart from "../Pages/Cart";
 import Checkout from "../Pages/Checkout";
 
 
@@ -21,10 +21,6 @@ import SingleProduct from "./SingleProduct";
 import Furnishing from "../Pages/Furnishing";
 import HomeDeco from "../Pages/HomeDeco";
 import Furniture from "../Pages/Furniture"
-
-
-
-
 
 
 
@@ -67,3 +63,4 @@ export   const AllRoute = () => {
      </Routes>
 
 };
+

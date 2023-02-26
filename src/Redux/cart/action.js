@@ -1,20 +1,21 @@
 import * as types from "./action.type";
 
-const addCartData = () => {
-
+export const addCartData = (payload) => {
+  return {
+    type: types.ADD_CART_DATA,
+    payload,
+  };
 };
 
-const getCartData = () => {
-
+export const getCartData = (payload) => {
+  return {
+    type: types.GET_CART_DATA,
+    payload,
+  };
 };
 
-const deleteCartData = () => {
-
+export const deleteCartData = () => {
+  return {
+    type: types.DELETE_CART_DATA,
+  };
 };
-
-
-export {
-    addCartData,
-    getCartData,
-    deleteCartData
-}

@@ -14,6 +14,8 @@ import { getCartRequest } from "../Redux/cart/api";
 
 import { Pagination } from "../Components/Pagination";
 function Productpage() {
+
+
   const product = useSelector((store) => store.productreducer.products);
  const dispatch = useDispatch();
  const location = useLocation();
@@ -39,6 +41,7 @@ function Productpage() {
    dispatch(getProducts(filterParama));
   }
  }, [location.search]);
+
 
   return (
 
