@@ -1,139 +1,79 @@
-import React from "react";
-import { Box,  Flex, Heading, Image, Text } from "@chakra-ui/react";
-import { CustomGrid, CustomGridBox} from "../Components/CustomGrid";
-import { bestSeller, bigDeals, chooseYou, discoverNewLaunch, topBrands, whatsTrending } from "../Utils/home";
+import React, { useState } from "react";
+import ProductBox from "../Components/ProductBox";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getProducts, get_product_api } from "../Redux/product/action";
+import { Box, Flex, Grid, Stack, VStack } from "@chakra-ui/react";
+import Sorting from "../Components/Sorting";
+import { sort_product_by_value } from "../Redux/product/api";
+
+import { useLocation, useSearchParams } from "react-router-dom";
+import { Image } from "@chakra-ui/react";
+import { getCartRequest } from "../Redux/cart/api";
 
 
-export const Furniture = () => {
+import { Pagination } from "../Components/Pagination";
+import FurnishingSorting from "../Components/FurnitureSorting";
+function Furniture() {
+  const product = useSelector((store) => store.productreducer.products);
+ const dispatch = useDispatch();
+ const location = useLocation();
+
+ const [activePage, setActivePage] = useState(1);
+
+ const [searchParam] = useSearchParams();
 
 
+ const handleACtivePage = (data)=> {
+  setActivePage(data);
+ };
+ 
+ useEffect(() => {
+  if (product.length === 0 || location) {
+   const filterParama = {
+    params: {
+     brand: searchParam.getAll("filter"),
+     _sort: searchParam.getAll("_sort").toString(),
+     _order: searchParam.getAll("_order").toString(),
+    },
+   };
+   dispatch(getProducts(filterParama));
+  }
+ }, [location.search]);
 
-  
   return (
-    <Box p={8}>
-      <Box  margin={"auto"}>
-        <Flex>
 
-
-        <Box  border={"1px solid blue"} w={"25%"} p={"1"} textAlign={"left"} >
-        <Text as="b" fontSize={{base:"xs",md:"md",lg:"xl"}}>
-              Furniture
-            </Text>
-          <Box 
-           height={{base:'50px',md:'110px'}} 
-          overflowY='scroll'
-  __css={{
-    '&::-webkit-scrollbar': {
-      width: '10px',
-    },
-    '&::-webkit-scrollbar-track': {
-      width: '6px',
-    },
-    '&::-webkit-scrollbar-thumb': {
+    <>
      
-      borderRadius: '24px',
-    },
-  }}
-          
- >
-         
+    <Flex justifyContent={'space-between'} >
+    <Box p={'2'} w={'13%'}   position={'fixed'}>
+        <FurnishingSorting/>
 
-
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-            <Text>Sofa</Text>
-          
-          
-          </Box>
-          </Box>
-          <Box border={"1px solid yellow"} w={"75%"}    >
-            <Image
-              src={
-                "https://ii1.pepperfry.com/media/wysiwyg/banners/Web_Furniture_Banner_2x_06Dec.jpg"
-               
-              }
-              width={'100%'} 
-            />
-          </Box>
-        </Flex>
-      </Box>
-<Box>
-<Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}  >
-Meet The Bestsellers
-        </Heading>
-      <CustomGrid base={2} md={3} lg={6} gapS={2} gapM={3} gapL={4}>
-        {bestSeller.map((ele, index) => (
-          <CustomGridBox key={index} image={ele} width={"100%"} />
-        ))}
-      </CustomGrid>
-</Box>
-
-<Box>
-<Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
-It's A Big Deal
-        </Heading>
-      <CustomGrid base={1} md={2} lg={4} gapS={2} gapM={3} gapL={4}>
-        {bigDeals.map((ele, index) => (
-          <CustomGridBox key={index} image={ele} width={"100%"} />
-        ))}
-      </CustomGrid>
-</Box>
-      <Box>
-      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
-          What's #Trending?{" "}
-        </Heading>
-
-        <CustomGrid base={1} md={2} lg={4} gapS={2} gapM={3} gapL={4}>
-          {whatsTrending.map((ele, index) => (
-            <CustomGridBox key={index} image={ele} width={"100%"} />
+        </Box>
+      <Box  w={'85%'}  ml={'15%'} >
+        <Grid
+        gap={"10px"}
+          templateColumns={{
+            base: "repeat(1,1fr)",
+            md: "repeat(2,1fr)",
+            lg: "repeat(3,1fr)",
+          }}
+        >
+          {product?.filter((element)=> (element.category==="sofas") || (element.category==="Sofa Cum Beds") || (element.category==="Bean Bags")).map((el) => (
+            <ProductBox key={el.id} el={el}  />
           ))}
-        </CustomGrid>
+        </Grid>
       </Box>
-
-      <Box>
-      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
-          Discover New Launches
-        </Heading>
-        <CustomGrid base={1} md={2} lg={4} gapS={2} gapM={3} gapL={4}>
-          {discoverNewLaunch.map((ele, index) => (
-            <CustomGridBox key={index} image={ele} width={"100%"} />
-          ))}
-        </CustomGrid>
-      </Box>
-
-      <Box>
-      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
-          Your Style Chooses You
-        </Heading>
-
-        <CustomGrid base={1} md={1} lg={3} gapS={2} gapM={3} gapL={4}>
-          {chooseYou.map((ele, index) => (
-            <CustomGridBox key={index} image={ele} width={"100%"} />
-          ))}
-        </CustomGrid>
-      </Box>
-
-      <Box>
-      <Heading as="h1" textAlign={"left"}    size='lg'   my={'2'}>
-          Top Brands To Choose From
-        </Heading>
-        <CustomGrid base={2} md={3} lg={6} gapS={2} gapM={3} gapL={4}>
-          {topBrands.map((ele, index) => (
-            <CustomGridBox key={index} image={ele} width={"100%"} />
-          ))}
-        </CustomGrid>
-      </Box>
-    </Box>
+      
+    </Flex>
+    <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
+      {/* <Pagination product={product}/> */}
+    </Stack>
+   
+  
+    </>
+    
   );
-};
+}
+
+export default Furniture;
