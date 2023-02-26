@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Appliances } from "../Pages/Appliances";
-
+import CheckoutPage from "../Pages/CheckoutPage"
 import Cart from "../Pages/Cart";
 import Payment from "../Pages/Payment";
 
@@ -49,7 +49,9 @@ export const AllRoute = () => {
       <Route path="/help" element={<Help />} />
       <Route path="/register" element={<Register />} />
 
-      <Route path="/payment" element={<Payment />}></Route>
+      <Route path="/payment" element={<Payment />}/>
+      <Route path="/checkout" element={<CheckoutPage />}/>
+
       <Route path="/search" element={<Search />} />
     </Routes>
   );
