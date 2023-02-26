@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Appliances } from "../Pages/Appliances";
-import Cart from "../Pages/Cart"
+import Cart from "../Pages/Cart";
 import Checkout from "../Pages/Checkout";
 import { Furnishing } from "../Pages/Furnishing";
 import { Furniture } from "../Pages/Furniture";
@@ -19,39 +19,28 @@ import { Search } from "../Pages/Search";
 import { Wishlist } from "../Pages/Wishlist";
 import SingleProduct from "./SingleProduct";
 
-
-
-
-
-
 export const AllRoute = () => {
-  
-    return  <Routes>
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/furniture" element={<Furniture />} />
+      <Route path="/homedeco" element={<HomeDeco />} />
+      <Route path="/lampslighting" element={<Productpage />} />
+      {/* <Route path="/lampslighting/product"element={<Productpage />} /> */}
+      <Route path="/lampslighting/:id" element={<SingleProduct />} />
+      <Route path="/furnishings" element={<Furnishing />} />
+      <Route path="/mattresses" element={<Mattresses />} />
+      <Route path="/appliances" element={<Appliances />} />
+      <Route path="/modular" element={<Modular />} />
+      <Route path="/giftcards" element={<GiftCards />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/wishlist" element={<Wishlist />} />
+      <Route path="/help" element={<Help />} />
+      <Route path="/register" element={<Register />} />
 
-
-    <Route   path="/"  element={<Home />} />
-     <Route path="/furniture"element={<Furniture />} />
-     <Route path="/homedeco"element={<HomeDeco />} />
-     <Route path="/lampslighting"element={<Productpage />} />
-     {/* <Route path="/lampslighting/product"element={<Productpage />} /> */}
-     <Route path="/lampslighting/:id"element={<SingleProduct />} />
-     <Route path="/furnishings"element={<Furnishing />} />
-     <Route path="/mattresses"element={<Mattresses />} />
-     <Route path="/appliances"element={<Appliances />} />
-     <Route path="/modular"element={<Modular />} />
-     <Route path="/giftcards"element={<GiftCards />} />
-     <Route path="/cart"element={<Cart />} />
-     <Route path="/login"element={<Login />} />
-     <Route path="/wishlist"element={<Wishlist />} />
-     <Route path="/help"element={<Help />} />
-     <Route path="/register"element={<Register />} />
-
-     <Route path="/checkout" element={<Checkout />}></Route>
-     <Route path="/search"element={<Search />} />
-     
-
-
-
-     </Routes>
-
+      <Route path="/checkout" element={<Checkout />}></Route>
+      <Route path="/search" element={<Search />} />
+    </Routes>
+  );
 };

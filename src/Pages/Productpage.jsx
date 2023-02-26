@@ -9,34 +9,34 @@ import { sort_product_by_value } from "../Redux/product/api";
 import Pagination from "../Components/Pagination";
 import { useLocation } from "react-router-dom";
 import { Image } from "@chakra-ui/react";
+import { getCartRequest } from "../Redux/cart/api";
 
 
 function Productpage() {
+  const id=localStorage.getItem("id");
   const dispatch = useDispatch();
   const product = useSelector((state) => state.productreducer.product);
-  // console.log(product);
+  console.log("product",product);
   const location=useLocation()
   // console.log(location);
 
 
   useEffect(() => {
     dispatch(get_product_api())
-  }, []);
+
+
+  },[location]);
 
   return (
 
     <>
-      <Flex w={"100%"} border={"3px solid green"}  h={"250px"} position={"fixed"} zIndex={5} bg={"white"}>
-        <Box w={"20%"} border={"1px solid yellow "} >
+     
+    <Flex justifyContent={'space-between'} >
+    <Box p={'2'} w={'13%'}   position={'fixed'}>
         <Sorting  />
 
         </Box>
-        <Box w={"80%"} border={"1px solid red"}  >
-          <Image src="https://ii1.pepperfry.com/media/wysiwyg/banners/Web_Lamps&Lighting_Banner2x_30Nov.jpg" w={"100%"}  h={"100%"}/>
-        </Box>
-      </Flex>
-    <Stack direction={["row"]}>
-      <Box>
+      <Box  w={'85%'}  ml={'15%'} >
         <Grid
         gap={"10px"}
           templateColumns={{
@@ -51,7 +51,7 @@ function Productpage() {
         </Grid>
       </Box>
       
-    </Stack>
+    </Flex>
     <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
       {/* <Pagination product={product}/> */}
     </Stack>
