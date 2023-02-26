@@ -1,8 +1,16 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Appliances } from "../Pages/Appliances";
-import Cart from "../Pages/Cart";
-import Checkout from "../Pages/Checkout";
+
+import Cart from "../Pages/Cart"
+import Payment from "../Pages/Payment";
+
+import { Furnishing } from "../Pages/Furnishing";
+import { Furniture } from "../Pages/Furniture";
+
+
+
+
 
 
 import { GiftCards } from "../Pages/GiftCards";
@@ -54,7 +62,7 @@ export   const AllRoute = () => {
      <Route path="/help"element={<Help />} />
      <Route path="/register"element={<Register />} />
 
-     <Route path="/checkout" element={<Checkout />}></Route>
+     <Route path="/payment" element={<Payment />}></Route>
      <Route path="/search"element={<Search />} />
      
 
