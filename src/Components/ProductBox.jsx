@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Box, Image, Badge, Button } from "@chakra-ui/react";
+import { Box, Image, Badge, Button, useToast } from "@chakra-ui/react";
 // import { StarIcon } from "@chakra-ui/icon";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -8,11 +8,13 @@ import {addCartRequest, getCartRequest} from "../Redux/cart/api"
 import axios from "axios";
 
 function ProductBox({ el }) {
+  const toast = useToast();
   // console.log(el);
   // const [searchparams, setsearchparams] = useSearchParams();
 const [userCart,setUserCart]=useState()
 // const cardDatafromstore=useSelector((store)=>store.cartReducer.cartItem)
- 
+const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
+
 
 const dispatch = useDispatch();
 
@@ -28,24 +30,37 @@ const dispatch = useDispatch();
   };
 
   const handleCart = () => {
-    const patchCartData=[...userCart,el]
-    dispatch(addCartRequest(id,patchCartData ));
-    console.log(id)
+
+if(id){
+
+  const patchCartData=[...allCartItems,el]
+  dispatch(addCartRequest(id,patchCartData ));
+  console.log(id)
+}else{
+  toast({
+    title: "Please Login First",
+    status: "error",
+    duration: 500,
+    isClosable: true,
+    position: "top",
+  });
+}
+
   };
 
 
-
   useEffect(()=>{
+if(id){
+  dispatch(getCartRequest(id))
+}
 
-axios.get(`http://localhost:8080/users/${id}`)
- .then((res)=>
- setUserCart(res.data.cartItems)
+     
+    
+    
+    
+      },[])
+
  
-
- 
- )
-
-  },[])
 console.log(userCart)
   return (
     <>
@@ -57,14 +72,14 @@ console.log(userCart)
         overflow="hidden"
         w={"90%"}
         mt={"8"}
-        // onMouseEnter={handlemouseenter}
-        // onMouseOut={handlemouseout}
-        // _hover={{
-        //   border: "3px solid orange",
-        //   padding: "2",
-        //   borderRadius: "5",
-        //   cursor: "pointer",
-        // }}
+        onMouseEnter={handlemouseenter}
+        onMouseOut={handlemouseout}
+        _hover={{
+          border: "3px solid orange",
+          padding: "2",
+          borderRadius: "5",
+          cursor: "pointer",
+        }}
       >
         <Link to={`${el.id}`}>
           <Image
@@ -74,19 +89,19 @@ console.log(userCart)
             cursor={"pointer"}
           />
         </Link>
-        {/* {mouse ? ( */}
+        {mouse ? (
           <Button
-            // position={"relative"}
-            // top={"-60px"}
-            // colorScheme="orange"
-            // onMouseEnter={handlemouseenter}
+            position={"relative"}
+            top={"-60px"}
+            colorScheme="orange"
+            onMouseEnter={handlemouseenter}
             onClick={handleCart}
           >
             Add to Cart
           </Button>
-        {/* ) : (
+        ) : (
           ""
-        )} */}
+        )}
 
         <Box p="1">
           <Box display="flex" alignItems="start">
