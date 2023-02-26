@@ -27,9 +27,10 @@ import { Badge } from '@chakra-ui/react';
 import {getCartRequest} from "../Redux/cart/api"
 
 
+
 const Navbar = () => {
-  const toast = useToast();
-  const [seacrhText,setSeacrhText] =useState("")
+const toast = useToast();
+const [seacrhText,setSeacrhText] =useState("")
 const navigate=useNavigate()
 const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
 const id=localStorage.getItem("id")

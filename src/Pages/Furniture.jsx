@@ -9,13 +9,18 @@ import { sort_product_by_value } from "../Redux/product/api";
 
 import { useLocation, useSearchParams } from "react-router-dom";
 import { Image } from "@chakra-ui/react";
-import { getCartRequest } from "../Redux/cart/api";
 
 
-import { Pagination } from "../Components/Pagination";
+
+import  Pagination  from "../Components/Pagination";
 import FurnishingSorting from "../Components/FurnitureSorting";
+import Loading from "../Components/Loading";
+
+
 function Furniture() {
   const product = useSelector((store) => store.productreducer.products);
+  const loading=useSelector((store)=>store.productreducer.isLoading)
+
  const dispatch = useDispatch();
  const location = useLocation();
 
@@ -44,9 +49,9 @@ function Furniture() {
   return (
 
     <>
-     
+     {loading? <Loading/>:""}
     <Flex justifyContent={'space-between'} >
-    <Box p={'2'} w={'13%'}   position={'fixed'}>
+    <Box p={'2'} w={[ "60%",  "50%","25%","15%"]}  >
         <FurnishingSorting/>
 
         </Box>
@@ -67,7 +72,7 @@ function Furniture() {
       
     </Flex>
     <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
-      {/* <Pagination product={product}/> */}
+      <Pagination product={product}/>
     </Stack>
    
   
