@@ -9,7 +9,14 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-export const CartCard = ({ title, images, price }) => {
+
+export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}) => {
+
+
+
+
+
+
   return (
     <div>
       <Center py={2}>
@@ -24,7 +31,7 @@ export const CartCard = ({ title, images, price }) => {
           padding={4}
         >
           <Flex flex={1} bg="blue.200">
-            <Image objectFit="cover" boxSize="100%" src={images[0]} />
+            <Image objectFit="cover" boxSize="100%" src={item.images[0]} />
           </Flex>
           <Stack
             flex={1}
@@ -39,10 +46,10 @@ export const CartCard = ({ title, images, price }) => {
               fontFamily={"body"}
               color={useColorModeValue("teal")}
             >
-              {title}
+              {item.title}
             </Heading>
             <Text fontWeight={600} color={"blue"} size="sm" mb={4}>
-              ₹ {price}
+              ₹ {item.price*item.quantity}
             </Text>
             <Text
               textAlign={"center"}
@@ -51,6 +58,7 @@ export const CartCard = ({ title, images, price }) => {
             ></Text>
             <Stack align={"center"} justify={"center"} direction={"row"} mt={6}>
               <Button
+             isDisabled={item.quantity===1}
                 flex={1}
                 fontSize={"sm"}
                 rounded={"full"}
@@ -65,6 +73,10 @@ export const CartCard = ({ title, images, price }) => {
                 _focus={{
                   bg: "blue.500",
                 }}
+
+                onClick={()=>handleUpdateQuantity(-1,item.id)}
+
+               
               >
                 -
               </Button>
@@ -84,7 +96,7 @@ export const CartCard = ({ title, images, price }) => {
                   bg: "blue.500",
                 }}
               >
-                0
+           {item.quantity}
               </Button>
               <Button
                 flex={1}
@@ -101,6 +113,9 @@ export const CartCard = ({ title, images, price }) => {
                 _focus={{
                   bg: "blue.500",
                 }}
+                onClick={()=>handleUpdateQuantity(1,item.id)}
+
+                isDisabled={item.quantity===4}
               >
                 +
               </Button>
@@ -124,10 +139,13 @@ export const CartCard = ({ title, images, price }) => {
                 _hover={{
                   bg: "teal.500",
                 }}
+
+                onClick={()=>handleBuyNow(item.id)}
               >
                 Buy Now
               </Button>
               <Button
+             
                 flex={1}
                 fontSize={"sm"}
                 rounded={"full"}
@@ -142,6 +160,8 @@ export const CartCard = ({ title, images, price }) => {
                 _focus={{
                   bg: "blue.500",
                 }}
+
+                onClick={()=>deleteHandler(item.id)}
               >
                 Remove
               </Button>

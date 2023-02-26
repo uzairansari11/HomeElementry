@@ -15,6 +15,11 @@ const reducer = (state = initialState, action) => {
     case types.GET_CART_DATA:
       return { ...state, cartItem: payload };
 
+      case types.DELETE_CART_DATA:
+			return {
+				...state, cartItem: payload
+			}
+
     default:
       return state;
   }

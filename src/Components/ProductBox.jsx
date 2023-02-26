@@ -9,9 +9,8 @@ import axios from "axios";
 
 function ProductBox({ el }) {
   const toast = useToast();
-  // console.log(el);
-  // const [searchparams, setsearchparams] = useSearchParams();
-const [userCart,setUserCart]=useState()
+
+
 // const cardDatafromstore=useSelector((store)=>store.cartReducer.cartItem)
 const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
 
@@ -20,6 +19,7 @@ const dispatch = useDispatch();
 
   const [mouse, setmouse] = useState(false);
   const id = localStorage.getItem("id");
+
 
   const handlemouseenter = () => {
     setmouse(true);
@@ -30,11 +30,19 @@ const dispatch = useDispatch();
   };
 
   const handleCart = () => {
-
 if(id){
-
-  const patchCartData=[...allCartItems,el]
+const newProductAddedtoCart={...el,quantity:1}
+  const patchCartData=[...allCartItems,newProductAddedtoCart]
   dispatch(addCartRequest(id,patchCartData ));
+  toast({
+    title: "Product Added In Cart",
+    description: "Product deleted from cart",
+    variant: "subtle",
+    status: "success",
+    position: "top-right",
+    duration: 1000,
+    isClosable: true,
+  });
   console.log(id)
 }else{
   toast({
@@ -61,7 +69,7 @@ if(id){
       },[])
 
  
-console.log(userCart)
+
   return (
     <>
       <Box
