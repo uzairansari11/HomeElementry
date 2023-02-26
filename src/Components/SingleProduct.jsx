@@ -224,6 +224,7 @@ export default function SingleProduct() {
     })
   
   },[])
+  console.log(iddata)
 
 
 
@@ -238,9 +239,9 @@ export default function SingleProduct() {
       <Container maxW={'7xl'}>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
-        spacing={{ base: 8, md: 10 }}
-        py={{ base: 18, md: 24 }}>
-        <Flex direction={"column"}>
+        spacing={{ base: 8, md: 0 }}
+        py={{ base: 18, md: 19 }}>
+        <Flex direction={"column"} >
           <Image
             rounded={'md'}
             alt={'product image'}
@@ -248,10 +249,11 @@ export default function SingleProduct() {
              iddata?.images[0]
             
             }
-            fit={'cover'}
+            
+            p={1}
             align={'center'}
-            w={'100%'}
-            h={{ base: '100%', sm: '400px', lg: '500px' }}
+            w={{ base:'100%', sm: '100%', lg: '80%' }}
+            h={{ base: '50%', sm: '60%', lg: '70%' }}
           />
 
           <Stack>
@@ -268,21 +270,25 @@ export default function SingleProduct() {
             textAlign={"start"}
               lineHeight={1.1}
               fontWeight={600}
-              fontSize={{ base: 'md', sm: 'md', lg: 'md' }}>
+              fontSize={{ base: 'lg', sm: 'lg', lg: 'lg' }}>
               {iddata?.title}
             </Heading>
-            
-      
-              {/* <Image src='https://ii1.pepperfry.com/images/svg/vip-rating-filled-star.svg'/> */}
-
-            
+ 
             <Text
               textAlign={"start"}
-              mt={"30px"}
+              mt={"10px"}
               color={"orange"}
               fontWeight={400}
               fontSize={'2xl'}>
               ₹ {iddata?.price}
+            </Text>
+            <Text
+              textAlign={"start"}
+              mt={"10px"}
+              color={"black"}
+              fontWeight={400}
+              fontSize={'2xl'}>
+             Category:-  {iddata?.category}
             </Text>
           </Box>
 
@@ -294,13 +300,13 @@ export default function SingleProduct() {
                 borderColor={useColorModeValue('gray.200', 'gray.600')}
               />
             }>
-            <VStack spacing={{ base: 0, sm: 0 }}>
+            <VStack spacing={{ base: 0, sm: 0 }} display={"inline"}>
               <Text
                 textAlign={"start"}
                 color="black"
                 fontSize={'xl'}
                 fontWeight={'300'}>
-                {iddata?.warranty}
+                {iddata?.warranty} Month's Warranty 
               </Text>
              
             </VStack>

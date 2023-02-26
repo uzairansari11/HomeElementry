@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Mizuko Matte Black Cotton Shade Floor Lamp with Blac",
       "rating": 4,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 7218,
       "category": "lamps",
       "discount": 37,
@@ -26,7 +26,7 @@
       "id": 2,
       "title": "Multicolor Shade Table Lamp With Black Metal Base",
       "rating": 4,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 721,
       "category": "lamps",
       "discount": 76,
@@ -48,7 +48,7 @@
       "id": 3,
       "title": "White Fabric Shade Table Lamp With Black Base",
       "rating": 3,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 797,
       "category": "lamps",
       "discount": 52,
@@ -70,7 +70,7 @@
       "id": 4,
       "title": "Beige Fabric Shade Table Lamp With Black Base",
       "rating": 4,
-      "warranty": "6 Months' Warranty",
+      "warranty": 6,
       "price": 436,
       "category": "lamps",
       "discount": 52,
@@ -92,7 +92,7 @@
       "id": 5,
       "title": "Yellow Fabric Shade Table Lamp With Black Base",
       "rating": 5,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 496,
       "category": "lamps",
       "discount": 76,
@@ -114,7 +114,7 @@
       "id": 6,
       "title": "Orange Fabric Shade Table Lamp With Brown Base",
       "rating": 4,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 697,
       "category": "lamps",
       "discount": 76,
@@ -136,7 +136,7 @@
       "id": 7,
       "title": "White Wood Wall Light",
       "rating": 4,
-      "warranty": "3 Months' Warranty",
+      "warranty": 3,
       "price": 1101,
       "category": "wall light",
       "discount": 55,
@@ -158,7 +158,7 @@
       "id": 8,
       "title": "Beige Fabric Wall Sconces",
       "rating": 3.5,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 750,
       "category": "wall light",
       "discount": 55,
@@ -180,7 +180,7 @@
       "id": 9,
       "title": "Brown Wood Wall Sconces",
       "rating": 4,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 616,
       "category": "wall light",
       "discount": 60,
@@ -202,7 +202,7 @@
       "id": 10,
       "title": "Brown Metal Wall Light",
       "rating": 4,
-      "warranty": "4 Months' Warranty",
+      "warranty": 4,
       "price": 1413,
       "category": "wall light",
       "discount": 65,
@@ -224,7 +224,7 @@
       "id": 11,
       "title": "Antique Brass Metal Wall Light",
       "rating": 3.5,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 1213,
       "category": "wall light",
       "discount": 65,
@@ -246,7 +246,7 @@
       "id": 12,
       "title": "Gold Metal Wall Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 1054,
       "category": "wall light",
       "discount": 65,
@@ -268,7 +268,7 @@
       "id": 13,
       "title": "Multicolor 1 Meter Color Modes With 17 Key Controller USB Powered LED Strip Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 599,
       "category": "Festival light",
       "discount": 65,
@@ -290,7 +290,7 @@
       "id": 14,
       "title": "Cool White 2 Meter Bottle with Cork and 2 Pcs LED String Light",
       "rating": 3,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 303,
       "category": "Festival light",
       "discount": 70,
@@ -312,7 +312,7 @@
       "id": 15,
       "title": "Warm White 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 999,
       "category": "Festival light",
       "discount": 50,
@@ -334,7 +334,7 @@
       "id": 16,
       "title": "Warm White 5 Meter Battery Operated Star Shaped LED Christmas String Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 455,
       "category": "Festival light",
       "discount": 45,
@@ -356,7 +356,7 @@
       "id": 17,
       "title": "Multicolor 3 Meter Curtain 8 Color Modes USB Powered LED Christmas String Light",
       "rating": 4,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 999,
       "category": "Festival light",
       "discount": 45,
@@ -378,7 +378,7 @@
       "id": 18,
       "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
       "rating": 5,
-      "warranty": "2 Months' Warranty",
+      "warranty": 2,
       "price": 555,
       "category": "Festival light",
       "discount": 50,
@@ -1627,7 +1627,7 @@
       "weight": "0.6 ",
       "material": "Resin"
     },
-   {
+    {
       "id": 85,
       "title": "Bronze Iron Dubai Famous Burj Khalifa Replica Showpiece",
       "rating": 4,
@@ -1759,7 +1759,6 @@
       "weight": "0.2 ",
       "material": "Metal"
     },
-    
     {
       "id": 95,
       "title": "White Wooden Wall Hanging Photo Frame",
@@ -1892,7 +1891,6 @@
       "weight": "0.7 ",
       "material": "Wood"
     },
-    
     {
       "id": 105,
       "title": "Multicolor Fabric Lakshmi Ganesh Toran",
@@ -2047,7 +2045,6 @@
       "weight": "0.195",
       "material": "Paper Mache"
     }
-    
   ],
   "users": [
     {
@@ -2428,6 +2425,50 @@
             "depth": 81.28
           },
           "id": 19
+        },
+        {
+          "id": 6,
+          "title": "Orange Fabric Shade Table Lamp With Brown Base",
+          "rating": 4,
+          "warranty": "4 Months' Warranty",
+          "price": 697,
+          "category": "lamps",
+          "discount": 76,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-xwlw6n.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-desyxz.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/r/e/800x880/red-cotton-table-lamp-by-foziq-red-cotton-table-lamp-by-foziq-ilx3cr.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 12,
+            "width": 12,
+            "depth": 17.5
+          },
+          "weight": 1
+        },
+        {
+          "id": 2,
+          "title": "Multicolor Shade Table Lamp With Black Metal Base",
+          "rating": 4,
+          "warranty": 6,
+          "price": 721,
+          "category": "lamps",
+          "discount": 76,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-icyvro.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-n24ni0.jpg",
+            "https://ii1.pepperfry.com/media/catalog/product/m/u/800x880/multicoloir-shade-table-lamp-with-black-metal-base-multicoloir-shade-table-lamp-with-black-metal-bas-cgtazs.jpg"
+          ],
+          "qunatity": 1,
+          "brand": "Foziq",
+          "dimensions": {
+            "heigth": 5,
+            "width": 5,
+            "depth": 10
+          },
+          "weight": 0.3
         }
       ],
       "wishlist": [],

@@ -4,19 +4,15 @@ import { Box, Image, Badge, Button, useToast } from "@chakra-ui/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import {addCartRequest, getCartRequest} from "../Redux/cart/api"
+import { addCartRequest, getCartRequest } from "../Redux/cart/api";
 import axios from "axios";
 
 function ProductBox({ el }) {
   const toast = useToast();
-  // console.log(el);
-  // const [searchparams, setsearchparams] = useSearchParams();
-const [userCart,setUserCart]=useState()
-// const cardDatafromstore=useSelector((store)=>store.cartReducer.cartItem)
-const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
+  const [userCart, setUserCart] = useState();
+  const allCartItems = useSelector((store) => store.cartReducer.cartItem);
 
-
-const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const [mouse, setmouse] = useState(false);
   const id = localStorage.getItem("id");
@@ -30,38 +26,28 @@ const dispatch = useDispatch();
   };
 
   const handleCart = () => {
-
-if(id){
-
-  const patchCartData=[...allCartItems,el]
-  dispatch(addCartRequest(id,patchCartData ));
-  console.log(id)
-}else{
-  toast({
-    title: "Please Login First",
-    status: "error",
-    duration: 500,
-    isClosable: true,
-    position: "top",
-  });
-}
-
+    if (id) {
+      const patchCartData = [...allCartItems, el];
+      dispatch(addCartRequest(id, patchCartData));
+      console.log(id);
+    } else {
+      toast({
+        title: "Please Login First",
+        status: "error",
+        duration: 500,
+        isClosable: true,
+        position: "top",
+      });
+    }
   };
 
+  useEffect(() => {
+    if (id) {
+      dispatch(getCartRequest(id));
+    }
+  }, []);
 
-  useEffect(()=>{
-if(id){
-  dispatch(getCartRequest(id))
-}
-
-     
-    
-    
-    
-      },[])
-
- 
-console.log(userCart)
+  console.log(userCart);
   return (
     <>
       <Box
@@ -70,7 +56,7 @@ console.log(userCart)
         borderWidth="1px"
         borderRadius="lg"
         overflow="hidden"
-        w={"90%"}
+        w={"70%"}
         mt={"8"}
         onMouseEnter={handlemouseenter}
         onMouseOut={handlemouseout}
@@ -153,7 +139,7 @@ console.log(userCart)
                 />
               ))} */}
             <Box as="span" color="gray.600" fontSize="md" textAlign={"start"}>
-              {el.warranty}
+              {el.warranty} Months' Warranty
             </Box>
           </Box>
         </Box>
