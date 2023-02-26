@@ -9,13 +9,15 @@ import axios from "axios";
 
 function ProductBox({ el }) {
   const toast = useToast();
-  const [userCart, setUserCart] = useState();
-  const allCartItems = useSelector((store) => store.cartReducer.cartItem);
+
+const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
+
 
   const dispatch = useDispatch();
 
   const [mouse, setmouse] = useState(false);
   const id = localStorage.getItem("id");
+
 
   const handlemouseenter = () => {
     setmouse(true);
@@ -26,19 +28,32 @@ function ProductBox({ el }) {
   };
 
   const handleCart = () => {
-    if (id) {
-      const patchCartData = [...allCartItems, el];
-      dispatch(addCartRequest(id, patchCartData));
-      console.log(id);
-    } else {
-      toast({
-        title: "Please Login First",
-        status: "error",
-        duration: 500,
-        isClosable: true,
-        position: "top",
-      });
-    }
+
+if(id){
+const newProductAddedtoCart={...el,quantity:1}
+  const patchCartData=[...allCartItems,newProductAddedtoCart]
+  dispatch(addCartRequest(id,patchCartData ));
+  toast({
+    title: "Product Added In Cart",
+    description: "Product deleted from cart",
+    variant: "subtle",
+    status: "success",
+    position: "top-right",
+    duration: 1000,
+    isClosable: true,
+  });
+  console.log(id)
+}else{
+  toast({
+    title: "Please Login First",
+    status: "error",
+    duration: 500,
+    isClosable: true,
+    position: "top",
+  });
+}
+
+
   };
 
   useEffect(() => {
@@ -47,7 +62,20 @@ function ProductBox({ el }) {
     }
   }, []);
 
-  console.log(userCart);
+
+  useEffect(()=>{
+if(id){
+  dispatch(getCartRequest(id))
+}
+
+     
+    
+    
+    
+      },[])
+
+ 
+
   return (
     <>
       <Box

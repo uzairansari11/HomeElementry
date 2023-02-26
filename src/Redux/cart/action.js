@@ -14,8 +14,11 @@ export const getCartData = (payload) => {
   };
 };
 
-export const deleteCartData = () => {
+export const deleteCartData = (payload) => {
   return {
     type: types.DELETE_CART_DATA,
+    payload
   };
 };
+
+
