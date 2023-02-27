@@ -22,7 +22,7 @@ export const Search = () => {
   const [allData, setAllData] = useState([]);
   const gettingDatFromApiForSearch = () => {
     axios
-      .get(`http://localhost:8080/products?q=${searchResults}`)
+      .get(`https://homeelementry.onrender.com/products?q=${searchResults}`)
       .then((res) => {
         setAllData(res.data);
       })

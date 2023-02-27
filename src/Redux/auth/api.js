@@ -4,7 +4,7 @@ import axios from "axios"
 export const registerUser=  async(userDetails) =>{
 
 try {
- const res=await axios.post(`http://localhost:8080/users`,userDetails) 
+ const res=await axios.post(`https://homeelementry.onrender.com/users`,userDetails) 
  return res.data
 
 } catch (error) {
@@ -17,7 +17,7 @@ try {
 
 export const getUserDataFromApi=async()=>{
     try {
-        const res=await axios.get(`http://localhost:8080/users`)
+        const res=await axios.get(`https://homeelementry.onrender.com/users`)
         return res.data
     } catch (error) {
         return error
