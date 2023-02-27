@@ -1,5 +1,4 @@
 import {
-  Box,
   Button,
   Flex,
   FormControl,
@@ -7,37 +6,54 @@ import {
   GridItem,
   HStack,
   Input,
-  InputGroup,
-  InputRightElement,
-  Text,
   VStack,
 } from "@chakra-ui/react";
-import React from "react";
-import { SiGooglepay } from "react-icons/si";
+import React, { useState } from "react";
+
 import { RiVisaFill } from "react-icons/ri";
 import { FaCcMastercard } from "react-icons/fa";
 import { SiAmericanexpress } from "react-icons/si";
 
-const CheckoutForm = ({ cartTotal }) => {
-  return (
-    <GridItem p={10} bg="teal.200">
-      <VStack spacing="5">
-        <Button
-          w="100%"
-          rounded="0"
-          bg="black"
-          color="#fff"
-          _hover={{ bg: "#272727" }}
-        >
-          <SiGooglepay fontSize="40px" />
-        </Button>
-        <Text>Or pay with card</Text>
-      </VStack>
+const CheckoutForm = ({ totalAmountFromApi }) => {
+const initialState={email:"",cardNumber:""
+,expiryDate:"",cvv:"",userName:"",
+shippingDetails:"",state:"",pinCode:""
+}
 
-      <VStack mt="20px" spacing={5}>
+
+const [formState,setFormState]=useState(initialState)
+
+const {email,cardNumber
+,expiryDate,cvv,userName,
+shippingDetails,state,pinCode}=formState
+
+
+const handleFromState=(e)=>{
+
+console.log(e.target.value)
+// const name=e.target.name
+// const value=e.target.value
+// console.log(name,value)
+
+
+}
+
+
+  return (
+    <GridItem p={3} bg="white"
+    boxShadow={'2xl'}
+    >
+    
+
+      <VStack mt="10px" spacing={2}>
         <FormControl>
           <FormLabel>Email address</FormLabel>
-          <Input type="email" borderColor="gray" rounded="0" />
+const [formState,setFormState]=useState()
+          <Input type="email"  rounded={'lg'}   name="email" value={email} 
+
+onChange={handleFromState}
+
+          />
         </FormControl>
         <FormControl>
           <FormLabel>Card Information</FormLabel>
@@ -46,8 +62,11 @@ const CheckoutForm = ({ cartTotal }) => {
               type="number"
               placeholder="1234 1234 1234 1234"
               borderColor="gray"
-              rounded="0"
+              rounded={'lg'} 
               borderBottom="none"
+              name="cardNumber"
+              value={cardNumber}
+              onChange={handleFromState}
             />
             <HStack position="absolute" right="3" top="1" spacing={2}>
               <RiVisaFill fontSize="34px" />
@@ -60,20 +79,30 @@ const CheckoutForm = ({ cartTotal }) => {
             <Input
               type="number"
               borderColor="gray"
-              rounded="0"
+              rounded={'lg'} 
               placeholder="MM / YY"
+              name="expiryDate"
+              onChange={handleFromState}
+              value={expiryDate}
             />
             <Input
               type="number"
               borderColor="gray"
-              rounded="0"
+              rounded={'lg'} 
               placeholder="CVV"
+              name="cvv"
+              onChange={handleFromState}
+              value={cvv}
             />
           </Flex>
         </FormControl>
         <FormControl>
           <FormLabel>Name on card</FormLabel>
-          <Input type="text" borderColor="gray" rounded="0" />
+          <Input type="text" borderColor="gray" rounded={'lg'}
+          name="userName"
+          value={userName}
+          onChange={handleFromState}
+           />
         </FormControl>
         <FormControl>
           <FormLabel>Shipping Details</FormLabel>
@@ -82,8 +111,12 @@ const CheckoutForm = ({ cartTotal }) => {
               type="text"
               placeholder="House no & Street"
               borderColor="gray"
-              rounded="0"
+              rounded={'lg'} 
               borderBottom="none"
+              name="shippingDetails"
+              value={shippingDetails}
+              onChange={handleFromState}
+
             />
           </Flex>
 
@@ -91,25 +124,32 @@ const CheckoutForm = ({ cartTotal }) => {
             <Input
               type="text"
               borderColor="gray"
-              rounded="0"
+              rounded={'lg'} 
               placeholder="State"
+              name="state"
+              value={state}
+              onChange={handleFromState}
             />
             <Input
               type="number"
               borderColor="gray"
-              rounded="0"
+              rounded={'lg'} 
               placeholder="Pin code"
+              name="pinCode"
+              value={pinCode}
+              onChange={handleFromState}
             />
           </Flex>
         </FormControl>
         <Button
+   
           colorScheme="telegram"
           size="lg"
           rounded="md"
-          w="100%"
+          w="50%"
           color="#FAF9F6"
         >
-          Pay {(cartTotal)}
+          Pay {(totalAmountFromApi)}
         </Button>
       </VStack>
     </GridItem>

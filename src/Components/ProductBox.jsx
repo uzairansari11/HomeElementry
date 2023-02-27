@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addCartRequest, getCartRequest } from "../Redux/cart/api";
-import axios from "axios";
+
 
 function ProductBox({ el }) {
   const toast = useToast();
@@ -27,15 +27,37 @@ const allCartItems=useSelector((store)=>store.cartReducer.cartItem)
     setmouse(false);
   };
 
-  const handleCart = () => {
+  const handleCart = (el) => {
+
+const alreadyAdded=allCartItems.filter((product)=>product.id===el.id)
+
+if(alreadyAdded.length===1){
+
+
+
+  toast({
+    title: "Product Alreacy  Added In Cart",
+   
+    variant: "subtle",
+    status: "error",
+    position: "top-right",
+    duration: 1000,
+    isClosable: true,
+  });
+  return
+}
 
 if(id){
+
+
+
+
+
 const newProductAddedtoCart={...el,quantity:1}
   const patchCartData=[...allCartItems,newProductAddedtoCart]
   dispatch(addCartRequest(id,patchCartData ));
   toast({
     title: "Product Added In Cart",
-    description: "Product deleted from cart",
     variant: "subtle",
     status: "success",
     position: "top-right",
@@ -97,7 +119,7 @@ const newProductAddedtoCart={...el,quantity:1}
             top={"-60px"}
             colorScheme="orange"
             onMouseEnter={handlemouseenter}
-            onClick={handleCart}
+            onClick={()=>handleCart(el)}
           >
             Add to Cart
           </Button>

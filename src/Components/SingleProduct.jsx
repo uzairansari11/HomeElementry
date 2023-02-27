@@ -43,6 +43,24 @@ export default function SingleProduct() {
 
 
   const handleCart = (el) => {
+    
+    const alreadyAdded=allCartItems.filter((product)=>product.id===el.id)
+
+if(alreadyAdded.length===1){
+
+
+
+  toast({
+    title: "Product Alreacy  Added In Cart",
+   
+    variant: "subtle",
+    status: "error",
+    position: "top-right",
+    duration: 1000,
+    isClosable: true,
+  });
+  return
+}
 
     if(userId){
     const newProductAddedtoCart={...el,quantity:1}

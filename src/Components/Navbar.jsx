@@ -39,11 +39,11 @@ const dispatch=useDispatch()
   const handleSearch=()=>{
 
 if(seacrhText && seacrhText.length > 2){
-
+console.log("searxh")
 localStorage.setItem("serachquery",seacrhText)
   navigate("/search");
 
-   setSeacrhText("")
+ 
 }
  
   }

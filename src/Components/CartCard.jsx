@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Box,
   Button,
   Center,
   Flex,
@@ -10,60 +11,60 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 
-export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}) => {
+export const CartCard = ({
+  item,
+  deleteHandler,
+  handleUpdateQuantity,
+  handleBuyNow,
 
-
-
-
-
-
+}) => {
   return (
-    <div>
-      <Center py={2}>
+    <Box mb={'4'} ml='1'>
+
         <Stack
-          borderWidth="1px"
           borderRadius="lg"
           w={{ sm: "100%", md: "540px" }}
-          height={{ sm: "476px", md: "20rem" }}
+          height={{ sm: "100px", md: "10rem" }}
           direction={{ base: "column", md: "row" }}
-          bg={useColorModeValue("orange.200")}
+          bg={useColorModeValue("#E99649")}
           boxShadow={"2xl"}
-          padding={4}
+          padding={2}
         >
-          <Flex flex={1} bg="blue.200">
-            <Image objectFit="cover" boxSize="100%" src={item.images[0]} />
+          <Flex flex={1}>
+            <Image src={item.images[0]} />
           </Flex>
-          <Stack
-            flex={1}
+          <Flex
+            flex={3}
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            p={1}
-            pt={2}
           >
             <Heading
-              fontSize={"1xl"}
+              fontSize={"sm"}
               fontFamily={"body"}
-              color={useColorModeValue("teal")}
+              color={useColorModeValue("black")}
             >
               {item.title}
             </Heading>
-            <Text fontWeight={600} color={"blue"} size="sm" mb={4}>
-              ₹ {item.price*item.quantity}
+
+            <Text fontWeight={600} color={"black"} size="sm">
+              ₹ {item.price} / Product
+            </Text>
+            <Text fontWeight={600} color={"black"} size="sm">
+              Total : ₹ {item.price * item.quantity}
             </Text>
             <Text
               textAlign={"center"}
               color={useColorModeValue("gray.700", "gray.400")}
-              px={3}
             ></Text>
-            <Stack align={"center"} justify={"center"} direction={"row"} mt={6}>
+            <Stack align={"center"} justify={"center"} direction={"row"} mt={1}>
               <Button
-             isDisabled={item.quantity===1}
-                flex={1}
-                fontSize={"sm"}
+                isDisabled={item.quantity === 1}
+                fontSize={"xs"}
                 rounded={"full"}
                 bg={"blue.400"}
                 color={"white"}
+                size="xs"
                 boxShadow={
                   "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
                 }
@@ -73,10 +74,7 @@ export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}
                 _focus={{
                   bg: "blue.500",
                 }}
-
-                onClick={()=>handleUpdateQuantity(-1,item.id)}
-
-               
+                onClick={() => handleUpdateQuantity(-1, item.id)}
               >
                 -
               </Button>
@@ -86,6 +84,7 @@ export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}
                 rounded={"full"}
                 bg={"blue.400"}
                 color={"white"}
+                size="xs"
                 boxShadow={
                   "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
                 }
@@ -96,7 +95,7 @@ export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}
                   bg: "blue.500",
                 }}
               >
-           {item.quantity}
+                {item.quantity}
               </Button>
               <Button
                 flex={1}
@@ -104,6 +103,7 @@ export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}
                 rounded={"full"}
                 bg={"blue.400"}
                 color={"white"}
+                size="xs"
                 boxShadow={
                   "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
                 }
@@ -113,9 +113,8 @@ export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}
                 _focus={{
                   bg: "blue.500",
                 }}
-                onClick={()=>handleUpdateQuantity(1,item.id)}
-
-                isDisabled={item.quantity===4}
+                onClick={() => handleUpdateQuantity(1, item.id)}
+                isDisabled={item.quantity === 4}
               >
                 +
               </Button>
@@ -123,34 +122,19 @@ export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}
 
             <Stack
               width={"100%"}
-              mt={"2rem"}
               direction={"row"}
-              padding={2}
-              justifyContent={"space-between"}
+              mt={"2"}
+              justifyContent={"center"}
               alignItems={"center"}
             >
               <Button
-                flex={1}
-                fontSize={"sm"}
-                rounded={"full"}
-                color={"white"}
-                // bg={'blue.400'}
-                bg={"pink.500"}
-                _hover={{
-                  bg: "teal.500",
-                }}
-
-                onClick={()=>handleBuyNow(item.id)}
-              >
-                Buy Now
-              </Button>
-              <Button
-             
-                flex={1}
+                flex={0.4}
                 fontSize={"sm"}
                 rounded={"full"}
                 bg={"blue.400"}
                 color={"white"}
+                size="xs"
+                w="xs"
                 boxShadow={
                   "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
                 }
@@ -160,15 +144,14 @@ export const CartCard = ({ item,deleteHandler,handleUpdateQuantity,handleBuyNow}
                 _focus={{
                   bg: "blue.500",
                 }}
-
-                onClick={()=>deleteHandler(item.id)}
+                onClick={() => deleteHandler(item.id)}
               >
                 Remove
               </Button>
             </Stack>
-          </Stack>
+          </Flex>
         </Stack>
-      </Center>
-    </div>
+
+    </Box>
   );
 };

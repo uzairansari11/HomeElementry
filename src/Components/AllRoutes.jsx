@@ -53,6 +53,7 @@ export const AllRoute = () => {
       <Route path="/checkout" element={<CheckoutPage />}/>
 
       <Route path="/search" element={<Search />} />
+      <Route path="/search/:id" element={<SingleProduct />} />
     </Routes>
   );
 };
