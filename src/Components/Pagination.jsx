@@ -6,27 +6,28 @@ import { useDispatch } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import { pagination_api_call } from '../Redux/product/action';
+import { pagination_api } from '../Redux/product/api';
 
 
 function Pagination({product}) {
     const dispatch=useDispatch()
 
-    const [query,seturlquery]=useSearchParams()
-    const page=query.get("_page")
-    const [pg,setpage]=useState(page || "1")
+    // const [query,seturlquery]=useSearchParams()
+    // const page=query.get("_page")
+    // const [pg,setpage]=useState(page || "1")
 
 
-    const handlepage=(e)=>{
-      setpage(e.target.value)
-      // const pageno={_page:e.target.value}
-    }
+    // const handlepage=(e)=>{
+    //   setpage(e.target.value)
+    //   // const pageno={_page:e.target.value}
+    // }
     
     
-    useEffect(() =>{
-      const copy=new URLSearchParams(query)
-      // copy.set("_page",pg)
-      seturlquery(copy)
-    }, [page])
+    // useEffect(() =>{
+    //   const copy=new URLSearchParams(query)
+    //   // copy.set("_page",pg)
+    //   seturlquery(copy)
+    // }, [page])
 
 
 
@@ -62,7 +63,7 @@ function Pagination({product}) {
 
     <Button colorScheme={"orange"}>Prev</Button>
         {product?.slice(0,10).map((element,index)=>
-        <Button onClick={handlepage}  value={index+1}>{index+1}</Button>
+        <Button   value={index+1}>{index+1}</Button>
         )}
     <Button colorScheme='orange'>Nex</Button>
     

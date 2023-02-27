@@ -45,7 +45,7 @@ function HomeDeco() {
   return (
     <>
       {loading ? <Loading /> : ""}
-      <Flex justifyContent={"space-between"}>
+      <Flex justifyContent={"space-between"} h={"70vh"} overflowY={"scroll"}>
         <Box p={"2"} w={["60%", "50%", "25%", "15%"]}>
           <HomeDecoSorting />
         </Box>
@@ -79,7 +79,7 @@ function HomeDeco() {
         mt={"10px"}
         justifyItems={"center"}
       >
-        <Pagination product={product} />
+        {/* <Pagination product={product} /> */}
       </Stack>
     </>
   );

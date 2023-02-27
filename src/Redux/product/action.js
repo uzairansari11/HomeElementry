@@ -2,7 +2,7 @@
 
 
 import * as types from "./action.type"
-import { getProductApi } from "./api"
+import { getProductApi, pagination_api } from "./api"
 
 
 const productRequest = ()=> {
@@ -39,3 +39,17 @@ export const getProducts = (filterValue) => async (dispatch) => {
 
     }
 }
+
+// export const pagination_api_call = (filterValue) => async (dispatch) => {
+
+//     dispatch(productRequest())
+//     try {
+//         const data = await pagination_api(filterValue)
+//         if (data) {
+//             dispatch(getProductSuccess(data))
+//         }
+//     } catch (error) {
+//         dispatch(productError())
+
+//     }
+// }

@@ -50,7 +50,7 @@ function Furniture() {
 
     <>
      {loading? <Loading/>:""}
-    <Flex justifyContent={'space-between'} >
+    <Flex justifyContent={'space-between'} h={"70vh"} overflowY={"scroll"}>
     <Box p={'2'} w={[ "60%",  "50%","25%","15%"]}  >
         <FurnishingSorting/>
 
@@ -72,7 +72,7 @@ function Furniture() {
       
     </Flex>
     <Stack direction={["row"]} justifyContent={"center"}  mt={"10px"} justifyItems={"center"}>
-      <Pagination product={product}/>
+      {/* <Pagination product={product}/> */}
     </Stack>
    
   

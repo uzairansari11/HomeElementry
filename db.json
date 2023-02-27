@@ -2083,29 +2083,6 @@
       "password": "11234",
       "cartItems": [
         {
-          "id": 18,
-          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
-          "rating": 5,
-          "warranty": 2,
-          "price": 555,
-          "category": "Festival light",
-          "discount": 50,
-          "images": [
-            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
-            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
-            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
-          ],
-          "qunatity": 1,
-          "brand": "Xergy",
-          "dimensions": {
-            "heigth": 11,
-            "width": 0,
-            "depth": 0
-          },
-          "weight": 0.6,
-          "quantity": 1
-        },
-        {
           "id": 14,
           "title": "Cool White 2 Meter Bottle with Cork and 2 Pcs LED String Light",
           "rating": 3,
@@ -2126,30 +2103,51 @@
             "depth": 0
           },
           "weight": 0.2,
-          "quantity": 1
+          "quantity": 3
         },
         {
-          "id": 18,
-          "title": "Cool White 10 Meter Battery Operated LED Christmas String Light",
-          "rating": 5,
-          "warranty": 2,
-          "price": 555,
-          "category": "Festival light",
-          "discount": 50,
+          "id": 66,
+          "title": "Set of 2 Blue Cylindrical Glass Vase",
+          "rating": 3.5,
+          "price": 5083,
+          "category": "vases",
+          "discount": 64,
           "images": [
-            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-yg8vnb.jpg",
-            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-jsqumy.jpg",
-            "https://ii1.pepperfry.com/media/catalog/product/x/e/800x880/xergy-battery-powered-copper-wire-led-string-lights-for-decoration--diwali--christmas-tree-decoratio-w3pe8w.jpg"
+            "https://ii1.pepperfry.com/media/catalog/product/s/e/800x880/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-wwpcq2.jpg",
+            "https://ii2.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-qtd92u.jpg",
+            "https://ii3.pepperfry.com/media/catalog/product/s/e/70x77/set-of-2-blue-cylindrical-glass-vase-by-tayhaa-set-of-2-blue-cylindrical-glass-vase-by-tayhaa-fg7cd7.jpg"
           ],
-          "qunatity": 1,
-          "brand": "Xergy",
+          "quantity": 1,
+          "brand": "Tayhaa",
           "dimensions": {
-            "heigth": 11,
-            "width": 0,
-            "depth": 0
+            "height": 22.9,
+            "width": 16.8,
+            "length": 17.3
           },
-          "weight": 0.6,
-          "quantity": 1
+          "weight": "1",
+          "material": "Glass"
+        },
+        {
+          "id": 67,
+          "title": "Vintage Glass Vase Set of Two",
+          "rating": 4,
+          "price": 14000,
+          "category": "vases",
+          "discount": 64,
+          "images": [
+            "https://ii1.pepperfry.com/media/catalog/product/v/i/800x880/vintage-glass-vase-set-of-two-by-tayhaa-vintage-glass-vase-set-of-two-by-tayhaa-ofuz2z.jpg",
+            "https://ii2.pepperfry.com/media/catalog/product/v/i/70x77/vintage-glass-vase-set-of-two-by-tayhaa-vintage-glass-vase-set-of-two-by-tayhaa-sbpilf.jpg",
+            "https://ii3.pepperfry.com/media/catalog/product/v/i/70x77/vintage-glass-vase-set-of-two-by-tayhaa-vintage-glass-vase-set-of-two-by-tayhaa-tqoj3l.jpg"
+          ],
+          "quantity": 1,
+          "brand": "Tayhaa",
+          "dimensions": {
+            "height": 7.9,
+            "width": 5,
+            "length": 6
+          },
+          "weight": "2.5",
+          "material": "Glass"
         }
       ],
       "wishlist": [],

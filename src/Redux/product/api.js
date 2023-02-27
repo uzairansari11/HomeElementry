@@ -22,14 +22,7 @@ import axios from "axios"
 //     return response.data
 // }
 
-// export const singlepage_api=async(id)=>{
-//     let response=await axios.get(`http://localhost:8080/products/${id}`)
-    
-//     return response.data
 
-
-    
-// }
 
 
 
