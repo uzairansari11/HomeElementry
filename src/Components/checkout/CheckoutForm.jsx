@@ -6,6 +6,7 @@ import {
   GridItem,
   HStack,
   Input,
+  useToast,
   VStack,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
@@ -13,8 +14,16 @@ import React, { useState } from "react";
 import { RiVisaFill } from "react-icons/ri";
 import { FaCcMastercard } from "react-icons/fa";
 import { SiAmericanexpress } from "react-icons/si";
+import { updateCartApi } from "../../Redux/cart/api";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const CheckoutForm = ({ totalAmountFromApi }) => {
+  const navigate=useNavigate()
+  const cart=[]
+  const id=localStorage.getItem("id")
+const dispatch=useDispatch()
+  const toast = useToast();
 const initialState={email:"",cardNumber:""
 ,expiryDate:"",cvv:"",userName:"",
 shippingDetails:"",state:"",pinCode:""
@@ -30,14 +39,44 @@ shippingDetails,state,pinCode}=formState
 
 const handleFromState=(e)=>{
 
-console.log(e.target.value)
-// const name=e.target.name
-// const value=e.target.value
-// console.log(name,value)
+const name=e.target.name
+const value=e.target.value
+
+setFormState({...formState,
+[name]:value
+})
+}
+const handlePayment=()=>{
+  console.log(2)
+  if(email===""||cardNumber===""
+    ||expiryDate===""||cvv===""||userName===""||
+    shippingDetails===""||state===""||pinCode===""){
+      toast({
+        title: "Please Fill All Details",
+        status: "error",
+        duration: 500,
+        isClosable: true,
+        position: "top",
+      });
+    }else{
+      dispatch(updateCartApi(id,cart))
+      toast({
+        title: "Your Order Bas been  Placed Successfully",
+        status: "success",
+        duration: 1000,
+        isClosable: true,
+        position: "top",
+      });
+      setTimeout(()=>{
+        navigate("/")
+      },5000)
+
+    }
+
+  
 
 
 }
-
 
   return (
     <GridItem p={3} bg="white"
@@ -48,7 +87,7 @@ console.log(e.target.value)
       <VStack mt="10px" spacing={2}>
         <FormControl>
           <FormLabel>Email address</FormLabel>
-const [formState,setFormState]=useState()
+
           <Input type="email"  rounded={'lg'}   name="email" value={email} 
 
 onChange={handleFromState}
@@ -148,6 +187,7 @@ onChange={handleFromState}
           rounded="md"
           w="50%"
           color="#FAF9F6"
+          onClick={handlePayment}
         >
           Pay {(totalAmountFromApi)}
         </Button>
