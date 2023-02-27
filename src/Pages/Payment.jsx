@@ -3,9 +3,26 @@ import CheckoutForm from "../Components/checkout/CheckoutForm";
 import { Box, Container, Flex, Grid, GridItem } from "@chakra-ui/react";
 
 import React, { useEffect, useState } from "react";
+import { getCartRequest } from "../Redux/cart/api";
+import { useDispatch, useSelector } from "react-redux";
 
 const Payment = () => {
  
+  const allCartData=useSelector((store)=>store.cartReducer.cartItem)
+  const id=localStorage.getItem("id")
+  const dispatch = useDispatch();
+let totalAmountFromApi = 0;
+allCartData.forEach(
+    (cartItem) =>
+      (totalAmountFromApi =
+        totalAmountFromApi + cartItem.quantity * cartItem.price)
+  );
+
+useEffect(()=>{
+if(id){
+  dispatch(getCartRequest(id))
+}
+},[])
 
   return (
      

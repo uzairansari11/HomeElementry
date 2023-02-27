@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
-import { Badge, Box, Button, Grid, useToast } from "@chakra-ui/react";
+import { Badge, Box, Button, Grid, Heading, useToast } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { addCartRequest } from "../Redux/cart/api";
 import { useDispatch, useSelector } from "react-redux";
-
+import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 export const Search = () => {
   const toast = useToast();
   const [mouse, setmouse] = useState(false);
@@ -42,13 +42,31 @@ export const Search = () => {
   };
 
   const handleCart = (el) => {
+
+    const alreadyAdded=allCartItems.filter((product)=>product.id===el.id)
+
+if(alreadyAdded.length===1){
+
+
+
+  toast({
+    title: "Product Alreacy  Added In Cart",
+   
+    variant: "subtle",
+    status: "error",
+    position: "top-right",
+    duration: 1000,
+    isClosable: true,
+  });
+  return
+}
 if(id){
 const newProductAddedtoCart={...el,quantity:1}
   const patchCartData=[...allCartItems,newProductAddedtoCart]
   dispatch(addCartRequest(id,patchCartData ));
   toast({
     title: "Product Added In Cart",
-    description: "Product deleted from cart",
+
     variant: "subtle",
     status: "success",
     position: "top-right",
@@ -77,7 +95,10 @@ const newProductAddedtoCart={...el,quantity:1}
 
   return (
 <Box m="auto"  >
-      <Grid
+
+
+{allData.length?
+  <Grid
     
 
         templateColumns={{base:"repeat(1,1fr)",sm:"repeat(2,1fr)",md:"repeat(4,1fr)"}}
@@ -181,6 +202,30 @@ const newProductAddedtoCart={...el,quantity:1}
           </Box>
         ))}
       </Grid>
+:<Box w={'80%'}  h='200px'  p='14' m='auto'>
+
+<SentimentVeryDissatisfiedIcon
+fontSize='large'
+
+
+/>
+
+<SentimentVeryDissatisfiedIcon
+fontSize='large'
+
+
+/>
+
+<SentimentVeryDissatisfiedIcon
+fontSize='large'
+
+
+/>
+
+<Heading>Sorry! Product Not Found</Heading>
+</Box>
+}
+    
       </Box>
   );
 };
